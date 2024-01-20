@@ -71,6 +71,7 @@ jobs:
       - name: Build and publish Windows app
         if: runner.os == 'Linux'
         env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
           IS_CONTINUOUS_INTEGRATION: 1
           BUILD_SEQUENCIAL: 1
         # To ensure that the operations stop on failure, all commands
