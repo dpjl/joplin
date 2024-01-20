@@ -320,7 +320,7 @@ function CodeMirror(props: NoteBodyEditorProps, ref: ForwardedRef<NoteBodyEditor
 	const editorPaste = useCallback(() => {
 		const clipboardText = clipboard.readText();
 
-		if (clipboardText) {
+		if (clipboardText && clipboardText !== '\u0000') {
 			void editorPasteText();
 		} else {
 			// To handle pasting images

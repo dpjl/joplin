@@ -24,7 +24,7 @@ export default (pastedText: string, pastedHtml: string, resourceMds: string[]) =
 	logger.info('Pasted HTML:', pastedHtml);
 	logger.info('Resources:', resourceMds);
 
-	if (pastedText) {
+	if (pastedText && pastedText !== '\u0000') {
 		logger.info('Not pasting resources because the clipboard contains plain text');
 		return false;
 	}
