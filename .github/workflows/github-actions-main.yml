@@ -74,6 +74,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           IS_CONTINUOUS_INTEGRATION: 1
           BUILD_SEQUENCIAL: 1
+          YARN_ENABLE_IMMUTABLE_INSTALLS: false
         # To ensure that the operations stop on failure, all commands
         # should be on one line with "&&" in between.
         run: |
