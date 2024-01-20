@@ -130,7 +130,7 @@ async function createRelease(projectName: string, name: string, tagName: string,
 
 	const apkFilename = `joplin-v${suffix}.apk`;
 	const apkFilePath = `${releaseDir}/${apkFilename}`;
-	const downloadUrl = `https://github.com/laurent22/${projectName}/releases/download/${tagName}/${apkFilename}`;
+	const downloadUrl = `https://github.com/dpjl/${projectName}/releases/download/${tagName}/${apkFilename}`;
 
 	process.chdir(rootDir);
 

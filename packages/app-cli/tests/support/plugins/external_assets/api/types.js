@@ -107,7 +107,7 @@ var ContentScriptType;
      * }
      * ```
      * See [the
-     * demo](https://github.com/laurent22/joplin/tree/dev/packages/app-cli/tests/support/plugins/content_script)
+     * demo](https://github.com/dpjl/joplin/tree/dev/packages/app-cli/tests/support/plugins/content_script)
      * for a simple Markdown-it plugin example.
      *
      * ## Exported members
@@ -119,14 +119,14 @@ var ContentScriptType;
      * - The **required** `plugin` key is the actual Markdown-It plugin - check
      *   the [official doc](https://github.com/markdown-it/markdown-it) for more
      *   information. The `options` parameter is of type
-     *   [RuleOptions](https://github.com/laurent22/joplin/blob/dev/packages/renderer/MdToHtml.ts),
+     *   [RuleOptions](https://github.com/dpjl/joplin/blob/dev/packages/renderer/MdToHtml.ts),
      *   which contains a number of options, mostly useful for Joplin's internal
      *   code.
      *
      * - Using the **optional** `assets` key you may specify assets such as JS
      *   or CSS that should be loaded in the rendered HTML document. Check for
      *   example the Joplin [Mermaid
-     *   plugin](https://github.com/laurent22/joplin/blob/dev/packages/renderer/MdToHtml/rules/mermaid.ts)
+     *   plugin](https://github.com/dpjl/joplin/blob/dev/packages/renderer/MdToHtml/rules/mermaid.ts)
      *   to see how the data should be structured.
      *
      * ## Posting messages from the content script to your plugin
@@ -156,7 +156,7 @@ var ContentScriptType;
      *
      * See {@link JoplinContentScripts.onMessage} for more details, as well as
      * the [postMessage
-     * demo](https://github.com/laurent22/joplin/tree/dev/packages/app-cli/tests/support/plugins/post_messages).
+     * demo](https://github.com/dpjl/joplin/tree/dev/packages/app-cli/tests/support/plugins/post_messages).
      *
      * ## Registering an existing Markdown-it plugin
      *
@@ -222,7 +222,7 @@ var ContentScriptType;
      * - Using the **optional** `assets` key you may specify **only** CSS assets
      *   that should be loaded in the rendered HTML document. Check for example
      *   the Joplin [Mermaid
-     *   plugin](https://github.com/laurent22/joplin/blob/dev/packages/renderer/MdToHtml/rules/mermaid.ts)
+     *   plugin](https://github.com/dpjl/joplin/blob/dev/packages/renderer/MdToHtml/rules/mermaid.ts)
      *   to see how the data should be structured.
      *
      * One of the `plugin`, `codeMirrorResources`, or `codeMirrorOptions` keys
@@ -230,7 +230,7 @@ var ContentScriptType;
      * provided is also okay.
      *
      * See also the [demo
-     * plugin](https://github.com/laurent22/joplin/tree/dev/packages/app-cli/tests/support/plugins/codemirror_content_script)
+     * plugin](https://github.com/dpjl/joplin/tree/dev/packages/app-cli/tests/support/plugins/codemirror_content_script)
      * for an example of all these keys being used in one plugin.
      *
      * ## Posting messages from the content script to your plugin
@@ -254,7 +254,7 @@ var ContentScriptType;
      *
      * See {@link JoplinContentScripts.onMessage} for more details, as well as
      * the [postMessage
-     * demo](https://github.com/laurent22/joplin/tree/dev/packages/app-cli/tests/support/plugins/post_messages).
+     * demo](https://github.com/dpjl/joplin/tree/dev/packages/app-cli/tests/support/plugins/post_messages).
      *
      */
     ContentScriptType["CodeMirrorPlugin"] = "codeMirrorPlugin";

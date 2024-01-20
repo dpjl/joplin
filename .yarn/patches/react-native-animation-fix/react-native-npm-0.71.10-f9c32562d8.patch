@@ -18,7 +18,7 @@ index 0f52b73c61625db2a3081c0950b6bdd2b06e3d40..b0fc3de4be0b3a26b638683613c63c78
 -    private final Queue<UIThreadOperation> mQueue = new ConcurrentLinkedQueue<>();
 +    // Patch: Use LinkedBlockingQueue instead of ConcurrentLinkedQueue.
 +    // In some versions of Android, ConcurrentLinkedQueue is known to drop
-+    // items, causing crashing. See https://github.com/laurent22/joplin/issues/8425
++    // items, causing crashing. See https://github.com/dpjl/joplin/issues/8425
 +    private final Queue<UIThreadOperation> mQueue = new LinkedBlockingQueue<>();
      @Nullable private UIThreadOperation mPeekedOperation = null;
  

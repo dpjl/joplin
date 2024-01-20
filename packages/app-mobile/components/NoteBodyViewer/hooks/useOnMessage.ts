@@ -35,7 +35,7 @@ export default function useOnMessage(
 		// no longer needed and in fact would break certain URLs so it can be
 		// removed. Keeping the comment here anyway in case we find some URLs
 		// that end up being broken after removing the double unescaping.
-		// https://github.com/laurent22/joplin/issues/4494
+		// https://github.com/dpjl/joplin/issues/4494
 		const msg = event.nativeEvent.data;
 
 		const isScrollMessage = msg.startsWith('onscroll:');

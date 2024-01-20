@@ -71,7 +71,7 @@ export default class Tag extends BaseItem {
 		// check that we actually get some result before dispatching
 		// the action.
 		//
-		// Fixes: https://github.com/laurent22/joplin/issues/3958#issuecomment-714320526
+		// Fixes: https://github.com/dpjl/joplin/issues/3958#issuecomment-714320526
 		//
 		// Also probably fixes the errors on GitHub about reducer
 		// items being undefined.

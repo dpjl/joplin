@@ -204,7 +204,7 @@ class Application extends BaseApplication {
 		fontFamilies.push('Avenir, Arial, sans-serif');
 
 		// The '*' and '!important' parts are necessary to make sure Russian text is displayed properly
-		// https://github.com/laurent22/joplin/issues/155
+		// https://github.com/dpjl/joplin/issues/155
 
 		const css = `.CodeMirror *, .cm-editor .cm-content { font-family: ${fontFamilies.join(', ')} !important; }`;
 		const styleTag = document.createElement('style');
@@ -332,7 +332,7 @@ class Application extends BaseApplication {
 			// info in the state, which can cause various issues, so to sort it
 			// out we remove from the state any plugin that has *not* been loaded
 			// above (meaning the file was missing).
-			// https://github.com/laurent22/joplin/issues/5253
+			// https://github.com/dpjl/joplin/issues/5253
 			const oldSettings = pluginSettings;
 			const newSettings: PluginSettings = {};
 			for (const pluginId of Object.keys(oldSettings)) {

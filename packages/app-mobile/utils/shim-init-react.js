@@ -140,7 +140,7 @@ function shimInit() {
 			// one doesn't. There's no obvious way to fix this so we'll
 			// have to wait if it's eventually fixed upstream. See here for
 			// more info:
-			// https://github.com/laurent22/joplin/issues/3986#issuecomment-718019688
+			// https://github.com/dpjl/joplin/issues/3986#issuecomment-718019688
 
 			return fetch(validatedUrl, options);
 		}, options);

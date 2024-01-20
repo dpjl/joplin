@@ -242,7 +242,7 @@ class MainScreenComponent extends React.Component<Props, State> {
 			// here. It could be due to the deprecated plugin API, which allowed
 			// creating panel without a key, although in this case it should
 			// have been set automatically.
-			// https://github.com/laurent22/joplin/issues/4926
+			// https://github.com/dpjl/joplin/issues/4926
 			output = removeKeylessItems(output);
 
 			if (!findItemByKey(output, 'sideBar') || !findItemByKey(output, 'noteList') || !findItemByKey(output, 'editor')) {

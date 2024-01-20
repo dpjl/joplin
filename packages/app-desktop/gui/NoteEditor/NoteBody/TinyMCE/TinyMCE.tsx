@@ -826,7 +826,7 @@ const TinyMCE = (props: NoteBodyEditorProps, ref: any) => {
 
 		// Remove all previously loaded files that aren't in the assets this time.
 		// Note: This is important to ensure that we properly change themes.
-		// See https://github.com/laurent22/joplin/issues/8520
+		// See https://github.com/dpjl/joplin/issues/8520
 		for (const existingId of existingIds) {
 			if (!processedIds.includes(existingId)) {
 				const element = existingElements.find(e => e.getAttribute('id') === existingId);
@@ -898,7 +898,7 @@ const TinyMCE = (props: NoteBodyEditorProps, ref: any) => {
 					// It seems the undo manager must be reset after having
 					// set the initial content (not before). Otherwise undoing multiple
 					// times would result in an empty note.
-					// https://github.com/laurent22/joplin/issues/3534
+					// https://github.com/dpjl/joplin/issues/3534
 					editor.undoManager.reset();
 				}
 
@@ -1170,7 +1170,7 @@ const TinyMCE = (props: NoteBodyEditorProps, ref: any) => {
 			// It seems "paste as text" is handled automatically on Windows and Linux,
 			// so we need to run the below code only on macOS. If we were to run this
 			// on Windows/Linux, we would have this double-paste issue:
-			// https://github.com/laurent22/joplin/issues/4243
+			// https://github.com/dpjl/joplin/issues/4243
 
 			// While "paste as text" functionality is handled by Windows and Linux, if we
 			// want to allow the user to customize the shortcut we need to prevent when it
@@ -1186,7 +1186,7 @@ const TinyMCE = (props: NoteBodyEditorProps, ref: any) => {
 			// clipboard.readText returns Markdown instead of text when copying content from
 			// the Rich Text Editor. When the user "Paste as text" he does not expect to see
 			// anything besides text, that is why we are stripping here before pasting
-			// https://github.com/laurent22/joplin/pull/8351
+			// https://github.com/dpjl/joplin/pull/8351
 			const clipboardWithoutMarkdown = stripMarkup(MarkupToHtml.MARKUP_LANGUAGE_MARKDOWN, clipboard.readText());
 			pasteAsPlainText(clipboardWithoutMarkdown);
 		}

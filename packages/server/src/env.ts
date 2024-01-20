@@ -34,7 +34,7 @@ const defaultEnvValues: EnvVariables = {
 	// the same note at the exact same time. But past a certain limit, it might
 	// mean the server clock is incorrect and should be fixed, as that could
 	// result in clients generating many conflicts. Set to 0 to disable the
-	// check. https://github.com/laurent22/joplin/issues/5738
+	// check. https://github.com/dpjl/joplin/issues/5738
 
 	MAX_TIME_DRIFT: 2000,
 	NTP_SERVER: 'pool.ntp.org:123',

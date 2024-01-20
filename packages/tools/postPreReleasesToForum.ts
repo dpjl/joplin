@@ -66,7 +66,7 @@ const main = async () => {
 
 				topic = await createTopic({
 					title: topicTitle,
-					raw: `Download the latest pre-release from here: <https://github.com/laurent22/joplin/releases>\n\n* * *\n\n${postBody}`,
+					raw: `Download the latest pre-release from here: <https://github.com/dpjl/joplin/releases>\n\n* * *\n\n${postBody}`,
 					category: betaCategoryId,
 					external_id: externalId,
 				});

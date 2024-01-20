@@ -136,7 +136,7 @@ export const StyledSyncReportText = styled.div`
 `;
 
 // Workaround sidebar rendering bug on Linux Intel GPU.
-// https://github.com/laurent22/joplin/issues/7506
+// https://github.com/dpjl/joplin/issues/7506
 export const StyledSpanFix = styled.span`
 	${shim.isLinux() && css`
 		position: relative;

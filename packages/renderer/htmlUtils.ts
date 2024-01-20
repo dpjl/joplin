@@ -168,7 +168,7 @@ class HtmlUtils {
 			url.startsWith('joplin://') ||
 			!!url.match(/:\/[0-9a-zA-Z]{32}/) ||
 			// We also allow anchors but only with a specific set of a characters.
-			// Fixes https://github.com/laurent22/joplin/issues/8286
+			// Fixes https://github.com/dpjl/joplin/issues/8286
 			!!url.match(/^#[a-zA-Z0-9-]+$/)) return true;
 
 		if (url.startsWith('file://')) {
@@ -212,7 +212,7 @@ class HtmlUtils {
 		// The BASE tag allows changing the base URL from which files are
 		// loaded, and that can break several plugins, such as Katex (which
 		// needs to load CSS files using a relative URL). For that reason it is
-		// disabled. More info: https://github.com/laurent22/joplin/issues/3021
+		// disabled. More info: https://github.com/dpjl/joplin/issues/3021
 		//
 		// "link" can be used to escape the parser and inject JavaScript. Adding
 		// "meta" too for the same reason as it shouldn't be used in notes
@@ -292,7 +292,7 @@ class HtmlUtils {
 				// the viewer when there's an anchor tag without an "href"
 				// attribute. It doesn't always happen and it seems to depend on
 				// what else is in the note but in any case adding the "href"
-				// fixes it. https://github.com/laurent22/joplin/issues/5687
+				// fixes it. https://github.com/dpjl/joplin/issues/5687
 				if (name === 'a' && !attrs['href']) {
 					attrs['href'] = '#';
 				}

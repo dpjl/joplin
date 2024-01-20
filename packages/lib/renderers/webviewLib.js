@@ -42,7 +42,7 @@ webviewLib.handleInternalLink = function(event, anchorNode) {
 		// Additionally an anchor could not be clicked twice because the location
 		// would not change, this fixes that also
 		//
-		// Commented out to fix https://github.com/laurent22/joplin/issues/2141
+		// Commented out to fix https://github.com/dpjl/joplin/issues/2141
 		// We might need to fix a better fix to the previous bug.
 		//
 		// setTimeout(function() {

@@ -62,7 +62,7 @@ Various other tricks are possible, such as using HTML, or customising the CSS. S
 
 - For general discussion about Joplin, user support, software development questions, and to discuss new features, go to the [Joplin Forum](https://discourse.joplinapp.org/). It is possible to login with your GitHub account.
 - The latest news are posted [on the Patreon page](https://www.patreon.com/joplin).
-- For bug reports and feature requests, go to the [GitHub Issue Tracker](https://github.com/laurent22/joplin/issues).
+- For bug reports and feature requests, go to the [GitHub Issue Tracker](https://github.com/dpjl/joplin/issues).
 
 ## Donations
 

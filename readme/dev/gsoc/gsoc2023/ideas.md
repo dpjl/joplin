@@ -61,7 +61,7 @@ Potential benefits:
 
 * Export multiple notes as a single PDF
 
-* Embedding attachments (see https://github.com/laurent22/joplin/issues/5943)
+* Embedding attachments (see https://github.com/dpjl/joplin/issues/5943)
 
 * Delay export until the note is fully rendered (https://discourse.joplinapp.org/t/ability-to-delay-pdf-export-to-allow-plugins-to-render/22159)
 
@@ -156,5 +156,5 @@ Potential Mentor(s):
 ## More info
 
 - Make sure you read the [Joplin Google Summer of Code Introduction](https://joplinapp.org/help/dev/gsoc/gsoc2023)
-- To build the application, please read [BUILD.md](https://github.com/laurent22/joplin/blob/dev/help/dev/BUILD.md)
-- And before creating a pull request, please read the [pull request guidelines](https://github.com/laurent22/joplin/blob/dev/readme/dev/gsoc/gsoc2023/pull_request_guidelines.md)
+- To build the application, please read [BUILD.md](https://github.com/dpjl/joplin/blob/dev/help/dev/BUILD.md)
+- And before creating a pull request, please read the [pull request guidelines](https://github.com/dpjl/joplin/blob/dev/readme/dev/gsoc/gsoc2023/pull_request_guidelines.md)

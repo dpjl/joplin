@@ -160,7 +160,7 @@ const config = {
 					sidebarPath: require.resolve('./sidebars.js'),
 					breadcrumbs: false,
 					editUrl: (params) => {
-						return 'https://github.com/laurent22/joplin/tree/dev/readme/' + params.docPath;
+						return 'https://github.com/dpjl/joplin/tree/dev/readme/' + params.docPath;
 					},
 				},
 				blog: {
@@ -169,7 +169,7 @@ const config = {
 					path: 'news',
 					routeBasePath: 'news',
 					editUrl: (params) => {
-						return 'https://github.com/laurent22/joplin/tree/dev/readme/news/' + params.blogPath;
+						return 'https://github.com/dpjl/joplin/tree/dev/readme/news/' + params.blogPath;
 					},
 				},
 				theme: {
@@ -264,7 +264,7 @@ const config = {
 							},
 							{
 								label: 'GitHub',
-								href: 'https://github.com/laurent22/joplin/',
+								href: 'https://github.com/dpjl/joplin/',
 							},
 						],
 					},

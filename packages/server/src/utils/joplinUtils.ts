@@ -200,7 +200,7 @@ async function renderNote(share: Share, note: NoteEntity, resourceInfos: Resourc
 				// a link to a folder. In this case, we don't want to throw an
 				// exception as that would break rendering. Instead we just
 				// disable the link.
-				// https://github.com/laurent22/joplin/issues/6531
+				// https://github.com/dpjl/joplin/issues/6531
 				logger.warn(`Unsupported type in share ${share.id}. Item: ${itemId}`);
 				return '#';
 			}

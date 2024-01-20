@@ -180,7 +180,7 @@ export default class ResourceEditWatcher {
 					// here it might be that the file is quickly moved to a different location and replaced by
 					// another file with the same name, as it happens with emacs. So because of this
 					// we keep watching anyway.
-					// See: https://github.com/laurent22/joplin/issues/710#issuecomment-420997167
+					// See: https://github.com/dpjl/joplin/issues/710#issuecomment-420997167
 					// this.watcher_.unwatch(path);
 				} else if (event === 'change') {
 					void handleChangeEvent(path);
@@ -195,7 +195,7 @@ export default class ResourceEditWatcher {
 			// 2020-07-22: It also applies when editing Excel files, which copy the new file
 			// then rename, so handling the "change" event alone is not enough as sometimes
 			// that event is not event triggered.
-			// https://github.com/laurent22/joplin/issues/3407
+			// https://github.com/dpjl/joplin/issues/3407
 			//
 			this.watcher_.on('raw', (event: string, _path: string, options: any) => {
 				const watchedPath = options.watchedPath ? toSystemSlashes(options.watchedPath, 'linux') : '';

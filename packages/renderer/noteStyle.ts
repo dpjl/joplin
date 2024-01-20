@@ -17,7 +17,7 @@ export interface Options {
 // If we are viewing an HTML note, it means it comes from the web clipper or
 // emil-to-note, in which case we don't apply any specific theme. We just need
 // to ensure the background is white so that we don't end up with a dark theme
-// and dark font for example. https://github.com/laurent22/joplin/issues/9511
+// and dark font for example. https://github.com/dpjl/joplin/issues/9511
 export const whiteBackgroundNoteStyle = () => {
 	return `
 		body {
@@ -137,7 +137,7 @@ export default function(theme: any, options: Options = null) {
 
 			/*
 				Adds support for RTL text in the note body. It automatically detects the direction using the content.
-				Issue: https://github.com/laurent22/joplin/issues/3991
+				Issue: https://github.com/dpjl/joplin/issues/3991
 			*/
 			unicode-bidi: plaintext;
 		}
@@ -429,7 +429,7 @@ export default function(theme: any, options: Options = null) {
 		}
 
 		/* To make code blocks horizontally scrollable */
-		/* https://github.com/laurent22/joplin/issues/5740 */
+		/* https://github.com/dpjl/joplin/issues/5740 */
 		pre.hljs {
 			overflow-x: auto;
 		}

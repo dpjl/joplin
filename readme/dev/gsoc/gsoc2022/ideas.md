@@ -26,7 +26,7 @@ Difficulty Level: High
 
 Skills Required: TypeScript, React Native
 
-Potential Mentor(s): [PackElend](https://discourse.joplinapp.org/u/PackElend), [Roman](https://discourse.joplinapp.org/u/roman_r_m), [Laurent](https://github.com/laurent22/)
+Potential Mentor(s): [PackElend](https://discourse.joplinapp.org/u/PackElend), [Roman](https://discourse.joplinapp.org/u/roman_r_m), [Laurent](https://github.com/dpjl/)
 
 Expected size of project: 350 hours
 
@@ -68,7 +68,7 @@ Difficulty Level: High
 
 Skills Required: TypeScript, JavaScript, CSS, HTML, Markdown rendering.
 
-Potential Mentor(s): [Daeraxa](https://discourse.joplinapp.org/u/Daeraxa), [Laurent](https://github.com/laurent22/)
+Potential Mentor(s): [Daeraxa](https://discourse.joplinapp.org/u/Daeraxa), [Laurent](https://github.com/dpjl/)
 
 Expected size of project: 350 hours
 
@@ -96,7 +96,7 @@ Difficulty Level: High
 
 Skills Required: TypeScript, JavaScript, React Native, React Hooks. You'll also need to learn about CodeMirror 6 if you're not already familiar with it.
 
-Potential Mentor(s): [CalebJohn](https://github.com/CalebJohn/), [Laurent](https://github.com/laurent22/)
+Potential Mentor(s): [CalebJohn](https://github.com/CalebJohn/), [Laurent](https://github.com/dpjl/)
 
 Expected size of project: 350 hours
 
@@ -126,7 +126,7 @@ Potential benefits:
 
 * Export multiple notes as a single PDF
 
-* Embedding attachments (see https://github.com/laurent22/joplin/issues/5943)
+* Embedding attachments (see https://github.com/dpjl/joplin/issues/5943)
 
 * Delay export until the note is fully rendered (https://discourse.joplinapp.org/t/ability-to-delay-pdf-export-to-allow-plugins-to-render/22159)
 
@@ -184,7 +184,7 @@ Difficulty Level: High
 
 Skills Required: React, Typescript, CSS.
 
-Potential Mentor(s): [Laurent](https://github.com/laurent22/)
+Potential Mentor(s): [Laurent](https://github.com/dpjl/)
 
 Expected size of project: 350 hours
 
@@ -208,7 +208,7 @@ Difficulty Level: Medium
 
 Skills Required: Typescript, CSS, GitHub Actions.
 
-Potential Mentor(s): [JackGruber](https://discourse.joplinapp.org/u/JackGruber), [Laurent](https://github.com/laurent22/)
+Potential Mentor(s): [JackGruber](https://discourse.joplinapp.org/u/JackGruber), [Laurent](https://github.com/dpjl/)
 
 Expected size of project: 350 hours
 
@@ -230,7 +230,7 @@ Difficulty Level: Medium
 
 Skills Required: TypeScript, JavaScript.
 
-Potential Mentor(s): [Roman](https://discourse.joplinapp.org/u/roman_r_m), [Laurent](https://github.com/laurent22/)
+Potential Mentor(s): [Roman](https://discourse.joplinapp.org/u/roman_r_m), [Laurent](https://github.com/dpjl/)
 
 Expected size of project: 350 hours
 
@@ -244,7 +244,7 @@ Difficulty Level: High
 
 Skills Required: TypeScript, JavaScript, Electron.
 
-Potential Mentor(s): [CalebJohn](https://github.com/CalebJohn/), [Laurent](https://github.com/laurent22/)
+Potential Mentor(s): [CalebJohn](https://github.com/CalebJohn/), [Laurent](https://github.com/dpjl/)
 
 Expected size of project: 350 hours
 
@@ -260,12 +260,12 @@ Difficulty Level: High
 
 Skills Required: TypeScript, JavaScript
 
-Potential Mentor(s): [Daeraxa](https://discourse.joplinapp.org/u/Daeraxa), [JackGruber](https://discourse.joplinapp.org/u/JackGruber), [Laurent](https://github.com/laurent22/)
+Potential Mentor(s): [Daeraxa](https://discourse.joplinapp.org/u/Daeraxa), [JackGruber](https://discourse.joplinapp.org/u/JackGruber), [Laurent](https://github.com/dpjl/)
 
 Expected size of project: 350 hours
 
 ## More info
 
 - Make sure you read the [Joplin Google Summer of Code Introduction](https://joplinapp.org/help/dev/gsoc/gsoc2022/)
-- To build the application, please read [BUILD.md](https://github.com/laurent22/joplin/blob/dev/readme/dev/BUILD.md)
+- To build the application, please read [BUILD.md](https://github.com/dpjl/joplin/blob/dev/readme/dev/BUILD.md)
 - And before creating a pull request, please read the [pull request guidelines](https://joplinapp.org/help/dev/gsoc/gsoc2022/pull_request_guidelines/)

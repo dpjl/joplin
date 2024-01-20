@@ -107,7 +107,7 @@ export const extractVersionInfo = (releases: GitHubRelease[], platform: Platform
 	let downloadUrl: string = null;
 
 	if (foundAsset) {
-		downloadUrl = foundAsset.browser_download_url.replace('github.com/laurent22/joplin/releases/download', 'objects.joplinusercontent.com');
+		downloadUrl = foundAsset.browser_download_url.replace('github.com/dpjl/joplin/releases/download', 'objects.joplinusercontent.com');
 		downloadUrl.concat('?source=DesktopApp&type=Update');
 	}
 

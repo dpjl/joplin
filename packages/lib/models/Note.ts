@@ -713,7 +713,7 @@ export default class Note extends BaseItem {
 		// action can decide what to do based on the fields that have been modified.
 		// This is necessary for example so that the folder list is not refreshed every time a note is changed.
 		// Now it can look at the properties and refresh only if the "parent_id" property is changed.
-		// Trying to fix: https://github.com/laurent22/joplin/issues/3893
+		// Trying to fix: https://github.com/dpjl/joplin/issues/3893
 		const oldNote = !isNew && o.id ? await Note.load(o.id) : null;
 
 		syncDebugLog.info('Save Note: P:', oldNote);

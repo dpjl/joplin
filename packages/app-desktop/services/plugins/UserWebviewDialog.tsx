@@ -100,7 +100,7 @@ export default function UserWebviewDialog(props: Props) {
 	const onReady = useCallback(() => {
 		// We focus the dialog once it's ready to make sure that the ESC/Enter
 		// keyboard shortcuts are working.
-		// https://github.com/laurent22/joplin/issues/4474
+		// https://github.com/dpjl/joplin/issues/4474
 		if (webviewRef.current) webviewRef.current.focus();
 	}, []);
 

@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
 		// Disabled for now because it seems that even when there's a notch the system status bar
 		// covers it, and thus we should add our own gap.
 		// Can only test on emulator though
-		// Fixes: https://github.com/laurent22/joplin/issues/2694
+		// Fixes: https://github.com/dpjl/joplin/issues/2694
 
 		// paddingTop: Platform.OS === 'android' && DeviceInfo.hasNotch() ? StatusBar.currentHeight : 0,
 		paddingTop: 0,

@@ -75,7 +75,7 @@ public class MainApplication extends Application implements ReactApplication {
 
     // To try to fix the error "Row too big to fit into CursorWindow"
 		// https://github.com/andpor/react-native-sqlite-storage/issues/364#issuecomment-526423153
-		// https://github.com/laurent22/joplin/issues/1767#issuecomment-515617991
+		// https://github.com/dpjl/joplin/issues/1767#issuecomment-515617991
 		try {
 			Field field = CursorWindow.class.getDeclaredField("sCursorWindowSize");
             field.setAccessible(true);

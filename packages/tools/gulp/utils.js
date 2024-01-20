@@ -138,7 +138,7 @@ utils.copyDir = async function(src, dest, options) {
 // that actually handle the error. It means in general this method should be
 // preferred to avoid random failures on CI or when building the app.
 //
-// https://github.com/laurent22/joplin/issues/6935#issuecomment-1274404470
+// https://github.com/dpjl/joplin/issues/6935#issuecomment-1274404470
 utils.mkdir = async function(dir) {
 	if (utils.isWindows()) {
 		return utils.execCommand(`if not exist "${utils.toSystemSlashes(dir)}" mkdir "${utils.toSystemSlashes(dir)}"`);

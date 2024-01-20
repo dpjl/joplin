@@ -321,7 +321,7 @@ describe('models/Note', () => {
 			// This is a regular file path that contains the resourceDirName
 			// inside but it shouldn't be changed.
 			//
-			// https://github.com/laurent22/joplin/issues/5034
+			// https://github.com/dpjl/joplin/issues/5034
 			const noChangeInput = `[docs](file:///c:/foo/${resourceDirName}/docs)`;
 			const result = await Note.replaceResourceExternalToInternalLinks(noChangeInput, { useAbsolutePaths: false });
 			expect(result).toBe(noChangeInput);

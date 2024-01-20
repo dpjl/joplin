@@ -96,7 +96,7 @@ export default class ExternalEditWatcher {
 					// here it might be that the file is quickly moved to a different location and replaced by
 					// another file with the same name, as it happens with emacs. So because of this
 					// we keep watching anyway.
-					// See: https://github.com/laurent22/joplin/issues/710#issuecomment-420997167
+					// See: https://github.com/dpjl/joplin/issues/710#issuecomment-420997167
 					// this.watcher_.unwatch(path);
 				} else if (event === 'change') {
 					const id = this.noteFilePathToId_(path);
@@ -120,7 +120,7 @@ export default class ExternalEditWatcher {
 						// it will keep on saving very fast and the bug should happen at some point.
 						// Below we re-read the file multiple times until we get the content, but in my tests it always
 						// work in the first try anyway. The loop is just for extra safety.
-						// https://github.com/laurent22/joplin/issues/1854
+						// https://github.com/dpjl/joplin/issues/1854
 						if (!noteContent) {
 							this.logger().warn(`ExternalEditWatcher: Watched note is empty - this is likely to be a bug and re-reading the note should fix it. Trying again... ${id}`);
 

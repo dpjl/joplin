@@ -38,7 +38,7 @@ const dataUriEncode = (filePath: string): string => {
 	} catch (error) {
 		// If the file path is invalid, the Datauri will throw an exception.
 		// Instead, since we can just ignore that particular file.
-		// Fixes https://github.com/laurent22/joplin/issues/8305
+		// Fixes https://github.com/dpjl/joplin/issues/8305
 		return '';
 	}
 };

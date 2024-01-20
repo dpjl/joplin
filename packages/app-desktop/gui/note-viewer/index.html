@@ -141,7 +141,7 @@
 			// Even if the scroll position hasn't changed (percent is the same),
 			// we still ignore the next scroll event, so that it doesn't create
 			// undesired side effects.
-			// https://github.com/laurent22/joplin/issues/7617
+			// https://github.com/dpjl/joplin/issues/7617
 			ignoreNextScrollEvent();
 			
 			if (Math.floor(contentElement.scrollTop) !== Math.floor(newScrollTop)) {
@@ -468,7 +468,7 @@
 				}
 				// An error of 'Regular expression too large' might occour in the markJs library
 				// when the input is really big, this catch is here to avoid the application crashing
-				// https://github.com/laurent22/joplin/issues/7634
+				// https://github.com/dpjl/joplin/issues/7634
 				console.error('Error while trying to highlight words from search: ', error);
 			}
 		}
@@ -537,7 +537,7 @@
 		// To avoid Electron/Chromium's scrolling bug when zoom fator is not 1,
 		// Custom scrolling is implemented. This is used only when zoom factor is not 1.
 		// If smoothly argument is true, smooth scrolling is performed.
-		// See https://github.com/laurent22/joplin/pull/5606#issuecomment-964293459
+		// See https://github.com/dpjl/joplin/pull/5606#issuecomment-964293459
 		function customScroll(wheelEvent, smoothly) {
 			const linePixels = 100 / 3;
 			const pagePixelsX = Math.max(linePixels, contentElement.clientWidth);
@@ -592,7 +592,7 @@
 			// in the layer of Electron/Chromium, as of 2021-09-23.
 			// To avoid this problem, prevent the upstream from calculating scrollTop and
 			// calculate by yourself by accumulating wheel events.
-			// https://github.com/laurent22/joplin/pull/5496
+			// https://github.com/dpjl/joplin/pull/5496
 			// When the Electron/Chromium bug is fixed, remove this listener.
 
 			// If scrollTop ever has a fraction part, zoomFactor is not 1.
@@ -747,7 +747,7 @@
 		}));
 
 		// Prevent middle-click as that would open the URL in an Electron window
-		// https://github.com/laurent22/joplin/issues/3287
+		// https://github.com/dpjl/joplin/issues/3287
 		window.addEventListener('auxclick', webviewLib.logEnabledEventHandler((event) => {
 			event.preventDefault();
 		}));

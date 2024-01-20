@@ -101,7 +101,7 @@ rules.insert = {
     // toolbar button) or using style "text-decoration" (when using shortcut
     // Cmd+U)
     //
-    // https://github.com/laurent22/joplin/issues/5480
+    // https://github.com/dpjl/joplin/issues/5480
     if (node.nodeName === 'INS') return true;
     return getStyleProp(node, 'text-decoration') === 'underline';
   },
@@ -374,7 +374,7 @@ rules.inlineLink = {
 // Normally a named anchor would be <a name="something"></a> but
 // you can also find <span id="something">Something</span> so the
 // rule below handle this.
-// Fixes https://github.com/laurent22/joplin/issues/1876
+// Fixes https://github.com/dpjl/joplin/issues/1876
 rules.otherNamedAnchors = {
   filter: function (node, options) {
     return !!getNamedAnchorFromLink(node, options);

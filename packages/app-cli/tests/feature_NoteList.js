@@ -28,7 +28,7 @@ describe('integration_NoteList', () => {
 		testApp = null;
 	});
 
-	// Reference: https://github.com/laurent22/joplin/issues/2709
+	// Reference: https://github.com/dpjl/joplin/issues/2709
 	it('should leave a conflict note in the conflict folder when it modified', (async () => {
 		const folder = await Folder.save({ title: 'test' });
 		const note = await Note.save({ title: 'note 1', parent_id: folder.id, is_conflict: 1 });

@@ -68,7 +68,7 @@ jobs:
           python-version: '3.11'
 
     
-      - name: Build and publish Windows app
+      - name: Build and publish Linux desktop app
         if: runner.os == 'Linux'
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}

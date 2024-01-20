@@ -23,8 +23,8 @@ The GUI's, as listed on the [Joplin's website](https://joplinapp.org/help/#insta
 
 More details can be found on:
 
-- [How to contribute](https://github.com/laurent22/joplin/blob/dev/readme/dev/index.md)
-- [How to build](https://github.com/laurent22/joplin/blob/dev/BUILD.md)
+- [How to contribute](https://github.com/dpjl/joplin/blob/dev/readme/dev/index.md)
+- [How to build](https://github.com/dpjl/joplin/blob/dev/BUILD.md)
 
 Moreover there are community driven projects such as:
 
@@ -40,7 +40,7 @@ You don't have to be a proven developer - in fact, this whole program is meant t
 
 In general it can be said, that question shall be asked early and clearly, given everyone the possibility to understand why you want to have this question answered and how it helps to achieve the project's goal.
 
-Before you can be accepted as a student we expect you to fix some bugs or implement some small feature and link that work on your proposal. You may browse the [GitHub Issues](https://github.com/laurent22/joplin/issues) to find some simple tasks. See the [good first issues](https://github.com/laurent22/joplin/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) which are a good way to make yourself familiar with the code base.
+Before you can be accepted as a student we expect you to fix some bugs or implement some small feature and link that work on your proposal. You may browse the [GitHub Issues](https://github.com/dpjl/joplin/issues) to find some simple tasks. See the [good first issues](https://github.com/dpjl/joplin/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) which are a good way to make yourself familiar with the code base.
 
 You should start learning the components that you plan on working on before the start date. Support can be found in the forum and on our dedicated discourse channel.
 
@@ -60,7 +60,7 @@ First of all, please read the above referenced resources and the [GSoC FAQ](http
 
 1. Join the [Joplin Forum](https://discourse.joplinapp.org), introduce yourself in a structured manner, share your GitHub username, and meet your fellow developers in the [GSoC category](https://discourse.joplinapp.org/c/gsoc). The subject of the topic shall contain your username, e.g. _Introducing \<username>_.
 2. Read Student proposal guidelines and the [GSoC Student Manual](https://developers.google.com/open-source/gsoc/resources/manual#student_manual)
-3. Take a look at the [list of ideas](https://github.com/laurent22/joplin/blob/dev/readme/dev/gsoc/gsoc2020/ideas.md). You can have you own idea added by posting it in the [Features category](https://discourse.joplinapp.org/c/features)
+3. Take a look at the [list of ideas](https://github.com/dpjl/joplin/blob/dev/readme/dev/gsoc/gsoc2020/ideas.md). You can have you own idea added by posting it in the [Features category](https://discourse.joplinapp.org/c/features)
 4. Come up with project that you're interested in and discuss it in [Features category](https://discourse.joplinapp.org/c/features)
 5. Write a first draft and get someone to review it
 6. Remember: you must link to work such as commits in your proposal. A private place will be created wihtinn the forum for that purposes.
@@ -157,4 +157,4 @@ Finally, know that we will never assign you to a project you do not want to work
 
 Please see below for a list of project ideas:
 
-[List of ideas](https://github.com/laurent22/joplin/blob/dev/readme/dev/gsoc/gsoc2020/ideas.md)
+[List of ideas](https://github.com/dpjl/joplin/blob/dev/readme/dev/gsoc/gsoc2020/ideas.md)

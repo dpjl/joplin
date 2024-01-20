@@ -67,7 +67,7 @@ export default class Joplin {
      * - [sqlite3](https://www.npmjs.com/package/sqlite3)
      * - [fs-extra](https://www.npmjs.com/package/fs-extra)
      *
-     * [View the demo plugin](https://github.com/laurent22/joplin/tree/dev/packages/app-cli/tests/support/plugins/nativeModule)
+     * [View the demo plugin](https://github.com/dpjl/joplin/tree/dev/packages/app-cli/tests/support/plugins/nativeModule)
      */
     require(_path: string): any;
     versionInfo(): Promise<import("./types").VersionInfo>;

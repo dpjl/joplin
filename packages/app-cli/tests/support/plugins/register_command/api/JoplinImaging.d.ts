@@ -22,7 +22,7 @@ export type Handle = string;
  * plugin. Once you are done with an image, free it using the `free()` function.
  *
  * [View the
- * example](https://github.com/laurent22/joplin/blob/dev/packages/app-cli/tests/support/plugins/imaging/src/index.ts)
+ * example](https://github.com/dpjl/joplin/blob/dev/packages/app-cli/tests/support/plugins/imaging/src/index.ts)
  *
  */
 export default class JoplinImaging {

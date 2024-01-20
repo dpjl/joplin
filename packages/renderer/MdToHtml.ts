@@ -406,7 +406,7 @@ export default class MdToHtml implements MarkupRenderer {
 
 	// Rendering large code blocks can freeze the app so we disable it in
 	// certain cases:
-	// https://github.com/laurent22/joplin/issues/5593#issuecomment-947374218
+	// https://github.com/dpjl/joplin/issues/5593#issuecomment-947374218
 	private shouldSkipHighlighting(str: string, lang: string): boolean {
 		if (lang && !hljs.getLanguage(lang)) lang = '';
 		if (str.length >= 1000 && !lang) return true;

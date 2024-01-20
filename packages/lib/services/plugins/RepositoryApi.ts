@@ -17,7 +17,7 @@ interface Release {
 }
 
 const findWorkingGitHubUrl = async (defaultContentUrl: string): Promise<string> => {
-	// From: https://github.com/laurent22/joplin/issues/5161#issuecomment-921642721
+	// From: https://github.com/dpjl/joplin/issues/5161#issuecomment-921642721
 
 	const mirrorUrls = [
 		defaultContentUrl,

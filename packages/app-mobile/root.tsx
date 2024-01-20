@@ -812,7 +812,7 @@ class AppComponent extends React.Component {
 	}
 
 	// 2020-10-08: It seems the initialisation code is quite fragile in general and should be kept simple.
-	// For example, adding a loading screen as was done in this commit: https://github.com/laurent22/joplin/commit/569355a3182bc12e50a54249882e3d68a72c2b28.
+	// For example, adding a loading screen as was done in this commit: https://github.com/dpjl/joplin/commit/569355a3182bc12e50a54249882e3d68a72c2b28.
 	// had for effect that sharing with the app would create multiple instances of the app, thus breaking
 	// database access and so on. It's unclear why it happens and how to fix it but reverting that commit
 	// fixed the issue for now.
@@ -825,9 +825,9 @@ class AppComponent extends React.Component {
 	//
 	// More reports and info about the multiple instance bug:
 	//
-	// https://github.com/laurent22/joplin/issues/3800
-	// https://github.com/laurent22/joplin/issues/3804
-	// https://github.com/laurent22/joplin/issues/3807
+	// https://github.com/dpjl/joplin/issues/3800
+	// https://github.com/dpjl/joplin/issues/3804
+	// https://github.com/dpjl/joplin/issues/3807
 	// https://discourse.joplinapp.org/t/webdav-config-encryption-config-randomly-lost-on-android/11364
 	// https://discourse.joplinapp.org/t/android-keeps-on-resetting-my-sync-and-theme/11443
 	public async componentDidMount() {

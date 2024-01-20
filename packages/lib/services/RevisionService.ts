@@ -184,7 +184,7 @@ export default class RevisionService extends BaseService {
 							// the error will be in the past (before
 							// revisionService.lastProcessedChangeId)
 							//
-							// https://github.com/laurent22/joplin/issues/5531
+							// https://github.com/dpjl/joplin/issues/5531
 							logger.error(`collectRevisions: Processing one of the changes for note ${noteId} failed. Other changes will still be processed. Error was: `, error);
 							logger.error('collectRevisions: Change was:', change);
 						}

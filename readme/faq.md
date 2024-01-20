@@ -16,7 +16,7 @@ More info there: https://github.com/electron-userland/electron-builder/issues/40
 
 ## How can I pass arguments to the Linux installation script?
 
-You can pass [arguments](https://github.com/laurent22/joplin/blob/dev/Joplin_install_and_update.sh#L37) to the installation script by using this command.
+You can pass [arguments](https://github.com/dpjl/joplin/blob/dev/Joplin_install_and_update.sh#L37) to the installation script by using this command.
 
 <pre><code style="word-break: break-all">wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash -s -- --argument1 --argument2</code></pre>
 
@@ -57,7 +57,7 @@ Note that the path to directory with your editor executable must exist in your P
 
 ## When I open a note in vim, the cursor is not visible
 
-It seems to be due to the setting `set term=ansi` in .vimrc. Removing it should fix the issue. See https://github.com/laurent22/joplin/issues/147 for more information.
+It seems to be due to the setting `set term=ansi` in .vimrc. Removing it should fix the issue. See https://github.com/dpjl/joplin/issues/147 for more information.
 
 ## All my notes got deleted after changing the WebDAV URL!
 
@@ -111,7 +111,7 @@ On the local device it is assumed that the data is safe due to the OS built-in s
 
 For these reasons, because the OS or yourself can easily protect the local data, no PIN or password is currently supported to access Joplin.
 
-There is however an issue open about it, so pull requests are welcome: https://github.com/laurent22/joplin/issues/289
+There is however an issue open about it, so pull requests are welcome: https://github.com/dpjl/joplin/issues/289
 
 ## Why is my WebDAV host not working?
 
@@ -128,18 +128,18 @@ For example:
     on this server.</p>
     </body></html>
 
-In this case, [make sure you enter the correct WebDAV URL](https://github.com/laurent22/joplin/issues/309).
+In this case, [make sure you enter the correct WebDAV URL](https://github.com/dpjl/joplin/issues/309).
 
 ### The following WebDAV hosts are not supported
 
-- Jianguoyun (see [Github issue](https://github.com/laurent22/joplin/issues/4294))
+- Jianguoyun (see [Github issue](https://github.com/dpjl/joplin/issues/4294))
 - pCloud (see [Forum thread](https://discourse.joplinapp.org/t/feature-request-pcloud-synchronisation/3530/51))
 
 ### Nextcloud sync is not working
 
 - Check your username and password. **Type it manually** (without copying and pasting it) and try again.
 - Check the WebDAV URL - to get the correct URL, go to Nextcloud and, in the left sidebar, click on "Settings" and copy the WebDAV URL from there. **Do not forget to add the folder you've created to that URL**. For example, if the base the WebDAV URL is "https://example.com/nextcloud/remote.php/webdav/" and you want the notes to be synced in the "Joplin" directory, you need to give the URL "https://example.com/nextcloud/remote.php/webdav/Joplin" **and you need to create the "Joplin" directory yourself**.
-- Did you enable **2FA** (Multi-factor authentication) on Nextcloud? In that case, you need to [create an app password for Joplin in the Nextcloud admin interface](https://github.com/laurent22/joplin/issues/1453#issuecomment-486640902).
+- Did you enable **2FA** (Multi-factor authentication) on Nextcloud? In that case, you need to [create an app password for Joplin in the Nextcloud admin interface](https://github.com/dpjl/joplin/issues/1453#issuecomment-486640902).
 
 ## Why did my sync and encryption passwords disappear after updating Joplin?
 

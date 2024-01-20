@@ -28,8 +28,8 @@ export const downloadUrl = (release: GitHubRelease, os: OS, portable = false) =>
 		const name = asset.name;
 		const ext = fileExtension(name);
 
-		const githubAndroidUrl = 'github.com/laurent22/joplin-android/releases/download/android-';
-		const githubUrl = 'github.com/laurent22/joplin/releases/download/';
+		const githubAndroidUrl = 'github.com/dpjl/joplin-android/releases/download/android-';
+		const githubUrl = 'github.com/dpjl/joplin/releases/download/';
 		const joplinDomain = 'objects.joplinusercontent.com/';
 
 		if (name.endsWith('arm64.DMG') && os === OS.MacOsM1) {

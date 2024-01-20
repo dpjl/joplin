@@ -38,7 +38,7 @@
 it here and not in noteStyle because the desktop app handles scrolling
 differently at the viewer level.
 
-https://github.com/laurent22/joplin/issues/6370
+https://github.com/dpjl/joplin/issues/6370
 */
 #rendered-md {
 	overflow-x: auto;

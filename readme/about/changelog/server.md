@@ -1,6 +1,6 @@
 # Joplin Server Changelog
 
-## [server-v2.14.2](https://github.com/laurent22/joplin/releases/tag/server-v2.14.2) - 2024-01-18T17:22:42Z
+## [server-v2.14.2](https://github.com/dpjl/joplin/releases/tag/server-v2.14.2) - 2024-01-18T17:22:42Z
 
 - Improved: Check Postgres required version before starting the server (#9695)
 - Improved: Display correct date and time on published notes (f38abc5)
@@ -8,37 +8,37 @@
 - Improved: Revert to Formidable v2 to avoid random crashes (be94939)
 - Improved: Updated packages fs-extra (v11.2.0), knex (v3.1.0), ldapts (v7.0.7), rate-limiter-flexible (v3.0.6), react, sharp (v0.33.1), style-to-js (v1.1.10), tesseract.js (v5.0.3)
 
-## [server-v2.14.1](https://github.com/laurent22/joplin/releases/tag/server-v2.14.1) - 2023-12-17T15:07:52Z
+## [server-v2.14.1](https://github.com/dpjl/joplin/releases/tag/server-v2.14.1) - 2023-12-17T15:07:52Z
 
 - Improved: Support including items with delta call to optimise sync (67a6870)
 - Improved: Updated packages @rmp135/sql-ts (v1.18.1), mermaid (v10.6.1), nanoid (v3.3.7), node-cron (v3.0.3), rate-limiter-flexible (v3.0.4), react, style-to-js (v1.1.9), tesseract.js (v4.1.4)
 - Fixed: Redirect user from login to home if already logged (#9415) (#9367 by [@pedr](https://github.com/pedr))
 
-## [server-v2.13.5](https://github.com/laurent22/joplin/releases/tag/server-v2.13.5) - 2023-11-19T09:33:53Z
+## [server-v2.13.5](https://github.com/dpjl/joplin/releases/tag/server-v2.13.5) - 2023-11-19T09:33:53Z
 
 - Improved: Increase number of items that are returned during sync (767bf9f)
 - Improved: Updated packages highlight.js (v11.9.0), ldapts (v7.0.6), sass (v1.69.5)
 - Fixed: Fix severe performance issue for certain delta calls (f698068)
 - Fixed: Fixed issue with sync not immediately returning all items in certain cases (87aeffa)
 
-## [server-v2.13.4](https://github.com/laurent22/joplin/releases/tag/server-v2.13.4) - 2023-11-15T15:30:19Z
+## [server-v2.13.4](https://github.com/dpjl/joplin/releases/tag/server-v2.13.4) - 2023-11-15T15:30:19Z
 
 - New: Added LDAP authentication (#9150 by Marco Rombach)
 - Improved: Updated packages mermaid (v10.5.1), nodemailer (v6.9.7), sass (v1.69.0)
 
-## [server-v2.13.3](https://github.com/laurent22/joplin/releases/tag/server-v2.13.3) - 2023-11-01T16:29:32Z
+## [server-v2.13.3](https://github.com/dpjl/joplin/releases/tag/server-v2.13.3) - 2023-11-01T16:29:32Z
 
 - Improved: Automatically restarts the server when it crashes, with exponentiel back-off (0c8b475)
 - Improved: Improve parsing of uploaded content and error handling (db88dfc)
 - Improved: Updated packages katex (v0.16.9), nodemailer (v6.9.6), react, sass (v1.68.0)
 
-## [server-v2.13.2](https://github.com/laurent22/joplin/releases/tag/server-v2.13.2) - 2023-10-19T19:49:44Z
+## [server-v2.13.2](https://github.com/dpjl/joplin/releases/tag/server-v2.13.2) - 2023-10-19T19:49:44Z
 
 - Improved: Significantly improve sync performances, especially when there are many changes (5986710)
 - Improved: Updated packages compare-versions (v6.1.0), dayjs (v1.11.10), follow-redirects (v1.15.3), glob (v10.3.6), katex (v0.16.8), markdown-it (v13.0.2), node-mocks-http (v1.13.0), nodemailer (v6.9.5), nodemon (v3.0.1), react, sass (v1.66.1), sharp (v0.32.6), sprintf-js (v1.1.3), tar (v6.2.0), uuid (v9.0.1)
 - Fixed: Fixed publishing logo (01f37df)
 
-## [server-v2.13.1](https://github.com/laurent22/joplin/releases/tag/server-v2.13.1) - 2023-09-20T15:15:32Z
+## [server-v2.13.1](https://github.com/dpjl/joplin/releases/tag/server-v2.13.1) - 2023-09-20T15:15:32Z
 
 - New: Add Joplin Server and Joplin Cloud favicons (1b00445)
 - New: Add function to get db default value (6962ba1)
@@ -59,12 +59,12 @@
 - Fixed: Searching for user should be case insensitive (#8682) (#8307 by [@hubert](https://github.com/hubert))
 - Fixed: Sorting users by "total size" leads to a crash (#8680) (#8308 by [@hubert](https://github.com/hubert))
 
-## [server-v2.12.1](https://github.com/laurent22/joplin/releases/tag/server-v2.12.1) - 2023-07-13T10:23:24Z
+## [server-v2.12.1](https://github.com/dpjl/joplin/releases/tag/server-v2.12.1) - 2023-07-13T10:23:24Z
 
 - New: Add yarn patches to Docker image (e91e38c)
 - Improved: Updated packages @rmp135/sql-ts (v1.17.0), clean-html (v2), dayjs (v1.11.8), glob (v10.2.7), jquery (v3.7.0), pg (v8.11.0), standard (v17.1.0)
 
-## [server-v2.11.2](https://github.com/laurent22/joplin/releases/tag/server-v2.11.2) - 2023-06-20T08:40:54Z
+## [server-v2.11.2](https://github.com/dpjl/joplin/releases/tag/server-v2.11.2) - 2023-06-20T08:40:54Z
 
 - Improved: Allow giving a different version number to forks (091eff9)
 - Improved: Improve performance and reliability when adding an item (17888a2)
@@ -72,46 +72,46 @@
 - Improved: Updated packages @koa/cors (v4), aws, buildTools, domhandler (v5), domutils (v3.1.0), formidable (v3), highlight.js (v11.8.0), jsdom (v21.1.2), markdown-it-multimd-table (v4.2.2), nodemailer (v6.9.3), sass (v1.62.1), sharp (v0.32.1), tar (v6.1.15), yargs (v17.7.2)
 - Fixed: Fixed copyright year (a7e185e)
 
-## [server-v2.11.1](https://github.com/laurent22/joplin/releases/tag/server-v2.11.1) - 2023-05-15T17:16:13Z
+## [server-v2.11.1](https://github.com/dpjl/joplin/releases/tag/server-v2.11.1) - 2023-05-15T17:16:13Z
 
 - Improved: Allow setting NTP server using NTP_SERVER env variable (#8153)
 - Improved: Improved handling of items with duplicate IDs (a0b707c)
 - Improved: Updated packages aws, fs-extra (v11.1.1), jquery (v3.6.4), jsdom (v21.1.1), koa (v2.14.2), markdown-it-multimd-table (v4.2.1), nanoid (v3.3.6), node-mocks-http (v1.12.2), nodemon (v2.0.22), pg (v8.10.0), reselect (v4.1.8), sass (v1.60.0), sharp (v0.32.0), sqlite3 (v5.1.6), turndown (v7.1.2)
 
-## [server-v2.10.11](https://github.com/laurent22/joplin/releases/tag/server-v2.10.11) - 2023-03-17T17:50:13Z
+## [server-v2.10.11](https://github.com/dpjl/joplin/releases/tag/server-v2.10.11) - 2023-03-17T17:50:13Z
 
 - Improved: Updated packages nodemon (v2.0.21)
 
-## [server-v2.10.10](https://github.com/laurent22/joplin/releases/tag/server-v2.10.10) - 2023-03-09T14:37:07Z
+## [server-v2.10.10](https://github.com/dpjl/joplin/releases/tag/server-v2.10.10) - 2023-03-09T14:37:07Z
 
 - Improved: Clean up share logic (107f2e1)
 
-## [server-v2.10.8](https://github.com/laurent22/joplin/releases/tag/server-v2.10.8) - 2023-02-09T18:24:27Z
+## [server-v2.10.8](https://github.com/dpjl/joplin/releases/tag/server-v2.10.8) - 2023-02-09T18:24:27Z
 
 - Fixed: Fixed sharing issue when a user no longer has a user item associated with their account (293f621)
 
-## [server-v2.10.7](https://github.com/laurent22/joplin/releases/tag/server-v2.10.7) - 2023-02-09T15:57:31Z
+## [server-v2.10.7](https://github.com/dpjl/joplin/releases/tag/server-v2.10.7) - 2023-02-09T15:57:31Z
 
 - Fixed: Fixed sharing issue for changes that are associated with deleted items (05c17fb)
 
-## [server-v2.10.6](https://github.com/laurent22/joplin/releases/tag/server-v2.10.6) - 2023-02-06T19:01:36Z
+## [server-v2.10.6](https://github.com/dpjl/joplin/releases/tag/server-v2.10.6) - 2023-02-06T19:01:36Z
 
 - New: Add in ability to use Postgres connection string in configuration (#6836 by [@halkeye](https://github.com/halkeye))
 - Fixed: Fixed issue when an item is associated with a share that no longer exists (ba5f0bc)
 
-## [server-v2.10.5](https://github.com/laurent22/joplin/releases/tag/server-v2.10.5) - 2022-12-26T12:09:13Z
+## [server-v2.10.5](https://github.com/dpjl/joplin/releases/tag/server-v2.10.5) - 2022-12-26T12:09:13Z
 
 - Fixed: Fixed regression that would prevent styles from being loaded in published notes (#7525)
 
-## [server-v2.10.4](https://github.com/laurent22/joplin/releases/tag/server-v2.10.4) - 2022-12-18T16:02:06Z
+## [server-v2.10.4](https://github.com/dpjl/joplin/releases/tag/server-v2.10.4) - 2022-12-18T16:02:06Z
 
 - Fixed: Fixed regression introduced by form-parse lib update (#7463)
 
-## [server-v2.10.3](https://github.com/laurent22/joplin/releases/tag/server-v2.10.3) - 2022-12-15T23:32:16Z
+## [server-v2.10.3](https://github.com/dpjl/joplin/releases/tag/server-v2.10.3) - 2022-12-15T23:32:16Z
 
 - Upgraded packages for performance and security improvements.
 
-## [server-v2.9.7](https://github.com/laurent22/joplin/releases/tag/server-v2.9.7) - 2022-11-05T16:51:39Z
+## [server-v2.9.7](https://github.com/dpjl/joplin/releases/tag/server-v2.9.7) - 2022-11-05T16:51:39Z
 
 - Improved: Allow enabling and disabling tasks (1379c9c)
 - Improved: Allow searching user by email or name (1cfbefb)
@@ -124,7 +124,7 @@
 - Improved: When re-activating an account, remove it from the deletion queue (bbc4228)
 - Fixed: Fixed account activation logic (ccf5d20)
 
-## [server-v2.9.5](https://github.com/laurent22/joplin/releases/tag/server-v2.9.5) - 2022-10-11T10:44:01Z
+## [server-v2.9.5](https://github.com/dpjl/joplin/releases/tag/server-v2.9.5) - 2022-10-11T10:44:01Z
 
 - New: Add support for sidebar in user pages (053dbab)
 - Improved: Automatically delete expired sessions (d5dfecc)
@@ -140,7 +140,7 @@
 - Fixed: Fixed user deletion schedule (bfe5ee8)
 - Fixed: Published note must be scrollable when it contains a large table (#6370)
 
-## [server-v2.7.4](https://github.com/laurent22/joplin/releases/tag/server-v2.7.4) - 2022-02-02T19:23:34Z
+## [server-v2.7.4](https://github.com/dpjl/joplin/releases/tag/server-v2.7.4) - 2022-02-02T19:23:34Z
 
 - New: Add task to automate deletion of disabled accounts (1afcb27)
 - Improved: Always display Help link even when not logged in (00163f5)
@@ -162,7 +162,7 @@
 - Fixed: Fixed sharing notebook with a user that does not have E2EE enabled (#5958)
 - Fixed: Use multi-stage builds and smaller base image (#6048) (#5397 by [@aaron](https://github.com/aaron))
 
-## [server-v2.7.3](https://github.com/laurent22/joplin/releases/tag/server-v2.7.3) - 2021-12-29T13:35:12Z
+## [server-v2.7.3](https://github.com/dpjl/joplin/releases/tag/server-v2.7.3) - 2021-12-29T13:35:12Z
 
 - Improved: Allow deleting complete user data (#5824)
 - Improved: Changed ID length from 32 to 22 characters (e9ce3d1)
@@ -171,11 +171,11 @@
 - Improved: Increase default MAX_TIME_DRIFT to 2000 (35f684a)
 - Improved: Setup localisation (aa42ceb)
 
-## [server-v2.6.14](https://github.com/laurent22/joplin/releases/tag/server-v2.6.14) - 2021-12-02T16:29:54Z
+## [server-v2.6.14](https://github.com/dpjl/joplin/releases/tag/server-v2.6.14) - 2021-12-02T16:29:54Z
 
 - Improved: Improved storage command (122afd6)
 
-## [server-v2.6.13](https://github.com/laurent22/joplin/releases/tag/server-v2.6.13) - 2021-11-29T18:41:28Z
+## [server-v2.6.13](https://github.com/dpjl/joplin/releases/tag/server-v2.6.13) - 2021-11-29T18:41:28Z
 
 - New: Added command to delete database item content (01048f5)
 - Improved: Allow disabling NTP time drift check (dc67eac)
@@ -185,7 +185,7 @@
 - Improved: Remove unique constraint errors from the log when they are already handled by the application (a6884a2)
 - Improved: Retry NTP request up to three times when it fails (7eb1d89)
 
-## [server-v2.6.12](https://github.com/laurent22/joplin/releases/tag/server-v2.6.12) - 2021-11-23T16:30:27Z
+## [server-v2.6.12](https://github.com/dpjl/joplin/releases/tag/server-v2.6.12) - 2021-11-23T16:30:27Z
 
 - New: Added task to compress changes older than 6 months (75f7296)
 - Improved: Allow specifying a max content size when importing content to new storage (080c3cc)
@@ -195,26 +195,26 @@
 - Improved: Perform storage checks before starting services (16d5047)
 - Fixed: Fixed HandleOversizedAccounts task interval (fc419d9)
 
-## [server-v2.6.11](https://github.com/laurent22/joplin/releases/tag/server-v2.6.11) - 2021-11-14T17:14:51Z
+## [server-v2.6.11](https://github.com/dpjl/joplin/releases/tag/server-v2.6.11) - 2021-11-14T17:14:51Z
 
 - Improved: Prevent large data blobs from crashing the application (5eb3a92)
 
-## [server-v2.6.10](https://github.com/laurent22/joplin/releases/tag/server-v2.6.10) - 2021-11-13T12:47:53Z
+## [server-v2.6.10](https://github.com/dpjl/joplin/releases/tag/server-v2.6.10) - 2021-11-13T12:47:53Z
 
 - Improved: Improved storage migration error handling, and improved storage test units (5a41d80)
 - Improved: Rename "ReadOnly" mode to "ReadAndClear" to avoid any confusion (5cd4537)
 
-## [server-v2.6.9](https://github.com/laurent22/joplin/releases/tag/server-v2.6.9) - 2021-11-11T16:38:00Z
+## [server-v2.6.9](https://github.com/dpjl/joplin/releases/tag/server-v2.6.9) - 2021-11-11T16:38:00Z
 
 - Improved: Hide more credentials from the log (73137cf)
 - New: Added command to test a storage connection (c6dec0a)
 - New: Added command to migrate content to different storage (005f720)
 
-## [server-v2.6.5](https://github.com/laurent22/joplin/releases/tag/server-v2.6.5) - 2021-11-10T12:07:50Z
+## [server-v2.6.5](https://github.com/dpjl/joplin/releases/tag/server-v2.6.5) - 2021-11-10T12:07:50Z
 
 - Improved: Allow storing item content in database, filesystem or S3 (depending on config) (#5602)
 
-## [server-v2.6.3](https://github.com/laurent22/joplin/releases/tag/server-v2.6.3) - 2021-11-08T15:20:41Z
+## [server-v2.6.3](https://github.com/dpjl/joplin/releases/tag/server-v2.6.3) - 2021-11-08T15:20:41Z
 
 - New: Add support for sharing notes when E2EE is enabled (#5529)
 - Improved: Disable mailer service if no-reply email is not set (ce5c5d6)
@@ -222,22 +222,22 @@
 - Improved: Immediately ask user to set password after Stripe checkout (9e1cb9d)
 - Improved: Set resource content size when viewing published note (70d5c7a)
 
-## [server-v2.6.2](https://github.com/laurent22/joplin/releases/tag/server-v2.6.2) - 2021-11-03T12:54:38Z
+## [server-v2.6.2](https://github.com/dpjl/joplin/releases/tag/server-v2.6.2) - 2021-11-03T12:54:38Z
 
 - New: Add support for faster built-in sync locks (#5662)
 - Improved: Improved env variable handling to make it self documenting and enforce type checking (b5d792c)
 - Improved: Improved logging and rendering of low level middleware errors (3704413)
 
-## [server-v2.5.10](https://github.com/laurent22/joplin/releases/tag/server-v2.5.10) - 2021-11-02T14:45:54Z
+## [server-v2.5.10](https://github.com/dpjl/joplin/releases/tag/server-v2.5.10) - 2021-11-02T14:45:54Z
 
 - New: Add unique constraint on name and owner ID of items table (f7a18ba)
 - Fixed: Fixed issue that could cause server to return empty items in some rare cases (99ea4b7)
 
-## [server-v2.5.9](https://github.com/laurent22/joplin/releases/tag/server-v2.5.9) - 2021-10-28T19:43:41Z
+## [server-v2.5.9](https://github.com/dpjl/joplin/releases/tag/server-v2.5.9) - 2021-10-28T19:43:41Z
 
 - Improved: Remove session expiration for now (4a2af32)
 
-## [server-v2.5.8](https://github.com/laurent22/joplin/releases/tag/server-v2.5.8) - 2021-10-28T16:07:23Z
+## [server-v2.5.8](https://github.com/dpjl/joplin/releases/tag/server-v2.5.8) - 2021-10-28T16:07:23Z
 
 - New: Added item owner ID, and allow disabling db auto-migrations (b655f27)
 - Fixed: Fixed Stripe portal page redirection (9ba90b5)
@@ -249,18 +249,18 @@
 - Improved: Improved task service log entries (bc5a853)
 - Improved: Run oversized account task more frequently (2f09f88)
 
-## [server-v2.5.5](https://github.com/laurent22/joplin/releases/tag/server-v2.5.5) - 2021-10-23T20:58:37Z
+## [server-v2.5.5](https://github.com/dpjl/joplin/releases/tag/server-v2.5.5) - 2021-10-23T20:58:37Z
 
 - New: Added tool to delete old changes (169b585)
 - Fixed: Fixed issue when a notebook is shared, then unshared, then shared again (47fc51e)
 
-## [server-v2.5.2](https://github.com/laurent22/joplin/releases/tag/server-v2.5.2) - 2021-10-07T13:36:27Z
+## [server-v2.5.2](https://github.com/dpjl/joplin/releases/tag/server-v2.5.2) - 2021-10-07T13:36:27Z
 
 - New: Add support for promotion codes (5b58811)
 - Improved: Sort flags by date (31efc9b)
 - Fixed: Fixed links in published notes (#5507)
 
-## [server-v2.5.1](https://github.com/laurent22/joplin/releases/tag/server-v2.5.1) - 2021-09-29T15:52:34Z
+## [server-v2.5.1](https://github.com/dpjl/joplin/releases/tag/server-v2.5.1) - 2021-09-29T15:52:34Z
 
 - New: Add support for events and use them to track background tasks (79d1ad7)
 - Improved: Allow manually deleting a user flag (3a11885)
@@ -271,17 +271,17 @@
 - Improved: Remove AccountOverLimit flag from accounts that are now below the limit (5de5370)
 - Improved: Send reminder email every time a payment fails (2dd8045)
 
-## [server-v2.4.11-beta](https://github.com/laurent22/joplin/releases/tag/server-v2.4.11-beta) - 2021-09-26T17:10:57Z
+## [server-v2.4.11-beta](https://github.com/dpjl/joplin/releases/tag/server-v2.4.11-beta) - 2021-09-26T17:10:57Z
 
 - Improved: Do not allow accepting share more than once (57a1d03)
 - Fixed: Fixed Stripe checkout when a coupon is used (c45f961)
 
-## [server-v2.4.10-beta](https://github.com/laurent22/joplin/releases/tag/server-v2.4.10-beta) (Pre-release) - 2021-09-25T19:07:05Z
+## [server-v2.4.10-beta](https://github.com/dpjl/joplin/releases/tag/server-v2.4.10-beta) (Pre-release) - 2021-09-25T19:07:05Z
 
 - Improved: Improved share service reliability and optimised performance (0175348)
 - Security: Implement clickjacking defense (e3fd34e)
 
-## [server-v2.4.9](https://github.com/laurent22/joplin/releases/tag/server-v2.4.9-beta) - 2021-09-22T16:31:23Z
+## [server-v2.4.9](https://github.com/dpjl/joplin/releases/tag/server-v2.4.9-beta) - 2021-09-22T16:31:23Z
 
 - New: Add support for changing user own email (63e88c0)
 - Improved: Allow an admin to impersonate a user (03b4b6e)
@@ -298,28 +298,28 @@
 - Improved: Sync deleted items first to allow fixing oversized accounts (43c594b)
 - Fixed: Fixed calculating total item size after an item has been deleted (024967c)
 
-## [server-v2.4.8](https://github.com/laurent22/joplin/releases/tag/server-v2.4.8-beta) - 2021-09-15T22:16:59Z
+## [server-v2.4.8](https://github.com/dpjl/joplin/releases/tag/server-v2.4.8-beta) - 2021-09-15T22:16:59Z
 
 - New: Added support for app level slow SQL query log (5e8b742)
 
-## [server-v2.4.7](https://github.com/laurent22/joplin/releases/tag/server-v2.4.7-beta) - 2021-09-15T15:58:46Z
+## [server-v2.4.7](https://github.com/dpjl/joplin/releases/tag/server-v2.4.7-beta) - 2021-09-15T15:58:46Z
 
 - Improved: Improve flag logic (c229821)
 - Fixed: Fixed handling of brute force limiter by getting correct user IP (3ce947e)
 
-## [server-v2.4.6](https://github.com/laurent22/joplin/releases/tag/server-v2.4.6-beta) - 2021-09-14T15:02:21Z
+## [server-v2.4.6](https://github.com/dpjl/joplin/releases/tag/server-v2.4.6-beta) - 2021-09-14T15:02:21Z
 
 - New: Add link to Stripe subscription page to manage payment details (4e7fe66)
 - New: Add transaction info to debug deadlock issues (01b653f)
 
-## [server-v2.4.3](https://github.com/laurent22/joplin/releases/tag/server-v2.4.3-beta) - 2021-09-02T17:49:11Z
+## [server-v2.4.3](https://github.com/dpjl/joplin/releases/tag/server-v2.4.3-beta) - 2021-09-02T17:49:11Z
 
 - New: Added Help page for Joplin Cloud (6520a48)
 - New: Added icon next to profile button (5805a41)
 - Improved: Display note title as page title when sharing note (82331c9)
 - Fixed: Fixed calculation of max sizes for Postgres (93a4ad0)
 
-## [server-v2.4.2](https://github.com/laurent22/joplin/releases/tag/server-v2.4.2) - 2021-08-28T17:45:41Z
+## [server-v2.4.2](https://github.com/dpjl/joplin/releases/tag/server-v2.4.2) - 2021-08-28T17:45:41Z
 
 - New: Add request rate limter on session and login end points (543413d)
 - New: Add support for user flags (82b157b)
@@ -335,19 +335,19 @@
 - Fixed: Fix missing CSS file error (#5309 by [@whalehub](https://github.com/whalehub))
 - Fixed: Fixed second duration (c7421df)
 
-## [server-v2.3.7](https://github.com/laurent22/joplin/releases/tag/server-v2.3.7-beta) - 2021-08-13T21:20:17Z
+## [server-v2.3.7](https://github.com/dpjl/joplin/releases/tag/server-v2.3.7-beta) - 2021-08-13T21:20:17Z
 
 - Fixed: Fix migrations (a9961ae)
 
-## [server-v2.3.6](https://github.com/laurent22/joplin/releases/tag/server-v2.3.6-beta) - 2021-08-13T20:59:41Z
+## [server-v2.3.6](https://github.com/dpjl/joplin/releases/tag/server-v2.3.6-beta) - 2021-08-13T20:59:41Z
 
 - Fixed: Fix migrations (f518549)
 
-## [server-v2.3.5](https://github.com/laurent22/joplin/releases/tag/server-v2.3.5-beta) - 2021-08-13T18:01:20Z
+## [server-v2.3.5](https://github.com/dpjl/joplin/releases/tag/server-v2.3.5-beta) - 2021-08-13T18:01:20Z
 
 - Fixed: Fixed pagination link styling (d42d181)
 
-## [server-v2.3.4](https://github.com/laurent22/joplin/releases/tag/server-v2.3.4-beta) - 2021-08-13T16:56:17Z
+## [server-v2.3.4](https://github.com/dpjl/joplin/releases/tag/server-v2.3.4-beta) - 2021-08-13T16:56:17Z
 
 - Improved: Allow setting email key to prevent the same email to be sent multiple times (391204c)
 - Improved: Clarify beta transition message (c4fcfec)
@@ -358,18 +358,18 @@
 - Fixed: Fix regression (6359c9c)
 - Fixed: Fixed layout of notes on mobile devices (#5269)
 
-## [server-v2.2.11](https://github.com/laurent22/joplin/releases/tag/server-v2.2.11-beta) - 2021-08-03T18:48:00Z
+## [server-v2.2.11](https://github.com/dpjl/joplin/releases/tag/server-v2.2.11-beta) - 2021-08-03T18:48:00Z
 
 - Improved: Disable beta account once expired (785248b)
 - Improved: Handle beta user upgrade (8910c87)
 - Improved: Prevent duplicate Stripe subscriptions and improved Stripe workflow testing (6ac22ed)
 - Fixed: Fixed support emails (724aa72)
 
-## [server-v2.2.10](https://github.com/laurent22/joplin/releases/tag/server-v2.2.10) - 2021-08-01T10:04:53Z
+## [server-v2.2.10](https://github.com/dpjl/joplin/releases/tag/server-v2.2.10) - 2021-08-01T10:04:53Z
 
 - Improved: Allows providing a coupon when creating the Stripe checkout session (b5b6111)
 
-## [server-v2.2.9](https://github.com/laurent22/joplin/releases/tag/server-v2.2.9-beta) - 2021-07-31T13:52:53Z
+## [server-v2.2.9](https://github.com/dpjl/joplin/releases/tag/server-v2.2.9-beta) - 2021-07-31T13:52:53Z
 
 - New: Add Docker major, minor and beta version tags (#5237 by [@JackGruber](https://github.com/JackGruber))
 - New: Add support for Stripe yearly subscriptions (f2547fe)
@@ -377,7 +377,7 @@
 - Fixed: Fixed certain URLs (282f782)
 - Fixed: Published notes that contain non-alphabetical characters could end up being truncated (#5229)
 
-## [server-v2.2.8](https://github.com/laurent22/joplin/releases/tag/server-v2.2.8-beta) - 2021-07-24T16:55:58Z
+## [server-v2.2.8](https://github.com/dpjl/joplin/releases/tag/server-v2.2.8-beta) - 2021-07-24T16:55:58Z
 
 - New: Added form tokens to prevent CSRF attacks (CVE-2021-23431) (19b45de)
 - Improved: Allow admin to change Stripe subscription (75a421e)
@@ -391,37 +391,37 @@
 - Improved: Moved email templates to separate files (6a93cb2)
 - Improved: Set default of env SUPPORT_EMAIL to "SUPPORT_EMAIL" to make it clear it needs to be set (92520e5)
 
-## [server-v2.2.7](https://github.com/laurent22/joplin/releases/tag/server-v2.2.7-beta) - 2021-07-11T17:31:42Z
+## [server-v2.2.7](https://github.com/dpjl/joplin/releases/tag/server-v2.2.7-beta) - 2021-07-11T17:31:42Z
 
 - New: Added support for resetting user password (62b6198)
 - Improved: Check password complexity (240cb35)
 - Improved: Disallow changing email address until a secure solution to change it is implemented (f8d2c26)
 - Fixed: Fixed mail queue as some emails were not being processed (89f4ca1)
 
-## [server-v2.2.6](https://github.com/laurent22/joplin/releases/tag/server-v2.2.6-beta) - 2021-07-09T15:57:47Z
+## [server-v2.2.6](https://github.com/dpjl/joplin/releases/tag/server-v2.2.6-beta) - 2021-07-09T15:57:47Z
 
 - New: Add Docker image labels (#5158 by [@JackGruber](https://github.com/JackGruber))
 - Fixed: Fixed change processing logic (5a27d4d)
 - Fixed: Fixed styling of shared note (6c1a6b0)
 
-## [server-v2.2.5](https://github.com/laurent22/joplin/releases/tag/server-v2.2.5-beta) - 2021-07-03T21:40:37Z
+## [server-v2.2.5](https://github.com/dpjl/joplin/releases/tag/server-v2.2.5-beta) - 2021-07-03T21:40:37Z
 
 - Improved: Make app context immutable and derive the per-request context properties from it (e210926)
 
-## [server-v2.2.4](https://github.com/laurent22/joplin/releases/tag/server-v2.2.4-beta) - 2021-07-03T21:10:29Z
+## [server-v2.2.4](https://github.com/dpjl/joplin/releases/tag/server-v2.2.4-beta) - 2021-07-03T21:10:29Z
 
 - Fixed: Fixed issue with user sessions being mixed up (238cc86)
 
-## [server-v2.2.3](https://github.com/laurent22/joplin/releases/tag/server-v2.2.3-beta) - 2021-07-03T19:38:36Z
+## [server-v2.2.3](https://github.com/dpjl/joplin/releases/tag/server-v2.2.3-beta) - 2021-07-03T19:38:36Z
 
 - Fixed: Fixed size of a database field (264f36f)
 
-## [server-v2.2.2](https://github.com/laurent22/joplin/releases/tag/server-v2.2.2-beta) - 2021-07-03T18:28:35Z
+## [server-v2.2.2](https://github.com/dpjl/joplin/releases/tag/server-v2.2.2-beta) - 2021-07-03T18:28:35Z
 
 - Improved: Improved logging and reliability of cron tasks (d99c34f)
 - Improved: Only emit "created" event when new user is saved (8883df2)
 
-## [server-v2.2.1](https://github.com/laurent22/joplin/releases/tag/server-v2.2.1-beta) - 2021-07-03T15:41:32Z
+## [server-v2.2.1](https://github.com/dpjl/joplin/releases/tag/server-v2.2.1-beta) - 2021-07-03T15:41:32Z
 
 - New: Add support for account max total size (b507fbf)
 - Improved: Display max size info in dashboard (3d18514)
@@ -430,25 +430,25 @@
 - Improved: Normalize email addresses before saving them (427218b)
 - Improved: Remove dangerous "Delete all" button for now (125af75)
 
-## [server-v2.1.6](https://github.com/laurent22/joplin/releases/tag/server-v2.1.6-beta) - 2021-06-24T10:01:46Z
+## [server-v2.1.6](https://github.com/dpjl/joplin/releases/tag/server-v2.1.6-beta) - 2021-06-24T10:01:46Z
 
 - Fixed: Fixed accessing main website (Regression) (f868797)
 
-## [server-v2.1.5](https://github.com/laurent22/joplin/releases/tag/server-v2.1.5-beta) - 2021-06-24T08:26:38Z
+## [server-v2.1.5](https://github.com/dpjl/joplin/releases/tag/server-v2.1.5-beta) - 2021-06-24T08:26:38Z
 
 - New: Add support for X-API-MIN-VERSION header (51f3c00)
 
-## [server-v2.1.4](https://github.com/laurent22/joplin/releases/tag/server-v2.1.4-beta) - 2021-06-24T07:26:03Z
+## [server-v2.1.4](https://github.com/dpjl/joplin/releases/tag/server-v2.1.4-beta) - 2021-06-24T07:26:03Z
 
 - Improved: Split permission to share note or folder (0c12c7f)
 - Fixed: Fixed handling of max item size for encrypted items (112157e)
 - Fixed: Fixed transaction locking issue when a sub-transaction fails (12aae48)
 
-## [server-v2.1.3](https://github.com/laurent22/joplin/releases/tag/server-v2.1.3-beta) - 2021-06-19T14:15:06Z
+## [server-v2.1.3](https://github.com/dpjl/joplin/releases/tag/server-v2.1.3-beta) - 2021-06-19T14:15:06Z
 
 - New: Add support for uploading multiple items in one request (3b9c02e)
 
-## [server-v2.1.1](https://github.com/laurent22/joplin/releases/tag/server-v2.1.1) - 2021-06-17T17:27:29Z
+## [server-v2.1.1](https://github.com/dpjl/joplin/releases/tag/server-v2.1.1) - 2021-06-17T17:27:29Z
 
 - New: Added account info to dashboard and title to pages (7f0b3fd)
 - New: Added way to batch requests (currently disabled) (c682c88)
@@ -456,37 +456,37 @@
 - Improved: Hide Reset Password button when creating new users (ac03c08)
 - Improved: Sort users by name, then email (65c3d01)
 
-## [server-v2.0.14](https://github.com/laurent22/joplin/releases/tag/server-v2.0.14) - 2021-06-17T08:52:26Z
+## [server-v2.0.14](https://github.com/dpjl/joplin/releases/tag/server-v2.0.14) - 2021-06-17T08:52:26Z
 
 - Improved: Allow sending reset password email from admin UI (479237d)
 - Improved: Tokens would expire too soon (6ae0e84)
 
-## [server-v2.0.13](https://github.com/laurent22/joplin/releases/tag/server-v2.0.13) - 2021-06-16T14:28:20Z
+## [server-v2.0.13](https://github.com/dpjl/joplin/releases/tag/server-v2.0.13) - 2021-06-16T14:28:20Z
 
 - Improved: Allow creating a new user with no password, which must be set via email confirmation (1896549)
 - Improved: Allow creating a user with a specific account type from admin UI (ecd1602)
 - Fixed: Fixed error message when item is over the limit (ea65313)
 - Fixed: Fixed issue with user not being able to modify own profile (3c18190)
 
-## [server-v2.0.12](https://github.com/laurent22/joplin/releases/tag/server-v2.0.12) - 2021-06-15T16:24:42Z
+## [server-v2.0.12](https://github.com/dpjl/joplin/releases/tag/server-v2.0.12) - 2021-06-15T16:24:42Z
 
 - Fixed: Fixed handling of user content URL (31121c8)
 
-## [server-v2.0.11](https://github.com/laurent22/joplin/releases/tag/server-v2.0.11) - 2021-06-15T11:41:41Z
+## [server-v2.0.11](https://github.com/dpjl/joplin/releases/tag/server-v2.0.11) - 2021-06-15T11:41:41Z
 
 - New: Add navbar on login and sign up page (7a3a208)
 - New: Added option to enable or disable stack traces (5614eb9)
 - Improved: Handle custom user content URLs (a36b13d)
 - Fixed: Fixed error when creating user (594084e)
 
-## [server-v2.0.9](https://github.com/laurent22/joplin/releases/tag/server-v2.0.9-beta) - 2021-06-11T16:49:05Z
+## [server-v2.0.9](https://github.com/dpjl/joplin/releases/tag/server-v2.0.9-beta) - 2021-06-11T16:49:05Z
 
 - New: Add navbar on login and sign up page (7a3a208)
 - New: Added option to enable or disable stack traces (5614eb9)
 - Improved: Handle custom user content URLs (a36b13d)
 - Fixed: Fixed error when creating user (594084e)
 
-## [server-v2.0.6](https://github.com/laurent22/joplin/releases/tag/server-v2.0.6) - 2021-06-07T17:27:27Z
+## [server-v2.0.6](https://github.com/dpjl/joplin/releases/tag/server-v2.0.6) - 2021-06-07T17:27:27Z
 
 - New: Add Stripe integration (770af6a)
 - New: Add request duration to log (c8d7ecb)
@@ -495,21 +495,21 @@
 - Improved: Check share ID when uploading a note (3c41b45)
 - Improved: Load shared user content from correct domain (de45740)
 
-## [server-v2.0.5](https://github.com/laurent22/joplin/releases/tag/server-v2.0.5) - 2021-06-02T08:14:47Z
+## [server-v2.0.5](https://github.com/dpjl/joplin/releases/tag/server-v2.0.5) - 2021-06-02T08:14:47Z
 
 - New: Add version number on website (0ef7e98)
 - New: Added signup pages (41ed66d)
 - Improved: Allow disabling item upload for a user (f8a26cf)
 
-## [server-v2.0.4](https://github.com/laurent22/joplin/releases/tag/server-v2.0.4) - 2021-05-25T18:33:11Z
+## [server-v2.0.4](https://github.com/dpjl/joplin/releases/tag/server-v2.0.4) - 2021-05-25T18:33:11Z
 
 - Fixed: Fixed Item and Log page when using Postgres (ee0f237)
 
-## [server-v2.0.3](https://github.com/laurent22/joplin/releases/tag/server-v2.0.3) - 2021-05-25T18:08:46Z
+## [server-v2.0.3](https://github.com/dpjl/joplin/releases/tag/server-v2.0.3) - 2021-05-25T18:08:46Z
 
 - Fixed: Fixed handling of request origin (12a6634)
 
-## [server-v2.0.2](https://github.com/laurent22/joplin/releases/tag/server-v2.0.2) - 2021-05-25T19:15:50Z
+## [server-v2.0.2](https://github.com/dpjl/joplin/releases/tag/server-v2.0.2) - 2021-05-25T19:15:50Z
 
 - New: Add mailer service (ed8ee67)
 - New: Add support for item size limit (6afde54)
@@ -529,7 +529,7 @@
 - Fixed: Fixed deleting a note that has been shared (489995d)
 - Fixed: Make sure temp files are deleted after upload is done (#4540)
 
-## [server-v2.0.1](https://github.com/laurent22/joplin/releases/tag/server-v2.0.1) - 2021-05-14T13:55:45Z
+## [server-v2.0.1](https://github.com/dpjl/joplin/releases/tag/server-v2.0.1) - 2021-05-14T13:55:45Z
 
 - New: Add support for sharing notes via a link (ccbc329)
 - New: Add support for sharing a folder (#4772)
@@ -539,7 +539,7 @@
 - Fixed: Fixed error handling when no session is provided (63a5bfa)
 - Fixed: Fixed uploading empty file to the API (#4402)
 
-## [server-v1.7.2](https://github.com/laurent22/joplin/releases/tag/server-v1.7.2) - 2021-01-24T19:11:10Z
+## [server-v1.7.2](https://github.com/dpjl/joplin/releases/tag/server-v1.7.2) - 2021-01-24T19:11:10Z
 
 - Fixed: Fixed password hashing when changing password
 - Improved: Many other internal changes for increased reliability

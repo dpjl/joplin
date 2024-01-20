@@ -480,7 +480,7 @@ export default class BaseApplication {
 		// Should refresh the notes when:
 		// - A tag is selected, to show the notes for that tag
 		// - When a tag is updated so that when searching by tags, the search results are updated
-		// https://github.com/laurent22/joplin/issues/3754
+		// https://github.com/dpjl/joplin/issues/3754
 		if (['TAG_SELECT', 'TAG_DELETE', 'TAG_UPDATE_ONE', 'NOTE_TAG_REMOVE'].includes(action.type)) {
 			refreshNotes = true;
 		}

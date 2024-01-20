@@ -17,8 +17,8 @@ All participants will need a Google account in order to join the program. So, sa
 We suggest you read carefully these important documents and bookmark the links as you will need to refer to them throughout GSoC:
 
 - [How to submit a pull request for GSoC](https://joplinapp.org/help/dev/gsoc/gsoc2022/pull_request_guidelines/)
-- [How to build the apps](https://github.com/laurent22/joplin/blob/dev/help/dev/BUILD.md)
-- [How to contribute](https://github.com/laurent22/joplin/blob/dev/readme/dev/index.md)
+- [How to build the apps](https://github.com/dpjl/joplin/blob/dev/help/dev/BUILD.md)
+- [How to contribute](https://github.com/dpjl/joplin/blob/dev/readme/dev/index.md)
 
 ## Programming Language
 
@@ -49,9 +49,9 @@ Contributors who neglect active communication will be failed!
 
 Before you can be accepted as a contributor we expect you to write some code and link that work on your proposal. As a first pull request, we suggest one of the following:
 
-- Fix a [high priority](https://github.com/laurent22/joplin/issues?utf8=%E2%9C%93&q=is:open+is:issue+label:bug+label:high) or [medium priority](https://github.com/laurent22/joplin/issues?utf8=%E2%9C%93&q=is:open+is:issue+label:bug+label:medium) bug. This is something we highly value and is a good way to get a deep understanding of certain parts of the codebase.
+- Fix a [high priority](https://github.com/dpjl/joplin/issues?utf8=%E2%9C%93&q=is:open+is:issue+label:bug+label:high) or [medium priority](https://github.com/dpjl/joplin/issues?utf8=%E2%9C%93&q=is:open+is:issue+label:bug+label:medium) bug. This is something we highly value and is a good way to get a deep understanding of certain parts of the codebase.
 
-- Alternatively you may browse the [GitHub Issues](https://github.com/laurent22/joplin/issues) to find something that can be worked on. Note that this is a difficult way to get a pull request in, so make sure the issue you choose has a very clear technical spec. If we need to discuss how it should work or what it should do in the pull request, it means there was no consensus for this feature, and we are likely to close the pull request.
+- Alternatively you may browse the [GitHub Issues](https://github.com/dpjl/joplin/issues) to find something that can be worked on. Note that this is a difficult way to get a pull request in, so make sure the issue you choose has a very clear technical spec. If we need to discuss how it should work or what it should do in the pull request, it means there was no consensus for this feature, and we are likely to close the pull request.
 
 - Please **do not submit a pull request just to fix some typo**.
 

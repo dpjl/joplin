@@ -106,7 +106,7 @@ export default class Revision extends BaseItem {
 	}
 
 	// We need to sanitise the object patch because it seems some are broken and
-	// may contain new lines: https://github.com/laurent22/joplin/issues/6209
+	// may contain new lines: https://github.com/dpjl/joplin/issues/6209
 	private static sanitizeObjectPatch(patch: string): string {
 		return patch.replace(/[\n\r]/g, '');
 	}

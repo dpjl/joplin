@@ -16,9 +16,9 @@ import { ListRenderer } from './noteListType';
  *
  * ## Reference
  *
- * * [View the demo plugin](https://github.com/laurent22/joplin/tree/dev/packages/app-cli/tests/support/plugins/note_list_renderer)
+ * * [View the demo plugin](https://github.com/dpjl/joplin/tree/dev/packages/app-cli/tests/support/plugins/note_list_renderer)
  *
- * * [Default list renderer](https://github.com/laurent22/joplin/tree/dev/packages/lib/services/noteList/defaultListRenderer.ts)
+ * * [Default list renderer](https://github.com/dpjl/joplin/tree/dev/packages/lib/services/noteList/defaultListRenderer.ts)
  *
  * ## Screenshots:
  *

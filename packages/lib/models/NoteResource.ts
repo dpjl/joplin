@@ -137,7 +137,7 @@ export default class NoteResource extends BaseModel {
 			// "last_seen_time", so that it can be considered an orphan reosurce
 			// that can be auto-deleted.
 			//
-			// https://github.com/laurent22/joplin/issues/932#issuecomment-933736405
+			// https://github.com/dpjl/joplin/issues/932#issuecomment-933736405
 
 			const hasBeenSynced = await BaseItem.itemHasBeenSynced(id);
 			const lastSeenTime = hasBeenSynced ? 0 : Date.now();

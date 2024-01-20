@@ -34,7 +34,7 @@ import { JoplinViewsDialogs as JoplinViewsDialogsImplementation } from '../BaseP
  * will be automatically clicked.
  *
  * [View the demo
- * plugin](https://github.com/laurent22/joplin/tree/dev/packages/app-cli/tests/support/plugins/dialog)
+ * plugin](https://github.com/dpjl/joplin/tree/dev/packages/app-cli/tests/support/plugins/dialog)
  */
 export default class JoplinViewsDialogs {
 

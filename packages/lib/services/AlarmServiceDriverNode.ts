@@ -52,7 +52,7 @@ export default class AlarmServiceDriverNode {
 
 		// Message is required on Windows 7 however we don't want to repeat the title so
 		// make it an empty string.
-		// https://github.com/laurent22/joplin/issues/2144
+		// https://github.com/dpjl/joplin/issues/2144
 		if (!o.message) o.message = '-';
 
 		this.logger().info('AlarmServiceDriverNode::scheduleNotification: Triggering notification (default):', o);

@@ -38,7 +38,7 @@
 	function getAnchorNames(element) {
 		const output = [];
 		// Anchor names are normally in A tags but can be in SPAN too
-		// https://github.com/laurent22/joplin-turndown/commit/45f4ee6bf15b8804bdc2aa1d7ecb2f8cb594b8e5#diff-172b8b2bc3ba160589d3a7eeb4913687R232
+		// https://github.com/dpjl/joplin-turndown/commit/45f4ee6bf15b8804bdc2aa1d7ecb2f8cb594b8e5#diff-172b8b2bc3ba160589d3a7eeb4913687R232
 		for (const tagName of ['a', 'span']) {
 			const anchors = element.getElementsByTagName(tagName);
 			for (let i = 0; i < anchors.length; i++) {
@@ -321,7 +321,7 @@
 			// previously that imported note would show blank content, while now
 			// it will be visible.
 			//
-			// Fixes https://github.com/laurent22/joplin/issues/7925
+			// Fixes https://github.com/dpjl/joplin/issues/7925
 			if (document.body.getAttribute('style')) {
 				stylesheets.push({
 					type: 'text',
@@ -342,7 +342,7 @@
 
 			// Even when the user makes only one selection, Firefox might report multiple selections
 			// so we need to process them all.
-			// Fixes https://github.com/laurent22/joplin/issues/2294
+			// Fixes https://github.com/dpjl/joplin/issues/2294
 			for (let i = 0; i < rangeCount; i++) {
 				const range = window.getSelection().getRangeAt(i);
 				container.appendChild(range.cloneContents());

@@ -9,7 +9,7 @@ import createViewHandle from '../utils/createViewHandle';
 /**
  * Allows creating and managing menu items.
  *
- * [View the demo plugin](https://github.com/laurent22/joplin/tree/dev/packages/app-cli/tests/support/plugins/register_command)
+ * [View the demo plugin](https://github.com/dpjl/joplin/tree/dev/packages/app-cli/tests/support/plugins/register_command)
  */
 export default class JoplinViewsMenuItems {
 

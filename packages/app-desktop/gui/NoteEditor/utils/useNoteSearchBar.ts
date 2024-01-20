@@ -43,7 +43,7 @@ export default function useNoteSearchBar({ noteSearchBarRef }: UseNoteSearchBarP
 	const onChange = useCallback((query: string) => {
 		// A query that's too long would make CodeMirror throw an exception
 		// which would crash the app.
-		// https://github.com/laurent22/joplin/issues/5380
+		// https://github.com/dpjl/joplin/issues/5380
 		if (query.length > queryMaxLength) {
 			logger.warn(`Query is longer than ${queryMaxLength} characters - it is going to be trimmed`);
 			query = query.substr(0, queryMaxLength);

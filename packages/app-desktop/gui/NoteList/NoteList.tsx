@@ -496,10 +496,10 @@ const NoteListComponent = (props: Props) => {
 	// eslint-disable-next-line @seiyab/react-hooks/exhaustive-deps -- Old code before rule was applied
 	useEffect(() => {
 		// When a note list item is styled by userchrome.css, its height is reflected.
-		// Ref. https://github.com/laurent22/joplin/pull/6542
+		// Ref. https://github.com/dpjl/joplin/pull/6542
 		if (dragOverTargetNoteIndex !== null) {
 			// When dragged, its height should not be considered.
-			// Ref. https://github.com/laurent22/joplin/issues/6639
+			// Ref. https://github.com/dpjl/joplin/issues/6639
 			return;
 		}
 		const noteItem = Object.values<any>(itemAnchorRefs_.current)[0]?.current;

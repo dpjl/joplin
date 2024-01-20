@@ -66,7 +66,7 @@ export const renderTags = (props: Props, renderItem: RenderTagItem) => {
 		// and before tag has been decrypted?). It would be best to find
 		// the root cause but for now that will do.
 		//
-		// Fixes https://github.com/laurent22/joplin/issues/4051
+		// Fixes https://github.com/dpjl/joplin/issues/4051
 		if (!a || !a.title || !b || !b.title) return 0;
 
 		// Note: while newly created tags are normalized and lowercase

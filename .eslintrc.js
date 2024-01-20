@@ -112,7 +112,7 @@ module.exports = {
 		'quotes': ['error', 'single'],
 
 		// Note that "indent" only applies to JavaScript files. See
-		// https://github.com/laurent22/joplin/issues/8360
+		// https://github.com/dpjl/joplin/issues/8360
 		'indent': ['error', 'tab'],
 		'comma-dangle': ['error', {
 			'arrays': 'always-multiline',

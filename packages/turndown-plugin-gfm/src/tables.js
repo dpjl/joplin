@@ -7,7 +7,7 @@ let isCodeBlock_ = null;
 
 // We need to cache the result of tableShouldBeSkipped() as it is expensive.
 // Caching it means we went from about 9000 ms for rendering down to 90 ms.
-// Fixes https://github.com/laurent22/joplin/issues/6736 
+// Fixes https://github.com/dpjl/joplin/issues/6736 
 const tableShouldBeSkippedCache_ = new Map();
 
 function getAlignment(node) {

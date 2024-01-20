@@ -70,7 +70,7 @@ export default function useSource(
 		// eslint-disable-next-line @seiyab/react-hooks/exhaustive-deps -- Old code before rule was applied
 	}, [isFirstRender]);
 
-	// To address https://github.com/laurent22/joplin/issues/433
+	// To address https://github.com/dpjl/joplin/issues/433
 	//
 	// If a checkbox in a note is ticked, the body changes, which normally would
 	// trigger a re-render of this component, which has the unfortunate side

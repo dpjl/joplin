@@ -3,7 +3,7 @@
 // the scroll positions (percents) of the elements in the HTML document transformed
 // from the Markdown text.
 // To see the detail of synchronous scrolling, refer the following design document.
-// <s> Replace me! https://github.com/laurent22/joplin/pull/5512#issuecomment-931277022 </s>
+// <s> Replace me! https://github.com/dpjl/joplin/pull/5512#issuecomment-931277022 </s>
 
 const scrollmap = {
 	map_: null,

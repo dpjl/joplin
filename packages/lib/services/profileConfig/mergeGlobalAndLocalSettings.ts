@@ -19,7 +19,7 @@ export default (rootSettings: Record<string, any>, subProfileSettings: Record<st
 				// sub-profile won't necessarily have these plugins. In that
 				// case, the app will throw an error, but we can ignore it since
 				// we don't need this particular setting.
-				// https://github.com/laurent22/joplin/issues/8143
+				// https://github.com/dpjl/joplin/issues/8143
 				logger.info(`Ignoring unknown key in root settings: ${k}`);
 			}
 		}
@@ -44,7 +44,7 @@ export default (rootSettings: Record<string, any>, subProfileSettings: Record<st
 				// sub-profile won't necessarily have these plugins. In that
 				// case, the app will throw an error, but we can ignore it since
 				// we don't need this particular setting.
-				// https://github.com/laurent22/joplin/issues/8143
+				// https://github.com/dpjl/joplin/issues/8143
 				logger.info(`Ignoring unknown key in root settings: ${k}`);
 			}
 		}

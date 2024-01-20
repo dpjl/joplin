@@ -1,6 +1,6 @@
 # Joplin Renderer
 
-This is the renderer used by [Joplin](https://github.com/laurent22/joplin) to render notes in Markdown or HTML format.
+This is the renderer used by [Joplin](https://github.com/dpjl/joplin) to render notes in Markdown or HTML format.
 
 ## Installation
 

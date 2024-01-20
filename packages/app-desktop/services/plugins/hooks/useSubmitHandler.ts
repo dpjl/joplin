@@ -20,7 +20,7 @@ export default function(frameWindow: any, onSubmit: Function, onDismiss: Functio
 			if (event.key === 'Enter') {
 				//
 				// Disable enter key from submitting when a text area is in focus!
-				// https://github.com/laurent22/joplin/issues/4766
+				// https://github.com/dpjl/joplin/issues/4766
 				//
 				if (document.activeElement.tagName !== 'TEXTAREA') {
 					if (onSubmit) onSubmit();

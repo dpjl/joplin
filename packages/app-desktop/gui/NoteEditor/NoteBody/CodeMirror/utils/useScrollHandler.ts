@@ -116,7 +116,7 @@ export default function useScrollHandler(editorRef: any, webviewRef: any, onScro
 				// when switching to another note, the percent can sometimes be NaN
 				// this is coming from `gui/NoteEditor/NoteBody/CodeMirror/utils/useScrollUtils.ts`
 				// when CodeMirror returns scroll info with heigth == clientHeigth
-				// https://github.com/laurent22/joplin/issues/4797
+				// https://github.com/dpjl/joplin/issues/4797
 				if (!ignored) {
 					// calculates GUI-independent line-based percent
 					const percent = translateScrollPercentE2L(cm, editorPercent);
@@ -162,7 +162,7 @@ export default function useScrollHandler(editorRef: any, webviewRef: any, onScro
 
 	// When heights of lines are updated in CodeMirror, 'update' events are raised.
 	// If such an update event is raised, scroll position should be restored.
-	// See https://github.com/laurent22/joplin/issues/5981
+	// See https://github.com/dpjl/joplin/issues/5981
 	const editor_update = useCallback((cm: any, edited: boolean) => {
 		if (isCodeMirrorReady(cm)) {
 			if (edited) return;
@@ -225,7 +225,7 @@ const translateLE_ = (codeMirror: any, percent: number, l2e: boolean) => {
 // the translation functions between Editor's scroll percent and line-based scroll
 // percent. They are used for synchronous scrolling between Editor and Viewer.
 // To see the detail of synchronous scrolling, refer the following design document.
-// https://github.com/laurent22/joplin/pull/5826#issuecomment-986032165
+// https://github.com/dpjl/joplin/pull/5826#issuecomment-986032165
 const translateScrollPercentL2E = (cm: any, lPercent: number) => {
 	return translateLE_(cm, lPercent, true);
 };

@@ -454,7 +454,7 @@ class ConfigScreenComponent extends React.Component<any, any> {
 					// set the set the value to "undefined", leading to a crash.
 					// This is now fixed at the model level but to be sure we
 					// check here too, to handle any already existing data.
-					// https://github.com/laurent22/joplin/issues/7621
+					// https://github.com/dpjl/joplin/issues/7621
 					if (!cmdString) cmdString = '';
 					const path = pathUtils.extractExecutablePath(cmdString);
 					const args = cmdString.substr(path.length + 1);

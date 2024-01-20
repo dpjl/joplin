@@ -10,4 +10,4 @@ See [documentation and flow chart for reporter choice](https://github.com/mikael
 
 On mobile, the alarms will be displayed using the built-in notification system.
 
-If for any reason the notifications do not work, please [open an issue](https://github.com/laurent22/joplin/issues).
+If for any reason the notifications do not work, please [open an issue](https://github.com/dpjl/joplin/issues).

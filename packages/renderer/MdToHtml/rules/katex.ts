@@ -306,7 +306,7 @@ export default {
 	plugin: function(markdownIt: any, options: RuleOptions) {
 		// Keep macros that persist across Katex blocks to allow defining a macro
 		// in one block and re-using it later in other blocks.
-		// https://github.com/laurent22/joplin/issues/1105
+		// https://github.com/dpjl/joplin/issues/1105
 		if (!options.context.userData.__katex) options.context.userData.__katex = { macros: {} };
 
 		const katexOptions: any = {};

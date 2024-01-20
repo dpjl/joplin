@@ -298,7 +298,7 @@ describe('MdToHtml', () => {
 		// This test is intended to verify that inline KaTeX renders correctly
 		// after creating a numbered equation with \begin{align}...\end{align}.
 		//
-		// See https://github.com/laurent22/joplin/issues/9455 for details.
+		// See https://github.com/dpjl/joplin/issues/9455 for details.
 
 		const markdown = [
 			'$$',

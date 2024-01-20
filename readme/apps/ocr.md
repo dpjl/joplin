@@ -4,7 +4,7 @@ Optical Character Recognition (OCR) involves transforming an image containing te
 
 ## Enabling OCR
 
-You can enable OCR from the [Configuration screen](https://github.com/laurent22/joplin/blob/dev/readme/apps/config_screen.md), under the "General" section. Once you do so, Joplin is going to scan your images and PDF files to extract text data from it. That data will not be visible but will be associated with those files.
+You can enable OCR from the [Configuration screen](https://github.com/dpjl/joplin/blob/dev/readme/apps/config_screen.md), under the "General" section. Once you do so, Joplin is going to scan your images and PDF files to extract text data from it. That data will not be visible but will be associated with those files.
 
 Then, when you search, the application will be able to tell you what notes but also what attachments match the query. In this case, a banner will be displayed at the top of the note that contains the attachment(s):
 

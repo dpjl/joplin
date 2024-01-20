@@ -1,12 +1,12 @@
 # Joplin Terminal App Changelog
 
-## [cli-v2.13.2](https://github.com/laurent22/joplin/releases/tag/cli-v2.13.2) - 2023-11-30T18:11:38Z
+## [cli-v2.13.2](https://github.com/dpjl/joplin/releases/tag/cli-v2.13.2) - 2023-11-30T18:11:38Z
 
 - Improved: Updated packages mermaid (v10.5.1), sass (v1.69.5)
 - Fixed: Import of inter-linked md files has incorrect notebook structure (#9269) (#9151 by [@pedr](https://github.com/pedr))
 - Fixed: Work around WebDAV sync issues over ipv6 (#9286) (#8788 by Henry Heino)
 
-## [cli-v2.13.1](https://github.com/laurent22/joplin/releases/tag/cli-v2.13.1) - 2023-11-09T20:08:17Z
+## [cli-v2.13.1](https://github.com/dpjl/joplin/releases/tag/cli-v2.13.1) - 2023-11-09T20:08:17Z
 
 - Improved: Allow modifying a resource metadata only when synchronising (#9114)
 - Improved: Allow searching by note ID or using a callback URL (3667bf3)
@@ -23,7 +23,7 @@
 - Fixed: Improved import of invalid Markdown+FrontMatter files (#8802)
 - Fixed: Prevent application from being stuck when importing an invalid ENEX file (#8699)
 
-## [cli-v2.12.1](https://github.com/laurent22/joplin/releases/tag/cli-v2.12.1) - 2023-08-23T12:53:19Z
+## [cli-v2.12.1](https://github.com/dpjl/joplin/releases/tag/cli-v2.12.1) - 2023-08-23T12:53:19Z
 
 - New: Add support for share permissions (#8491)
 - Improved: Allow importing Evernote task lists (#8440 by Rob Moffat)
@@ -32,7 +32,7 @@
 - Improved: WebDAV: Show a more descriptive error message when the password is empty (#8477) (#8466 by Henry Heino)
 - Security: Prevent XSS when passing specially encoded string to a link (57b4198)
 
-## [cli-v2.11.1](https://github.com/laurent22/joplin/releases/tag/cli-v2.11.1) - 2023-06-27T09:28:01Z
+## [cli-v2.11.1](https://github.com/dpjl/joplin/releases/tag/cli-v2.11.1) - 2023-06-27T09:28:01Z
 
 - Improved: Updated packages aws, buildTools, domutils (v3.1.0), fs-extra (v11.1.1), jsdom (v21.1.2), markdown-it-multimd-table (v4.2.2), nanoid (v3.3.6), node-persist (v3.1.3), open (v8.4.2), reselect (v4.1.8), sass (v1.62.1), sharp (v0.32.1), sqlite3 (v5.1.6), tar (v6.1.15), turndown (v7.1.2), yargs (v17.7.2)
 - Improved: Upgrade E2EE encryption method to AES-256 (#7686)
@@ -42,15 +42,15 @@
 - Fixed: Fix OneDrive sync attempting to call method on `null` variable (#7987) (#7986 by Henry Heino)
 - Fixed: Improve selection of active E2EE key (#8254)
 
-## [cli-v2.10.3](https://github.com/laurent22/joplin/releases/tag/cli-v2.10.3) - 2023-02-26T13:03:59Z
+## [cli-v2.10.3](https://github.com/dpjl/joplin/releases/tag/cli-v2.10.3) - 2023-02-26T13:03:59Z
 
 - Fixed: Fixed "sync" command when calling it in non-interactive mode (d157b9c)
 
-## [cli-v2.10.2](https://github.com/laurent22/joplin/releases/tag/cli-v2.10.2) - 2023-02-26T12:41:23Z
+## [cli-v2.10.2](https://github.com/dpjl/joplin/releases/tag/cli-v2.10.2) - 2023-02-26T12:41:23Z
 
 - Improved: Create subnotebooks (#6722) (#1728 by Andrej Lifinzew)
 
-## [cli-v2.10.1](https://github.com/laurent22/joplin/releases/tag/cli-v2.10.1) - 2023-02-25T16:49:17Z
+## [cli-v2.10.1](https://github.com/dpjl/joplin/releases/tag/cli-v2.10.1) - 2023-02-25T16:49:17Z
 
 - Improved: Stop synchronization with unsupported WebDAV providers (#7819) (#7661 by [@julien](https://github.com/julien))
 - Improved: Switch license to AGPL-3.0 (faf0a4e)
@@ -59,7 +59,7 @@
 - Fixed: Support non-ASCII characters in OneDrive (#6916) (#6838 by Self Not Found)
 - Security: Fix XSS when a specially crafted string is passed to the renderer (762b4e8)
 
-## [cli-v2.9.1](https://github.com/laurent22/joplin/releases/tag/cli-v2.9.1) - 2022-10-12T14:49:48Z
+## [cli-v2.9.1](https://github.com/dpjl/joplin/releases/tag/cli-v2.9.1) - 2022-10-12T14:49:48Z
 
 - Improved: Added note count indicator per notebook (#6526) (#6478 by Eduardo Esparza)
 - Improved: Toggle short ids and mv notebooks (#6671) (#1728 by Andrej Lifinzew)
@@ -67,7 +67,7 @@
 - Fixed: Fix resources sync when proxy is set (#6817) (#6688 by Self Not Found)
 - Fixed: Fixed names of imported duplicate notebooks (#6704)
 
-## [cli-v2.8.1](https://github.com/laurent22/joplin/releases/tag/cli-v2.8.1) - 2022-05-18T13:02:48Z
+## [cli-v2.8.1](https://github.com/dpjl/joplin/releases/tag/cli-v2.8.1) - 2022-05-18T13:02:48Z
 
 - New: Add additional time format HH.mm (#6086 by [@vincentjocodes](https://github.com/vincentjocodes))
 - Improved: Do no duplicate resources when duplicating a note (721d008)
@@ -81,7 +81,7 @@
 - Fixed: Note export could fail in some cases (regression) (#6203)
 - Fixed: Shared resource was not encrypted with correct encryption key (#6092)
 
-## [cli-v2.6.2](https://github.com/laurent22/joplin/releases/tag/cli-v2.6.2) - 2021-12-17T11:19:45Z
+## [cli-v2.6.2](https://github.com/dpjl/joplin/releases/tag/cli-v2.6.2) - 2021-12-17T11:19:45Z
 
 - New: Add date format YYYY/MM/DD (#5759 by Helmut K. C. Tessarek)
 - New: Add support for faster built-in sync locks (#5662)
@@ -100,7 +100,7 @@
 - Fixed: Long resource filenames were being incorrectly cut (#5653)
 - Fixed: Sharing multiple notebooks via Joplin Server with the same user results in an error (#5721)
 
-## [cli-v2.6.1](https://github.com/laurent22/joplin/releases/tag/cli-v2.6.1) - 2021-11-03T11:33:18Z
+## [cli-v2.6.1](https://github.com/dpjl/joplin/releases/tag/cli-v2.6.1) - 2021-11-03T11:33:18Z
 
 - New: Add support for public-private key pairs and improved master password support (#5438)
 - New: Added mechanism to migrate default settings to new values (72db8e4)
@@ -114,7 +114,7 @@
 - Fixed: Fixed running out of memory when importing large ENEX files (#5543)
 - Fixed: Ignore newline between quotes while spliting batch (#5540) (#5341 by Kingsley Yung)
 
-## [cli-v2.4.1](https://github.com/laurent22/joplin/releases/tag/cli-v2.4.1) - 2021-09-29T15:28:01Z
+## [cli-v2.4.1](https://github.com/dpjl/joplin/releases/tag/cli-v2.4.1) - 2021-09-29T15:28:01Z
 
 - New: Add a way to disable a master key (7faa58e)
 - New: Add support for single master password, to simplify handling of multiple encryption keys (ce89ee5)
@@ -125,17 +125,17 @@
 - Fixed: Misinterpreted search term after filter in quotation marks (#5445) (#5444 by [@JackGruber](https://github.com/JackGruber))
 - Fixed: Setting note contents using "set" command does not update note timestamp (#5435)
 
-## [cli-v2.3.2](https://github.com/laurent22/joplin/releases/tag/cli-v2.3.2) - 2021-08-16T09:38:40Z
+## [cli-v2.3.2](https://github.com/dpjl/joplin/releases/tag/cli-v2.3.2) - 2021-08-16T09:38:40Z
 
 - Improved: Improved E2EE usability by making its state a property of the sync target (#5276)
 - Fixed: Bump hightlight.js to v11.2 (#5278) (#5245 by Roman Musin)
 - Fixed: Fixed version command so that it does not require the keychain (ca6d8ec)
 
-## [cli-v2.2.2](https://github.com/laurent22/joplin/releases/tag/cli-v2.2.2) - 2021-08-11T15:34:56Z
+## [cli-v2.2.2](https://github.com/dpjl/joplin/releases/tag/cli-v2.2.2) - 2021-08-11T15:34:56Z
 
 - Fixed: Fixed version command so that it does not require the keychain (15766d1)
 
-## [cli-v2.2.1](https://github.com/laurent22/joplin/releases/tag/cli-v2.2.1) - 2021-08-10T10:21:09Z
+## [cli-v2.2.1](https://github.com/dpjl/joplin/releases/tag/cli-v2.2.1) - 2021-08-10T10:21:09Z
 
 - Improved: Ensure that timestamps are not changed when sharing or unsharing a note (cafaa9c)
 - Improved: Fix AWS S3 sync error and upgrade framework to v3 (#5212) (#4810 by Lee Matos)
@@ -145,7 +145,7 @@
 - Fixed: Fixed issue with orphaned resource being created in case of a resource conflict (#5223)
 - Fixed: Import highlighted text from ENEX files (#5213)
 
-## [cli-v2.1.2](https://github.com/laurent22/joplin/releases/tag/cli-v2.1.2) - 2021-06-27T15:51:36Z
+## [cli-v2.1.2](https://github.com/dpjl/joplin/releases/tag/cli-v2.1.2) - 2021-06-27T15:51:36Z
 
 - New: Add support for X-API-MIN-VERSION header (51f3c00)
 - New: Added flag to disable local lock when synchronising (7aff6d2)
@@ -160,7 +160,7 @@
 - Fixed: Fixed search when the index contains non-existing notes (5ecac21)
 - Fixed: Handle special type of code block when importing ENEX files (#4965)
 
-## [cli-v2.0.1](https://github.com/laurent22/joplin/releases/tag/cli-v2.0.1) - 2021-06-16T19:06:28Z
+## [cli-v2.0.1](https://github.com/dpjl/joplin/releases/tag/cli-v2.0.1) - 2021-06-16T19:06:28Z
 
 - New: Add new date format YYMMDD (#4954 by Helmut K. C. Tessarek)
 - New: Add support for sharing notebooks with Joplin Server (#4772)
@@ -174,7 +174,7 @@
 - Fixed: Improved importing Evernote notes that contain codeblocks (#4965)
 - Fixed: Items are filtered in the API search (#5017) (#5007 by [@JackGruber](https://github.com/JackGruber))
 
-## [cli-v1.8.1](https://github.com/laurent22/joplin/releases/tag/cli-v1.8.1) - 2021-05-10T09:38:05Z
+## [cli-v1.8.1](https://github.com/dpjl/joplin/releases/tag/cli-v1.8.1) - 2021-05-10T09:38:05Z
 
 - New: Add "id" and "due" search filters (#4898 by [@JackGruber](https://github.com/JackGruber))
 - New: Add support for "batch" command (eef86d6)
@@ -190,11 +190,11 @@
 - Fixed: Regression: Fixed network request repeat mechanism (ede6004)
 - Security: Apply npm audit security fixes (0b67446)
 
-## [cli-v1.6.4](https://github.com/laurent22/joplin/releases/tag/cli-v1.6.4) - 2021-01-21T10:01:15Z
+## [cli-v1.6.4](https://github.com/dpjl/joplin/releases/tag/cli-v1.6.4) - 2021-01-21T10:01:15Z
 
 - Fixed: Fixed infinite sync issue with OneDrive (#4305)
 
-## [cli-v1.6.3](https://github.com/laurent22/joplin/releases/tag/cli-v1.6.3) - 2021-01-11T11:52:11Z
+## [cli-v1.6.3](https://github.com/dpjl/joplin/releases/tag/cli-v1.6.3) - 2021-01-11T11:52:11Z
 
 - New: Add more log info when a revision cannot be deleted due to still-encrypted itel
 - Improved: Do not display error message when fixing ENEX resource mime type (#4310)
@@ -205,7 +205,7 @@
 - Fixed: Fixed OneDrive issue that would require a full resync every time (#4324) (#4313 by Jonathan Heard)
 - Fixed: Fixed importing ENEX files that contain hidden sections
 
-## [cli-v1.6.2](https://github.com/laurent22/joplin/releases/tag/cli-v1.6.2) - 2021-01-11T11:41:56Z
+## [cli-v1.6.2](https://github.com/dpjl/joplin/releases/tag/cli-v1.6.2) - 2021-01-11T11:41:56Z
 
 - New: Add more log info when a revision cannot be deleted due to still-encrypted item
 - Improved: Do not display error message when fixing ENEX resource mime type (#4310)
@@ -216,7 +216,7 @@
 - Fixed: Fixed OneDrive issue that would require a full resync every time (#4324) (#4313 by Jonathan Heard)
 - Fixed: Fixed importing ENEX files that contain hidden sections
 
-## [cli-v1.5.1](https://github.com/laurent22/joplin/releases/tag/cli-v1.5.1) - 2020-12-26T00:46:31Z
+## [cli-v1.5.1](https://github.com/dpjl/joplin/releases/tag/cli-v1.5.1) - 2020-12-26T00:46:31Z
 
 - New: Add table captions when importing ENEX files
 - Improved: Allow exporting conflict notes (#4095)
@@ -232,7 +232,7 @@
 - Fixed: Fixed issue when searching for text that contains diacritic (#4152) (#4025 by Roman Musin)
 - Fixed: Fixed issues when importing hidden tables within hidden sections in Enex files
 
-## [cli-v1.4.9](https://github.com/laurent22/joplin/releases/tag/cli-v1.4.9) - 2020-11-26T15:00:37Z
+## [cli-v1.4.9](https://github.com/dpjl/joplin/releases/tag/cli-v1.4.9) - 2020-11-26T15:00:37Z
 
 - Improved: Allow exporting conflict notes (#4095)
 - Improved: Allow lowercase filters when doing search
@@ -240,16 +240,16 @@
 - Fixed: Fix handling of new line escaping when using external edit
 - Fixed: Fixed importing certain ENEX files that contain invalid dates
 
-## [cli-v1.4.3](https://github.com/laurent22/joplin/releases/tag/cli-v1.4.3) - 2020-11-06T21:19:29Z
+## [cli-v1.4.3](https://github.com/dpjl/joplin/releases/tag/cli-v1.4.3) - 2020-11-06T21:19:29Z
 
-IMPORTANT: If you use the web API, please note that there are a few breaking changes in this release. See here for more information: https://github.com/laurent22/joplin/pull/3983#issue-509624899
+IMPORTANT: If you use the web API, please note that there are a few breaking changes in this release. See here for more information: https://github.com/dpjl/joplin/pull/3983#issue-509624899
 
 - New: API: Adds ability to paginate data (#3983)
 - Fixed: Display proper error message when decryption worker cannot be started (#4000)
 - Fixed: Fixed OneDrive authentication
 - Fixed: Fixed sync issue when importing ENEX files that contain new line characters in the source URL attribute (#3955)
 
-## [cli-v1.3.3](https://github.com/laurent22/joplin/releases/tag/cli-v1.3.3) - 2020-10-23T16:00:38Z
+## [cli-v1.3.3](https://github.com/dpjl/joplin/releases/tag/cli-v1.3.3) - 2020-10-23T16:00:38Z
 
 - Improved: Added support for a custom S3 URL (#3921) (#3691 by [@aaron](https://github.com/aaron))
 - Improved: Allow setting note geolocation attributes via API (#3884)
@@ -265,34 +265,34 @@ IMPORTANT: If you use the web API, please note that there are a few breaking cha
 - Fixed: Importing ENEX as HTML was importing as Markdown (#3923)
 - Fixed: Regression: Fix export of pluginAssets when exporting to html/pdf (#3927 by Caleb John)
 
-## [cli-v1.2.3](https://github.com/laurent22/joplin/releases/tag/cli-v1.2.3) - 2020-10-09T11:17:18Z
+## [cli-v1.2.3](https://github.com/dpjl/joplin/releases/tag/cli-v1.2.3) - 2020-10-09T11:17:18Z
 
 - Improved: Improved handling of database migration failures
 
-## [cli-v1.2.2](https://github.com/laurent22/joplin/releases/tag/cli-v1.2.2) - 2020-09-29T11:33:53Z
+## [cli-v1.2.2](https://github.com/dpjl/joplin/releases/tag/cli-v1.2.2) - 2020-09-29T11:33:53Z
 
 - Fixed: Fixed crash due to missing spellfix extension
 - Fixed: Fixed link generation when exporting to PDF or HTML (#3780)
 - Fixed: Improved handling of special characters when exporting to Markdown (#3760)
 
-## [cli-v1.2.1](https://github.com/laurent22/joplin/releases/tag/cli-v1.2.1) - 2020-09-23T11:15:12Z
+## [cli-v1.2.1](https://github.com/dpjl/joplin/releases/tag/cli-v1.2.1) - 2020-09-23T11:15:12Z
 
 - Fixed: Fixed crash due to missing spellfix extension
 - Fixed: Fixed link generation when exporting to PDF or HTML (#3780)
 - Fixed: Improved handling of special characters when exporting to Markdown (#3760)
 
-## [cli-v1.1.8](https://github.com/laurent22/joplin/releases/tag/cli-v1.1.8) - 2020-09-21T12:02:29Z
+## [cli-v1.1.8](https://github.com/dpjl/joplin/releases/tag/cli-v1.1.8) - 2020-09-21T12:02:29Z
 
 - Improved: Do not prevent export when one item is still encrypted
 - Improved: Fix keytar library being loaded up in FreeBSD. (#3712) (#3711 by Jose Esteve)
 - Fixed: Fixed note export when there are folders with non-existing parents. Also fixed long path issue on Windows. (#3689)
 - Fixed: Increased file extension limit to 20 to prevent issue when using external editors (#3696)
 
-## [cli-v1.0.168](https://github.com/laurent22/joplin/releases/tag/cli-v1.0.168) - 2020-09-14T08:47:08Z
+## [cli-v1.0.168](https://github.com/dpjl/joplin/releases/tag/cli-v1.0.168) - 2020-09-14T08:47:08Z
 
 - Improved: Implemented reliable way to sync device and server clocks
 
-## [cli-v1.0.167](https://github.com/laurent22/joplin/releases/tag/cli-v1.0.167) - 2020-09-04T17:15:49Z
+## [cli-v1.0.167](https://github.com/dpjl/joplin/releases/tag/cli-v1.0.167) - 2020-09-04T17:15:49Z
 
 - New: Add mechanism to lock and upgrade sync targets (#3524)
 - Improved: Add search filters (#3213) (#1877 by Naveen M V)
@@ -301,14 +301,14 @@ IMPORTANT: If you use the web API, please note that there are a few breaking cha
 - Improved: When searching, weight notes using Okapi BM25 score (#3454 by Naveen M V)
 - Fixed: Fixed sync fetching issue (#3599) (#3591 by [@alexchee](https://github.com/alexchee))
 
-## [cli-v1.0.166](https://github.com/laurent22/joplin/releases/tag/cli-v1.0.166) - 2020-08-02T14:03:26Z
+## [cli-v1.0.166](https://github.com/dpjl/joplin/releases/tag/cli-v1.0.166) - 2020-08-02T14:03:26Z
 
 - New: Add support for AWS S3 synchronisation (Beta) (#2815 by [@alexchee](https://github.com/alexchee))
 - Fixed: Desktop-only scripts were incorrectly being loaded in CLI server tool (#3548)
 - Fixed: Fix filename when exporting notebook as Markdown (#3473)
 - Fixed: Fixed attachments being out of order when importing Enex file
 
-## [cli-v1.0.165](https://github.com/laurent22/joplin/releases/tag/cli-v1.0.165) - 2020-07-10T18:51:42Z
+## [cli-v1.0.165](https://github.com/dpjl/joplin/releases/tag/cli-v1.0.165) - 2020-07-10T18:51:42Z
 
 - New: Translation: Add bahasa indonesia (id_ID.po) (#3246 by [@ffadilaputra](https://github.com/ffadilaputra))
 - Improved: Allow importing ENEX files as HTML
@@ -321,7 +321,7 @@ IMPORTANT: If you use the web API, please note that there are a few breaking cha
 - Fixed: Prevent notebook to be the parent of itself (#3334)
 - Fixed: Sync would fail in some cases due to a database error (#3234)
 
-## [cli-v1.0.164](https://github.com/laurent22/joplin/releases/tag/cli-v1.0.164) - 2020-05-13T15:30:22Z
+## [cli-v1.0.164](https://github.com/dpjl/joplin/releases/tag/cli-v1.0.164) - 2020-05-13T15:30:22Z
 
 - New: Added support for basic search
 - Improved: Improve automatic title generation (#2955) (#2915 by anirudh murali)
@@ -331,7 +331,7 @@ IMPORTANT: If you use the web API, please note that there are a few breaking cha
 - Fixed: Better handling of missing table field bug on Linux (#3088)
 - Fixed: Fix format of geolocation data (#2673 by [@mic704b](https://github.com/mic704b))
 
-## [cli-v1.0.163](https://github.com/laurent22/joplin/releases/tag/cli-v1.0.163) - 2020-04-10T18:31:50Z
+## [cli-v1.0.163](https://github.com/dpjl/joplin/releases/tag/cli-v1.0.163) - 2020-04-10T18:31:50Z
 
 - Improved: Update ko.po (#2986 by [@xmlangel](https://github.com/xmlangel))
 - Improved: Update it_IT.po (#2978 by [@abonte](https://github.com/abonte))
@@ -341,11 +341,11 @@ IMPORTANT: If you use the web API, please note that there are a few breaking cha
 - Fixed: When modifying a conflicted note, it would disappear from the view (#2709)
 - Fixed: Prevent decryption loop when a resource cannot be decrypted (#2257)
 
-## [cli-v1.0.162](https://github.com/laurent22/joplin/releases/tag/cli-v1.0.162) - 2020-04-01T17:16:14Z
+## [cli-v1.0.162](https://github.com/dpjl/joplin/releases/tag/cli-v1.0.162) - 2020-04-01T17:16:14Z
 
 - New: Compatibility with new master key and sync target encryption
 
-## [cli-v1.0.161](https://github.com/laurent22/joplin/releases/tag/cli-v1.0.161) - 2020-03-07T01:20:04Z
+## [cli-v1.0.161](https://github.com/dpjl/joplin/releases/tag/cli-v1.0.161) - 2020-03-07T01:20:04Z
 
 - New: Add more context to encryption errors
 - Improved: Changed default encryption method to CCM
@@ -355,7 +355,7 @@ IMPORTANT: If you use the web API, please note that there are a few breaking cha
 - Fixed: Better handling of rare error in WebDAV server (#2485)
 - Fixed: Fix importing of very large attachments (150MB+) from Evernote ENEX files
 
-## [cli-v1.0.154](https://github.com/laurent22/joplin/releases/tag/cli-v1.0.154) - 2020-02-07T23:22:24Z
+## [cli-v1.0.154](https://github.com/dpjl/joplin/releases/tag/cli-v1.0.154) - 2020-02-07T23:22:24Z
 
 - New: Added new date format YYYY.MM.DD (#2318 by XSAkos)
 - Improved: Reset time fields when duplicating a note (#2428 by [@tekdel](https://github.com/tekdel))
@@ -364,7 +364,7 @@ IMPORTANT: If you use the web API, please note that there are a few breaking cha
 - Fixed: Fix escaping of title when generating a markdown link (#2456) (#2085 by Helmut K. C. Tessarek)
 - Fixed: Fix console messages being displayed in GUI (#2457 by Helmut K. C. Tessarek)
 
-## [cli-v1.0.153](https://github.com/laurent22/joplin/releases/tag/cli-v1.0.153) - 2020-01-24T23:16:32Z
+## [cli-v1.0.153](https://github.com/dpjl/joplin/releases/tag/cli-v1.0.153) - 2020-01-24T23:16:32Z
 
 - New: Added new, more secure encryption methods, so that they can be switched to at a later time
 - New: Add --export, --import, and --import-file flags to joplin config (#2179 by Marcus Hill)
@@ -382,7 +382,7 @@ IMPORTANT: If you use the web API, please note that there are a few breaking cha
 - Fixed: Prevent synch from happening if target dir could not be created, in local sync (#2117)
 - Fixed: Handle rare case when notebook has a parent that no longer exists, which causes a crash when sorting (#2088)
 
-## [cli-v1.0.150](https://github.com/laurent22/joplin/releases/tag/cli-v1.0.150) - 2019-11-11T19:19:03Z
+## [cli-v1.0.150](https://github.com/dpjl/joplin/releases/tag/cli-v1.0.150) - 2019-11-11T19:19:03Z
 
 - New: Add command to list all tags for a note (#2003) (#1974)
 - New: Added concept of sync version and client ID to allow upgrading sync targets
@@ -402,16 +402,16 @@ IMPORTANT: If you use the web API, please note that there are a few breaking cha
 - Fixed: Fixed translation of "Synchronisation Status" (#1906)
 - Fixed: App would crash if trying to index a note that has not been decrypted yet (#1938)
 
-## [cli-v1.0.149](https://github.com/laurent22/joplin/releases/tag/cli-v1.0.149) - 2019-09-27T21:18:57Z
+## [cli-v1.0.149](https://github.com/dpjl/joplin/releases/tag/cli-v1.0.149) - 2019-09-27T21:18:57Z
 
 - New: Add support to Termux by returning a default when platform name cannot be determined (#1905)
 
-## [cli-v1.0.148](https://github.com/laurent22/joplin/releases/tag/cli-v1.0.148) - 2019-09-27T18:42:36Z
+## [cli-v1.0.148](https://github.com/dpjl/joplin/releases/tag/cli-v1.0.148) - 2019-09-27T18:42:36Z
 
 - Improved: Improves deletion fail-safe so it is based on percentage of notes deleted. And display warning on sidebar.
 - Improved: Log last requests in case of a sync error
 
-## [cli-v1.0.147](https://github.com/laurent22/joplin/releases/tag/cli-v1.0.147) - 2019-09-25T21:26:24Z
+## [cli-v1.0.147](https://github.com/dpjl/joplin/releases/tag/cli-v1.0.147) - 2019-09-25T21:26:24Z
 
 - New: Import Evernote notes as HTML (#1887)
 - New: Added fail-safe to prevent data from being wiped out when the sync target is empty
@@ -420,11 +420,11 @@ IMPORTANT: If you use the web API, please note that there are a few breaking cha
 - Fixed: Fixed import of notes that contain links with hashes
 - Fixed: Fixed link issue following last update
 
-## [cli-v1.0.146](https://github.com/laurent22/joplin/releases/tag/cli-v1.0.146) - 2019-09-08T19:12:41Z
+## [cli-v1.0.146](https://github.com/dpjl/joplin/releases/tag/cli-v1.0.146) - 2019-09-08T19:12:41Z
 
 - Fixed: Fixed regression that was making installation fail
 
-## [cli-v1.0.145](https://github.com/laurent22/joplin/releases/tag/cli-v1.0.145) - 2019-09-08T16:23:02Z
+## [cli-v1.0.145](https://github.com/dpjl/joplin/releases/tag/cli-v1.0.145) - 2019-09-08T16:23:02Z
 
 - New: Added headless server command (Beta) (#1860)
 - Improved: Improved bold formatting support in Enex import (#1708)
@@ -433,17 +433,17 @@ IMPORTANT: If you use the web API, please note that there are a few breaking cha
 - Fixed: Fix typo on encryption options screen (#1823)
 - Fixed: Fixes fatal error with cli 1.0.141 on start (#1791)
 
-## [cli-v1.0.137](https://github.com/laurent22/joplin/releases/tag/cli-v1.0.137) - 2019-05-19T11:04:28Z
+## [cli-v1.0.137](https://github.com/dpjl/joplin/releases/tag/cli-v1.0.137) - 2019-05-19T11:04:28Z
 
 - Fixed: Fixed method to autosize resource
 
-## [cli-v1.0.136](https://github.com/laurent22/joplin/releases/tag/cli-v1.0.136) - 2019-05-19T10:19:22Z
+## [cli-v1.0.136](https://github.com/dpjl/joplin/releases/tag/cli-v1.0.136) - 2019-05-19T10:19:22Z
 
 - Improved: Put back "Fetched items" message during sync
 - Fixed: Handle missing resource blob when setting resource size
 - Fixed: Prevent app from trying to upload resource it has not downloaded yet
 
-## [cli-v1.0.135](https://github.com/laurent22/joplin/releases/tag/cli-v1.0.135) - 2019-05-13T22:59:14Z
+## [cli-v1.0.135](https://github.com/dpjl/joplin/releases/tag/cli-v1.0.135) - 2019-05-13T22:59:14Z
 
 - New: Added option to disable creation of welcome items
 - New: Support for note history (#1415) (#712)
@@ -456,7 +456,7 @@ IMPORTANT: If you use the web API, please note that there are a few breaking cha
 - Fixed: Prevents notes with no title to break after synchronize (#1472)
 - Fixed: Import lists and sub-lists from Enex files with correct indentation (#1476)
 
-## [cli-v1.0.125](https://github.com/laurent22/joplin/releases/tag/cli-v1.0.125) - 2019-04-29T18:38:05Z
+## [cli-v1.0.125](https://github.com/dpjl/joplin/releases/tag/cli-v1.0.125) - 2019-04-29T18:38:05Z
 
 - Improved: Improved support for Japanese, Chinese, Korean search queries (also applies to Goto Anything)
 - Improved: Display warning when changing dir for filesystem sync

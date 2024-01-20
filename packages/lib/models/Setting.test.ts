@@ -49,7 +49,7 @@ describe('models/Setting', () => {
 	it('should not fail when trying to load a key that no longer exist from the setting file', (async () => {
 		// To handle the case where a setting value exists in the database but
 		// the metadata has been removed in a new Joplin version.
-		// https://github.com/laurent22/joplin/issues/5086
+		// https://github.com/dpjl/joplin/issues/5086
 
 		Setting.setValue('sync.target', 9); // Saved to file
 		await Setting.saveAll();
@@ -369,7 +369,7 @@ describe('models/Setting', () => {
 	it('should not erase settings of parent profile', async () => {
 		// When a sub-profile settings are saved, we should ensure that the
 		// local settings of the root profiles are not lost.
-		// https://github.com/laurent22/joplin/issues/6459
+		// https://github.com/dpjl/joplin/issues/6459
 
 		await Setting.reset();
 

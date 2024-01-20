@@ -69,12 +69,12 @@ export const replaceGitHubInternalLinks = (body: string) => {
 			// The issue number is already a link, so skip it
 			return `#${v1}${v2}`;
 		} else {
-			return `[#${v1}](https://github.com/laurent22/joplin/issues/${v1})${v2}`;
+			return `[#${v1}](https://github.com/dpjl/joplin/issues/${v1})${v2}`;
 		}
 	});
 
 
-	body = body.replace(/\(([0-9a-z]{7})\)/g, '([$1](https://github.com/laurent22/joplin/commit/$1))');
+	body = body.replace(/\(([0-9a-z]{7})\)/g, '([$1](https://github.com/dpjl/joplin/commit/$1))');
 
 	return body;
 };
@@ -148,7 +148,7 @@ async function main() {
 			const row: Release = {
 				...release,
 				...downloadCounts(release),
-				tag_name: `[${release.tag_name}](https://github.com/laurent22/joplin/releases/tag/${release.tag_name})`,
+				tag_name: `[${release.tag_name}](https://github.com/dpjl/joplin/releases/tag/${release.tag_name})`,
 				published_at: release.published_at,
 				body: release.body,
 				prerelease: release.prerelease,
@@ -173,8 +173,8 @@ async function main() {
 	// this, where the changelog is partly cleared, then restored on next
 	// update:
 	//
-	// - https://github.com/laurent22/joplin/commit/907422cefaeff52fe909278e40145812cc0d1303
-	// - https://github.com/laurent22/joplin/commit/07535a494e5c700adce89835d1fb3dc077600240
+	// - https://github.com/dpjl/joplin/commit/907422cefaeff52fe909278e40145812cc0d1303
+	// - https://github.com/dpjl/joplin/commit/07535a494e5c700adce89835d1fb3dc077600240
 	const multiFetch = async (url: string) => {
 		for (let i = 0; i < 3; i++) {
 			const response = await fetch(url);

@@ -197,7 +197,7 @@ export function showMissingMasterKeyMessage(syncInfo: SyncInfo, notLoadedMasterK
 		// function, we only want to notify the user about unset passwords.
 		// Master keys that haven't been downloaded yet should normally be
 		// downloaded at some point.
-		// https://github.com/laurent22/joplin/issues/5391
+		// https://github.com/dpjl/joplin/issues/5391
 		if (!mk) continue;
 		if (!masterKeyEnabled(mk)) notLoadedMasterKeys.pop();
 	}

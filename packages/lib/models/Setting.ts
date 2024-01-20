@@ -1078,7 +1078,7 @@ class Setting extends BaseModel {
 			},
 
 			// Works around a bug in which additional space is visible beneath the toolbar on some devices.
-			// See https://github.com/laurent22/joplin/pull/6823
+			// See https://github.com/dpjl/joplin/pull/6823
 			'editor.mobile.removeSpaceBelowToolbar': {
 				value: false,
 				type: SettingItemType.Bool,
@@ -1740,7 +1740,7 @@ class Setting extends BaseModel {
 			// certain devices. May be the reason for:
 			//
 			// - https://discourse.joplinapp.org/t/on-android-when-joplin-gets-started-offline/29951/1
-			// - https://github.com/laurent22/joplin/issues/7956
+			// - https://github.com/dpjl/joplin/issues/7956
 			'security.biometricsEnabled': {
 				value: false,
 				type: SettingItemType.Bool,
@@ -2004,7 +2004,7 @@ class Setting extends BaseModel {
 		// because that's where they would be if the keychain is not enabled (or
 		// if writing to the keychain previously failed).
 		//
-		// https://github.com/laurent22/joplin/issues/5720
+		// https://github.com/dpjl/joplin/issues/5720
 		const row = await this.modelSelectOne('SELECT * FROM settings WHERE key = ?', [key]);
 		if (row) return row;
 

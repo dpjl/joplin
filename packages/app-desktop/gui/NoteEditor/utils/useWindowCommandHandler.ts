@@ -73,7 +73,7 @@ function editorCommandRuntime(
 		// GotoAnything so that it's possible to type eg `textBold` and bold the
 		// currently selected text.
 		//
-		// https://github.com/laurent22/joplin/issues/5707
+		// https://github.com/dpjl/joplin/issues/5707
 		enabledCondition: enabledCondition(declaration.name),
 	};
 }

@@ -54,7 +54,7 @@ type ResourceChangeHandler = (event: ResourceChangeEvent)=> void;
  * well as various related events, such as when a new note is selected, or
  * when the note content changes.
  *
- * [View the demo plugin](https://github.com/laurent22/joplin/tree/dev/packages/app-cli/tests/support/plugins)
+ * [View the demo plugin](https://github.com/dpjl/joplin/tree/dev/packages/app-cli/tests/support/plugins)
  */
 export default class JoplinWorkspace {
 	// TODO: unregister events when plugin is closed or disabled

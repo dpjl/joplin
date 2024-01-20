@@ -23,7 +23,7 @@ const useWebviewIpcMessage = (props: Props) => {
 			if (editorRef.current) {
 				// To cancel CodeMirror's layout drift, the scroll position
 				// is recorded before updated, and then it is restored.
-				// Ref. https://github.com/laurent22/joplin/issues/5890
+				// Ref. https://github.com/dpjl/joplin/issues/5890
 				const percent = props.getLineScrollPercent();
 				editorRef.current.replaceRange(line, from, to);
 				props.setEditorPercentScroll(percent);

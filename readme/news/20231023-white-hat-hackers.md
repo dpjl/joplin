@@ -9,7 +9,7 @@ The majority of Joplin's development is carried out in the public domain. This i
 
 However, there is one aspect that operates behind closed doors, and for good reason: addressing cybersecurity vulnerabilities. It is imperative that these issues remain undisclosed until they have been resolved. Once a solution is implemented, it is usually accompanied by discreet commits and a message in the changelog to signify the progress made.
 
-Typically, the process begins with an email from a security researcher. They provide valuable insights, such as a specially crafted note that triggers a bug, or an API call, along with an explanation of how the application's security can be circumvented. We examine the vulnerability, create a fix, and create automated test units to prevent any accidental reintroduction of the vulnerability in future code updates. An example of such a commit is: [9e90d9016daf79b5414646a93fd369aedb035071](https://github.com/laurent22/joplin/commit/9e90d9016daf79b5414646a93fd369aedb035071)
+Typically, the process begins with an email from a security researcher. They provide valuable insights, such as a specially crafted note that triggers a bug, or an API call, along with an explanation of how the application's security can be circumvented. We examine the vulnerability, create a fix, and create automated test units to prevent any accidental reintroduction of the vulnerability in future code updates. An example of such a commit is: [9e90d9016daf79b5414646a93fd369aedb035071](https://github.com/dpjl/joplin/commit/9e90d9016daf79b5414646a93fd369aedb035071)
 
 We then share our fix with the researcher for validation. Additionally, we often apply the fix to previous versions of Joplin, depending on the severity of the vulnerability.
 

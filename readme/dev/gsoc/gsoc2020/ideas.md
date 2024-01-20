@@ -26,15 +26,15 @@ Platforms: Desktop and/or mobile (at the student's choice)
 
 Skills Required: JavaScript; React; React Native (for mobile)
 
-Potential Mentor(s): [tessus](https://github.com/tessus), [laurent22](https://github.com/laurent22/)
+Potential Mentor(s): [tessus](https://github.com/tessus), [laurent22](https://github.com/dpjl/)
 
-More info: [GitHub issue](https://github.com/laurent22/joplin/issues/591), [Forum Thread](https://discourse.joplinapp.org/t/can-i-run-a-second-instance-of-joplin/110)
+More info: [GitHub issue](https://github.com/dpjl/joplin/issues/591), [Forum Thread](https://discourse.joplinapp.org/t/can-i-run-a-second-instance-of-joplin/110)
 
 ### 2. Collaboration via Nextcloud
 
 We need a way to share notes with other users, and to collaborate on notes. This is useful for companies, to collaborate on projects for example, but also for individual users when they want to share their notes with other people.
 
-The basis for this would be the [Joplin Web API for Nextcloud](https://github.com/laurent22/joplin-nextcloud/), which is currently used to share a note publicly, and which can be extended for other uses.
+The basis for this would be the [Joplin Web API for Nextcloud](https://github.com/dpjl/joplin-nextcloud/), which is currently used to share a note publicly, and which can be extended for other uses.
 
 The main feature we would like to see is the ability to select a Nextcloud user from the app, then share a note with him or her. Once the note is shared, it will appear in the Joplin clients of the other user (via sync). The solution should be generic enough that it can later be used to share a whole notebook.
 
@@ -46,7 +46,7 @@ Platforms: Desktop and/or mobile (at the student's choice)
 
 Skills Required: JavaScript; React; React Native (for mobile)
 
-Potential Mentor(s): [Roeland Jago Douma](mailto:roeland.douma@nextcloud.com), [laurent22](https://github.com/laurent22/)
+Potential Mentor(s): [Roeland Jago Douma](mailto:roeland.douma@nextcloud.com), [laurent22](https://github.com/dpjl/)
 
 More info: [Forum thread about Joplin Web API for Nextcloud](https://discourse.joplinapp.org/t/joplin-web-api-for-nextcloud/4491)
 
@@ -62,9 +62,9 @@ Platforms: Desktop, Mobile and Terminal
 
 Skills Required: JavaScript; React; React Native (for mobile)
 
-Potential Mentor(s): [laurent22](https://github.com/laurent22/)
+Potential Mentor(s): [laurent22](https://github.com/dpjl/)
 
-More info: [GitHub issue](https://github.com/laurent22/joplin/issues/375)
+More info: [GitHub issue](https://github.com/dpjl/joplin/issues/375)
 
 ### 4. Sharing on mobile
 
@@ -78,9 +78,9 @@ Platforms: Mobile (iOS and Android)
 
 Skills Required: JavaScript; React; React Native
 
-Potential Mentor(s): [CalebJohn](https://github.com/CalebJohn/), [laurent22](https://github.com/laurent22/)
+Potential Mentor(s): [CalebJohn](https://github.com/CalebJohn/), [laurent22](https://github.com/dpjl/)
 
-More info: [Mobile - Add share menu #876](https://github.com/laurent22/joplin/issues/876)
+More info: [Mobile - Add share menu #876](https://github.com/dpjl/joplin/issues/876)
 
 ### 5. Web client for Nextcloud
 
@@ -99,9 +99,9 @@ Difficulty Level: High
 
 Skills Required: PHP (for the Nextcloud app). For the front-end it can be plain HTML (no JS), or React.
 
-Potential Mentor(s): [Roeland Jago Douma](mailto:roeland.douma@nextcloud.com), [laurent22](https://github.com/laurent22/)
+Potential Mentor(s): [Roeland Jago Douma](mailto:roeland.douma@nextcloud.com), [laurent22](https://github.com/dpjl/)
 
-More info: [GitHub: Nextcloud notes integration (Web client)](https://github.com/laurent22/joplin/issues/228)
+More info: [GitHub: Nextcloud notes integration (Web client)](https://github.com/dpjl/joplin/issues/228)
 
 ### 6. OCR support
 
@@ -113,7 +113,7 @@ Difficulty Level: High
 
 Skills Required: JavaScript
 
-Potential Mentor(s): [CalebJohn](https://github.com/CalebJohn/), [laurent22](https://github.com/laurent22/)
+Potential Mentor(s): [CalebJohn](https://github.com/CalebJohn/), [laurent22](https://github.com/dpjl/)
 
 ### 7. Password-protected notes
 
@@ -125,7 +125,7 @@ Difficulty Level: Medium
 
 Skills Required: JavaScript; React
 
-Potential Mentor(s): [PackElend](https://github.com/PackElend), [laurent22](https://github.com/laurent22/)
+Potential Mentor(s): [PackElend](https://github.com/PackElend), [laurent22](https://github.com/dpjl/)
 
 ### 8. Search
 
@@ -149,9 +149,9 @@ Difficulty Level: Medium
 
 Skills Required: JavaScript
 
-Potential Mentor(s): [laurent22](https://github.com/laurent22/)
+Potential Mentor(s): [laurent22](https://github.com/dpjl/)
 
-More info: [Search engine improvements](https://github.com/laurent22/joplin/issues/1877)
+More info: [Search engine improvements](https://github.com/dpjl/joplin/issues/1877)
 
 ### 9. WYSIWYG Editor
 
@@ -163,7 +163,7 @@ Difficulty Level: High
 
 Skills Required: JavaScript; React
 
-Potential Mentor(s): [CalebJohn](https://github.com/CalebJohn/), [PackElend](https://github.com/PackElend), [laurent22](https://github.com/laurent22/)
+Potential Mentor(s): [CalebJohn](https://github.com/CalebJohn/), [PackElend](https://github.com/PackElend), [laurent22](https://github.com/dpjl/)
 
 More info: [WYSIWYG thread on the forum](https://discourse.joplinapp.org/t/wysiwyg-editor-in-joplin/2253)
 
@@ -177,4 +177,4 @@ Difficulty Level: Easy
 
 Skills Required: JavaScript; React
 
-Potential Mentor(s): [tessus](https://github.com/tessus), [laurent22](https://github.com/laurent22/)
+Potential Mentor(s): [tessus](https://github.com/tessus), [laurent22](https://github.com/dpjl/)

@@ -22,7 +22,7 @@ export default class JoplinWindow {
 	/**
 	 * Loads a chrome CSS file. It will apply to the window UI elements, except
 	 * for the note viewer. It is the same as the "Custom stylesheet for
-	 * Joplin-wide app styles" setting. See the [Load CSS Demo](https://github.com/laurent22/joplin/tree/dev/packages/app-cli/tests/support/plugins/load_css)
+	 * Joplin-wide app styles" setting. See the [Load CSS Demo](https://github.com/dpjl/joplin/tree/dev/packages/app-cli/tests/support/plugins/load_css)
 	 * for an example.
 	 */
 	public async loadChromeCssFile(filePath: string) {
@@ -32,7 +32,7 @@ export default class JoplinWindow {
 	/**
 	 * Loads a note CSS file. It will apply to the note viewer, as well as any
 	 * exported or printed note. It is the same as the "Custom stylesheet for
-	 * rendered Markdown" setting. See the [Load CSS Demo](https://github.com/laurent22/joplin/tree/dev/packages/app-cli/tests/support/plugins/load_css)
+	 * rendered Markdown" setting. See the [Load CSS Demo](https://github.com/dpjl/joplin/tree/dev/packages/app-cli/tests/support/plugins/load_css)
 	 * for an example.
 	 */
 	public async loadNoteCssFile(filePath: string) {

@@ -4,11 +4,11 @@ Due to our limited resources and in order to give everyone a chance to submit a 
 
 0. In general please only work on issues that have been triaged - those are issues with labels such as "high", "medium" or "enhancement". It means an admin looked at it and added it to the backlog.
 
-	1. Bug fixes are always welcome. Start by reviewing the list of bugs with [high priority](https://github.com/laurent22/joplin/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3Abug+label%3Ahigh) or [medium priority](https://github.com/laurent22/joplin/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3Abug+label%3Amedium).
+	1. Bug fixes are always welcome. Start by reviewing the list of bugs with [high priority](https://github.com/dpjl/joplin/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3Abug+label%3Ahigh) or [medium priority](https://github.com/dpjl/joplin/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3Abug+label%3Amedium).
 
-	2. Alternatively you may look at the [Good first issues](https://github.com/laurent22/joplin/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22).
+	2. Alternatively you may look at the [Good first issues](https://github.com/dpjl/joplin/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22).
 
-	3. Also check the backlog of possible [feature requests](https://github.com/laurent22/joplin/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement). Some of those are complex and not a good fit for a first pull request, but others are more simple so you might want to consider these.
+	3. Also check the backlog of possible [feature requests](https://github.com/dpjl/joplin/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement). Some of those are complex and not a good fit for a first pull request, but others are more simple so you might want to consider these.
 
 	4. Finally you may implement a plugin in your own repository. Note that we will look at your code, so make sure your choose something not too trivial, so that you can really showcase your skills. Please announce your plugin on the forum, in the [#plugins category](https://discourse.joplinapp.org/c/development/plugins/18).
 
@@ -20,7 +20,7 @@ Due to our limited resources and in order to give everyone a chance to submit a 
 
 4. **If you are borrowing code, please disclose it**. It is fine and sometimes even recommended to borrow code, but we need to know about it to assess your work.
 
-5. **All pull request must have test units**. In some cases it might be almost impossible to add such tests (for example integration tests), but for anything else we insist on having them, and we may close the pull request if we see they could have been added but weren't. If you don't know how to add test units, please ask on the forum or Discord. If really it's not possible to add tests, we'll let you know at this point. Also please check again the [Automated Tests](https://github.com/laurent22/joplin/blob/dev/readme/dev/index.md#automated-tests) documentation for more information.
+5. **All pull request must have test units**. In some cases it might be almost impossible to add such tests (for example integration tests), but for anything else we insist on having them, and we may close the pull request if we see they could have been added but weren't. If you don't know how to add test units, please ask on the forum or Discord. If really it's not possible to add tests, we'll let you know at this point. Also please check again the [Automated Tests](https://github.com/dpjl/joplin/blob/dev/readme/dev/index.md#automated-tests) documentation for more information.
 
 6. **No Work In Progress**. ONLY completed and working pull requests, and with test units, will be accepted. A WIP would fall under rule 3 and be closed immediately.
 

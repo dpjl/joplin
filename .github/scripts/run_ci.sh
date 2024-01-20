@@ -247,7 +247,7 @@ if [ "$IS_DESKTOP_RELEASE" == "1" ]; then
 		#
 		# It can be removed once we upgrade to electron-builder@23, however we
 		# cannot currently do this due to this error:
-		# https://github.com/laurent22/joplin/issues/8149
+		# https://github.com/dpjl/joplin/issues/8149
 		#
 		# electron-builder@24, however, still expects the python binary to be named
 		# "python" and seems to no longer respect the PYTHON_PATH environment variable.

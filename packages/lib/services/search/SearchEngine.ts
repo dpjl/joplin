@@ -718,7 +718,7 @@ export default class SearchEngine {
 			// we search for "this-phrase" it won't find it because it will only
 			// see "this phrase" in the index. Because of this, we remove the dashes
 			// when searching.
-			// https://github.com/laurent22/joplin/issues/1075#issuecomment-459258856
+			// https://github.com/dpjl/joplin/issues/1075#issuecomment-459258856
 
 			if (options.appendWildCards) {
 				parsedQuery.allTerms = parsedQuery.allTerms.map(t => {

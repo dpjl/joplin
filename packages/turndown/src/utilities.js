@@ -77,7 +77,7 @@ function has (node, tagNames) {
   )
 }
 
-// To handle code that is presented as below (see https://github.com/laurent22/joplin/issues/573)
+// To handle code that is presented as below (see https://github.com/dpjl/joplin/issues/573)
 //
 // <td class="code">
 //   <pre class="python">

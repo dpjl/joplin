@@ -1,13 +1,13 @@
 # Joplin iOS Changelog
 
-## [ios-v12.14.2](https://github.com/laurent22/joplin/releases/tag/ios-v12.14.2) - 2024-01-06T12:46:08Z
+## [ios-v12.14.2](https://github.com/dpjl/joplin/releases/tag/ios-v12.14.2) - 2024-01-06T12:46:08Z
 
 - Improved: Fix table-of-contents links to headings with duplicate content (#9610) (#9594 by Henry Heino)
 - Improved: Improve sync by reducing how often note list is sorted (f95ee68)
 - Improved: Render mermaid diagrams in dark mode when Joplin is in dark mode (#9631) (#3201 by Henry Heino)
 - Improved: Updated packages deprecated-react-native-prop-types (v5), react-native-get-random-values (v1.10.0), react-native-paper (v5.11.4)
 
-## [ios-v12.14.1](https://github.com/laurent22/joplin/releases/tag/ios-v12.14.1) - 2023-12-29T22:23:50Z
+## [ios-v12.14.1](https://github.com/dpjl/joplin/releases/tag/ios-v12.14.1) - 2023-12-29T22:23:50Z
 
 - Improved: CodeMirror 6 markdown editor: Support highlighting more languages (#9563) (#9562 by Henry Heino)
 - Improved: Don't attach empty drawings when a user exits without saving (#9386) (#9377 by Henry Heino)
@@ -29,22 +29,22 @@
 - Fixed: Fix tooltips don't disappear on some devices (upgrade to js-draw 1.13.2) (#9401) (#9374 by Henry Heino)
 - Fixed: Sidebar is not dismissed when creating a note (#9376)
 
-## [ios-v12.13.10](https://github.com/laurent22/joplin/releases/tag/ios-v12.13.10) - 2023-12-01T12:07:57Z
+## [ios-v12.13.10](https://github.com/dpjl/joplin/releases/tag/ios-v12.13.10) - 2023-12-01T12:07:57Z
 
 - Improved: Drawing: Revert recent changes to input system (#9426) (#9427 by Henry Heino)
 
-## [ios-v12.13.9](https://github.com/laurent22/joplin/releases/tag/ios-v12.13.9) - 2023-11-30T17:56:37Z
+## [ios-v12.13.9](https://github.com/dpjl/joplin/releases/tag/ios-v12.13.9) - 2023-11-30T17:56:37Z
 
 - Improved: Don't attach empty drawings when a user exits without saving (#9386) (#9377 by Henry Heino)
 - Fixed: Fix tooltips don't disappear on some devices (upgrade to js-draw 1.13.2) (#9401) (#9374 by Henry Heino)
 
-## [ios-v12.13.8](https://github.com/laurent22/joplin/releases/tag/ios-v12.13.8) - 2023-11-26T12:54:44Z
+## [ios-v12.13.8](https://github.com/dpjl/joplin/releases/tag/ios-v12.13.8) - 2023-11-26T12:54:44Z
 
 - Fixed: Fix to-dos options toggle don't toggle a rerender (#9364) (#9361 by [@pedr](https://github.com/pedr))
 - Fixed: Fix new note/to-do buttons not visible on app startup in some cases (#9329) (#9328 by Henry Heino)
 - Fixed: Sidebar is not dismissed when creating a note (#9376)
 
-## [ios-v12.13.7](https://github.com/laurent22/joplin/releases/tag/ios-v12.13.7) - 2023-11-16T13:37:03Z
+## [ios-v12.13.7](https://github.com/dpjl/joplin/releases/tag/ios-v12.13.7) - 2023-11-16T13:37:03Z
 
 - Improved: Add more space between settings title and description (#9270) (#9258 by Henry Heino)
 - Improved: Fade settings screen icons (#9268) (#9260 by Henry Heino)
@@ -59,7 +59,7 @@
 - Fixed: Fix settings save confirmation not shown when navigating to encryption/profile/log screens (#9313) (#9312 by Henry Heino)
 - Fixed: Restore scroll position when returning to the note viewer from the editor or camera (#9324) (#9321 by Henry Heino)
 
-## [ios-v12.13.5](https://github.com/laurent22/joplin/releases/tag/ios-v12.13.5) - 2023-11-10T13:20:09Z
+## [ios-v12.13.5](https://github.com/dpjl/joplin/releases/tag/ios-v12.13.5) - 2023-11-10T13:20:09Z
 
 - Improved: Add a "Retry all" button when multiple resources could not be downloaded (#9158)
 - Improved: Settings screen: Create separate pages for each screen (#8567 by Henry Heino)
@@ -70,18 +70,18 @@
 - Fixed: Fix search highlighting (#9206) (#9207 by Henry Heino)
 - Fixed: Image editor resets on theme change (#9190) (#9188 by Henry Heino)
 
-## [ios-v12.13.4](https://github.com/laurent22/joplin/releases/tag/ios-v12.13.4) - 2023-10-31T20:38:31Z
+## [ios-v12.13.4](https://github.com/dpjl/joplin/releases/tag/ios-v12.13.4) - 2023-10-31T20:38:31Z
 
 - Improved: Image editor: Allow loading from save when the image editor is reloaded in the background (#9135) (#9134 by Henry Heino)
 - Improved: Updated packages sass (v1.68.0)
 
-## [ios-v12.13.3](https://github.com/laurent22/joplin/releases/tag/ios-v12.13.3) - 2023-10-30T22:21:13Z
+## [ios-v12.13.3](https://github.com/dpjl/joplin/releases/tag/ios-v12.13.3) - 2023-10-30T22:21:13Z
 
 - Improved: Allow searching by note ID or using a callback URL (3667bf3)
 - Improved: Updated packages @react-native-community/datetimepicker (v7.6.0), react-native-device-info (v10.11.0), react-native-webview (v13.6.2)
 - Fixed: Beta editor: Fix image timestamps not updated after editing (#9176) (#9175 by Henry Heino)
 
-## [ios-v12.13.2](https://github.com/laurent22/joplin/releases/tag/ios-v12.13.2) - 2023-10-24T18:40:49Z
+## [ios-v12.13.2](https://github.com/dpjl/joplin/releases/tag/ios-v12.13.2) - 2023-10-24T18:40:49Z
 
 - New: Add share button to log screen (#8364 by Henry Heino)
 - New: Add support for drawing pictures (#7588 by Henry Heino)
@@ -109,13 +109,13 @@
 - Fixed: Prevent accessibility tools from focusing the notes list when it's invisible (#8799) (#8798 by Henry Heino)
 - Fixed: Prevent application from being stuck when importing an invalid ENEX file (#8699)
 
-## [ios-v12.12.3](https://github.com/laurent22/joplin/releases/tag/ios-v12.12.3) - 2023-09-11T20:05:19Z
+## [ios-v12.12.3](https://github.com/dpjl/joplin/releases/tag/ios-v12.12.3) - 2023-09-11T20:05:19Z
 
 - Improved: Add screen reader labels to search/note actions buttons (#8797) (#8796 by Henry Heino)
 - Improved: Improve accessibility of side menu (#8839 by Henry Heino)
 - Fixed: Revert to `react-native-sidemenu-updated` for navigation drawers (#8820) (#8791 by Henry Heino)
 
-## [ios-v12.12.2](https://github.com/laurent22/joplin/releases/tag/ios-v12.12.2) - 2023-09-01T22:13:36Z
+## [ios-v12.12.2](https://github.com/dpjl/joplin/releases/tag/ios-v12.12.2) - 2023-09-01T22:13:36Z
 
 - New: Add JEX export (#8428 by Henry Heino)
 - New: Add support for Joplin Cloud email to note functionality (#8460 by [@pedr](https://github.com/pedr))
@@ -135,7 +135,7 @@
 - Fixed: Unrevert #7953: Migrate to react-native-drawer-layout (#8379) (#7918 by Henry Heino)
 - Security: Prevent XSS when passing specially encoded string to a link (57b4198)
 
-## [ios-v12.11.5](https://github.com/laurent22/joplin/releases/tag/ios-v12.11.5) - 2023-06-25T14:05:43Z
+## [ios-v12.11.5](https://github.com/dpjl/joplin/releases/tag/ios-v12.11.5) - 2023-06-25T14:05:43Z
 
 - Improved: Auto-detect language on start (e48d55c)
 - Improved: Updated packages @react-native-community/datetimepicker (v7), aws, buildTools, domutils (v3.1.0), react-native-document-picker (v8.2.1), react-native-reanimated (v3.1.0), react-native-safe-area-context (v4.5.3), tar (v6.1.15)
@@ -145,13 +145,13 @@
 - Fixed: Fix sharing data with the app (#8285)
 - Fixed: Improve selection of active E2EE key (#8254)
 
-## [ios-v12.11.3](https://github.com/laurent22/joplin/releases/tag/ios-v12.11.3) - 2023-05-29T12:27:45Z
+## [ios-v12.11.3](https://github.com/dpjl/joplin/releases/tag/ios-v12.11.3) - 2023-05-29T12:27:45Z
 
 - Improved: Implement parenting of notebooks (#7980) (#8193 by [@jcgurango](https://github.com/jcgurango))
 - Fixed: Fixed broken domain detection (192bfb5)
 - Fixed: Fixed regression in biometric check (b19f1a1)
 
-## [ios-v12.11.2](https://github.com/laurent22/joplin/releases/tag/ios-v12.11.2) - 2023-05-27T15:31:26Z
+## [ios-v12.11.2](https://github.com/dpjl/joplin/releases/tag/ios-v12.11.2) - 2023-05-27T15:31:26Z
 
 - New: Add log info for biometrics feature (efdbaeb)
 - New: Add setting to enable/disable the markdown toolbar (#7929 by Henry Heino)
@@ -173,7 +173,7 @@
 - Security: Prevent XSS by sanitizing certain HTML attributes (9e90d90)
 - Security: Prevent bypassing fingerprint lock on certain devices (6b72f86)
 
-## [ios-v12.10.5](https://github.com/laurent22/joplin/releases/tag/ios-v12.10.5) - 2023-03-06T14:43:37Z
+## [ios-v12.10.5](https://github.com/dpjl/joplin/releases/tag/ios-v12.10.5) - 2023-03-06T14:43:37Z
 
 - Improved: Stop synchronization with unsupported WebDAV providers (#7819) (#7661 by [@julien](https://github.com/julien))
 - Fixed: Custom sort order not synchronized (#7729) (#6956 by Tao Klerks)
@@ -184,7 +184,7 @@
 - Fixed: Hide main content while biometric is enabled and not authenticated (#7781) (#7762 by [@pedr](https://github.com/pedr))
 - Fixed: Sharing pictures to Joplin creates recurring duplications (#7791)
 
-## [ios-v12.10.2](https://github.com/laurent22/joplin/releases/tag/ios-v12.10.2) - 2023-01-20T17:41:13Z
+## [ios-v12.10.2](https://github.com/dpjl/joplin/releases/tag/ios-v12.10.2) - 2023-01-20T17:41:13Z
 
 - New: Add support for locking the app using biometrics (f10d9f7)
 - New: Add support for multiple profiles (6bb52d5)
@@ -201,7 +201,7 @@
 - Fixed: Remove gray line around text editor (#7595) (#7594 by Henry Heino)
 - Fixed: Settings save button visible even when no settings have been changed (#7503)
 
-## [ios-v12.10.1](https://github.com/laurent22/joplin/releases/tag/ios-v12.10.1) - 2022-12-28T15:08:39Z
+## [ios-v12.10.1](https://github.com/dpjl/joplin/releases/tag/ios-v12.10.1) - 2022-12-28T15:08:39Z
 
 - Improved: Switch license to AGPL-3.0 (faf0a4e)
 - Improved: Tag search case insensitive (#7368 by [@JackGruber](https://github.com/JackGruber))
@@ -213,11 +213,11 @@
 - Fixed: Update CodeMirror (#7262) (#7253 by Henry Heino)
 - Security: Fix XSS when a specially crafted string is passed to the renderer (a2de167)
 
-## [ios-v12.9.2](https://github.com/laurent22/joplin/releases/tag/ios-v12.9.2) - 2022-12-22T12:42:26Z
+## [ios-v12.9.2](https://github.com/dpjl/joplin/releases/tag/ios-v12.9.2) - 2022-12-22T12:42:26Z
 
 - Fixed: Could not attach images to notes anymore (#7471)
 
-## [ios-v12.9.1](https://github.com/laurent22/joplin/releases/tag/ios-v12.9.1) - 2022-12-04T18:03:02Z
+## [ios-v12.9.1](https://github.com/dpjl/joplin/releases/tag/ios-v12.9.1) - 2022-12-04T18:03:02Z
 
 - New: Add Markdown toolbar (#6753 by Henry Heino)
 - New: Add alt text/roles to some buttons to improve accessibility (#6616 by Henry Heino)
@@ -254,7 +254,7 @@
 - Fixed: Support non-ASCII characters in OneDrive (#6916) (#6838 by Self Not Found)
 - Security: Fix XSS when a specially crafted string is passed to the renderer (762b4e8)
 
-## [ios-v12.8.1](https://github.com/laurent22/joplin/releases/tag/ios-v12.8.1) - 2022-06-06T10:56:27Z
+## [ios-v12.8.1](https://github.com/dpjl/joplin/releases/tag/ios-v12.8.1) - 2022-06-06T10:56:27Z
 
 - Improved: Automatically start sync after setting the sync parameters (ff066ba)
 - Improved: Color of Date-Time text changed to match theme (#6279 by Ayush Srivastava)
@@ -266,7 +266,7 @@
 - Fixed: Remove white border around Beta Editor (#6326) (#6318 by Henry Heino)
 - Fixed: Support inserting attachments from Beta Editor (#6325) (#6324 by Henry Heino)
 
-## [ios-v12.7.2](https://github.com/laurent22/joplin/releases/tag/ios-v12.7.2) - 2022-04-15T11:07:27Z
+## [ios-v12.7.2](https://github.com/dpjl/joplin/releases/tag/ios-v12.7.2) - 2022-04-15T11:07:27Z
 
 - Improved: Allow filtering tags in tag dialog (#6221 by [@shinglyu](https://github.com/shinglyu))
 - Improved: Handle invalid revision patches (#6209)
@@ -275,7 +275,7 @@
 - Fixed: IOS and Dropbox synchronisation not working on iOS 15 (#6375)
 - Fixed: The camera button remains clickable after taking a photo bug (#6222 by [@shinglyu](https://github.com/shinglyu))
 
-## [ios-v12.7.1](https://github.com/laurent22/joplin/releases/tag/ios-v12.7.1) - 2022-02-14T14:10:49Z
+## [ios-v12.7.1](https://github.com/dpjl/joplin/releases/tag/ios-v12.7.1) - 2022-02-14T14:10:49Z
 
 - New: Add additional time format HH.mm (#6086 by [@vincentjocodes](https://github.com/vincentjocodes))
 - Improved: Do no duplicate resources when duplicating a note (721d008)
@@ -286,7 +286,7 @@
 - Fixed: Prevent multiline note titles (#6144) (#5482 by [@Daeraxa](https://github.com/Daeraxa))
 - Fixed: Shared resource was not encrypted with correct encryption key (#6092)
 
-## [ios-v12.6.2](https://github.com/laurent22/joplin/releases/tag/ios-v12.6.2) - 2021-12-17T09:59:16Z
+## [ios-v12.6.2](https://github.com/dpjl/joplin/releases/tag/ios-v12.6.2) - 2021-12-17T09:59:16Z
 
 - New: Add date format YYYY/MM/DD (#5759 by Helmut K. C. Tessarek)
 - New: Add support for faster built-in sync locks (#5662)

@@ -64,7 +64,7 @@ class WebDavApi {
 	authToken() {
 		if (!this.options_.username() || !this.options_.password()) return null;
 		try {
-			// Note: Non-ASCII passwords will throw an error about Latin1 characters - https://github.com/laurent22/joplin/issues/246
+			// Note: Non-ASCII passwords will throw an error about Latin1 characters - https://github.com/dpjl/joplin/issues/246
 			// Tried various things like the below, but it didn't work on React Native:
 			// return base64.encode(utf8.encode(this.options_.username() + ':' + this.options_.password()));
 			return base64.encode(`${this.options_.username()}:${this.options_.password()}`);
@@ -98,7 +98,7 @@ class WebDavApi {
 					}
 				} else if (p.length === 1 && davNamespaces.indexOf('') >= 0) {
 					// Also handle the case where the namespace alias is empty.
-					// https://github.com/laurent22/joplin/issues/2002
+					// https://github.com/dpjl/joplin/issues/2002
 					name = `d:${name}`;
 				}
 			}
@@ -266,9 +266,9 @@ class WebDavApi {
 
 	handleNginxHack_(jsonResponse, newErrorHandler) {
 		// Trying to fix 404 error issue with Nginx WebDAV server.
-		// https://github.com/laurent22/joplin/issues/624
-		// https://github.com/laurent22/joplin/issues/808
-		// Not tested but someone confirmed it worked - https://github.com/laurent22/joplin/issues/808#issuecomment-443552858
+		// https://github.com/dpjl/joplin/issues/624
+		// https://github.com/dpjl/joplin/issues/808
+		// Not tested but someone confirmed it worked - https://github.com/dpjl/joplin/issues/808#issuecomment-443552858
 		// and fix is narrowly scoped so shouldn't affect anything outside this particular edge case.
 		//
 		// The issue is that instead of an HTTP 404 status code, Nginx returns 200 but with this response:
@@ -289,7 +289,7 @@ class WebDavApi {
 		// HOWEVER, some implementations also return 404 for missing props, for example SeaFile:
 		// (indicates that the props "getlastmodified" is not present, but this call is only
 		// used when checking the conf, so we don't really need it)
-		// https://github.com/laurent22/joplin/issues/1137
+		// https://github.com/dpjl/joplin/issues/1137
 		//
 		// <?xml version='1.0' encoding='UTF-8'?>
 		// <ns0:multistatus xmlns:ns0="DAV:">
@@ -353,7 +353,7 @@ class WebDavApi {
 			if (method === 'PUT') headers['Content-Type'] = 'text/plain';
 		}
 
-		// React-native has caching enabled by at least on Android (see https://github.com/laurent22/joplin/issues/4706 and the related PR).
+		// React-native has caching enabled by at least on Android (see https://github.com/dpjl/joplin/issues/4706 and the related PR).
 		// The below header disables caching for all versions, including desktop.
 		// This can potentially also help with misconfigured caching on WebDAV server.
 		if (!headers['Cache-Control']) {

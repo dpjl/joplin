@@ -10,7 +10,7 @@ Through this tutorial you will learn about several aspect of the Joplin API, inc
 
 ## Setting up your environment
 
-Before getting any further, make sure your environment is setup correctly as described in the [Get Started guide](https://github.com/laurent22/joplin/blob/dev/readme/api/get_started/plugins.md).
+Before getting any further, make sure your environment is setup correctly as described in the [Get Started guide](https://github.com/dpjl/joplin/blob/dev/readme/api/get_started/plugins.md).
 
 ## Registering the plugin
 
@@ -125,7 +125,7 @@ joplin.plugins.register({
 });
 ```
 
-Later you will also need a way to generate the slug for each header. A slug is an identifier which is used to link to a particular header. Essentially a header text like "My Header" is converted to "my-header". And if there's already a slug with that name, a number is appended to it. Without going into too much details, you will need the "slug" package to generate this for you, so install it using `npm i -s 'git+https://github.com/laurent22/uslug.git#emoji-support'` from the root of your plugin directory (Note: you can also install the "uslug" package on its own, but it won't have emoji support).
+Later you will also need a way to generate the slug for each header. A slug is an identifier which is used to link to a particular header. Essentially a header text like "My Header" is converted to "my-header". And if there's already a slug with that name, a number is appended to it. Without going into too much details, you will need the "slug" package to generate this for you, so install it using `npm i -s 'git+https://github.com/dpjl/uslug.git#emoji-support'` from the root of your plugin directory (Note: you can also install the "uslug" package on its own, but it won't have emoji support).
 
 Then this is the function you will need for Joplin, so copy it somewhere in your file:
 
@@ -333,6 +333,6 @@ joplin.plugins.register({
 
 And that's it! If you run this code you should now have a fully functional TOC. The full source code is available there:
 
-https://github.com/laurent22/joplin/tree/dev/packages/app-cli/tests/support/plugins/toc/
+https://github.com/dpjl/joplin/tree/dev/packages/app-cli/tests/support/plugins/toc/
 
 Various improvements can be made such as improving the styling, making the header collapsible, etc. but that tutorial should provide the basic building blocks to do so. You might also want to check the [plugin API](https://joplinapp.org/api/references/plugin_api/classes/joplin.html) for further information or head to the [development forum](https://discourse.joplinapp.org/c/development/6) for support.

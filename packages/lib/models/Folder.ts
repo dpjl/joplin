@@ -178,11 +178,11 @@ export default class Folder extends BaseItem {
 			let parentId = noteCount.folder_id;
 			do {
 				const folder = foldersById[parentId];
-				if (!folder) break; // https://github.com/laurent22/joplin/issues/2079
+				if (!folder) break; // https://github.com/dpjl/joplin/issues/2079
 				folder.note_count = (folder.note_count || 0) + noteCount.note_count;
 
 				// Should not happen anymore but just to be safe, add the check below
-				// https://github.com/laurent22/joplin/issues/3334
+				// https://github.com/dpjl/joplin/issues/3334
 				if (folder.id === folder.parent_id) break;
 
 				parentId = folder.parent_id;
@@ -213,7 +213,7 @@ export default class Folder extends BaseItem {
 
 			// In some rare cases, some folders may not have a parent, for example
 			// if it has not been downloaded via sync yet.
-			// https://github.com/laurent22/joplin/issues/2088
+			// https://github.com/dpjl/joplin/issues/2088
 			return null;
 		};
 
@@ -683,7 +683,7 @@ export default class Folder extends BaseItem {
 			} else {
 				if (!idToFolders[folder.parent_id]) {
 					// It means the notebook is refering a folder that doesn't exist. In theory it shouldn't happen
-					// but sometimes does - https://github.com/laurent22/joplin/issues/1068#issuecomment-450594708
+					// but sometimes does - https://github.com/dpjl/joplin/issues/1068#issuecomment-450594708
 					rootFolders.push(folder);
 				} else {
 					idToFolders[folder.parent_id].children.push(folder);

@@ -5,7 +5,7 @@ import { Command } from './types';
  * {@link JoplinViewsToolbarButtons | toolbar buttons} or
  * {@link JoplinViewsMenuItems | menu items}.
  *
- * [View the demo plugin](https://github.com/laurent22/joplin/tree/dev/packages/app-cli/tests/support/plugins/register_command)
+ * [View the demo plugin](https://github.com/dpjl/joplin/tree/dev/packages/app-cli/tests/support/plugins/register_command)
  *
  * ## Executing Joplin's internal commands
  *
@@ -13,9 +13,9 @@ import { Command } from './types';
  * now, are not well documented. You can find the list directly on GitHub
  * though at the following locations:
  *
- * * [Main screen commands](https://github.com/laurent22/joplin/tree/dev/packages/app-desktop/gui/MainScreen/commands)
- * * [Global commands](https://github.com/laurent22/joplin/tree/dev/packages/app-desktop/commands)
- * * [Editor commands](https://github.com/laurent22/joplin/tree/dev/packages/app-desktop/gui/NoteEditor/commands/editorCommandDeclarations.ts)
+ * * [Main screen commands](https://github.com/dpjl/joplin/tree/dev/packages/app-desktop/gui/MainScreen/commands)
+ * * [Global commands](https://github.com/dpjl/joplin/tree/dev/packages/app-desktop/commands)
+ * * [Editor commands](https://github.com/dpjl/joplin/tree/dev/packages/app-desktop/gui/NoteEditor/commands/editorCommandDeclarations.ts)
  *
  * To view what arguments are supported, you can open any of these files
  * and look at the `execute()` command.

@@ -32,7 +32,7 @@ Data    |  ("Length" bytes) (ASCII)
 
 ## Master Keys
 
-The master keys are used to encrypt and decrypt data. They can be generated from the Encryption Service and are saved to the database. They are themselves encrypted via a user password using a [strong encryption method](https://github.com/laurent22/joplin/blob/b5b02d8d7bce2c07c89fef50103e1399d792b75e/packages/lib/services/e2ee/EncryptionService.ts#L373).
+The master keys are used to encrypt and decrypt data. They can be generated from the Encryption Service and are saved to the database. They are themselves encrypted via a user password using a [strong encryption method](https://github.com/dpjl/joplin/blob/b5b02d8d7bce2c07c89fef50103e1399d792b75e/packages/lib/services/e2ee/EncryptionService.ts#L373).
 
 These encrypted master keys are transmitted with the sync data so that they can be available to each client. Each client will need to supply the user password to decrypt each key.
 

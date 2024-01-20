@@ -110,7 +110,7 @@ export const updateSettingValue = (comp: ConfigScreenComponent, key: string, val
 		//
 		// Upstream: https://github.com/callstack/react-native-slider/issues/395
 		//
-		// https://github.com/laurent22/joplin/issues/7503
+		// https://github.com/dpjl/joplin/issues/7503
 		if (state.settings[key] === value) {
 			logger.info('Trying to update a setting that has not changed - skipping it.', key, value);
 			return {};

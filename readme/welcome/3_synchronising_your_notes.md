@@ -14,11 +14,11 @@ Select "Dropbox" as the synchronisation target in the config screen. Then, to in
 
 ## Setting up Nextcloud synchronisation
 
-Nextcloud is a self-hosted, private cloud solution. To set it up, go to the config screen and select Nextcloud as the synchronisation target. Then input the WebDAV URL (to get it, go to your Nextcloud page, click on Settings in the bottom left corner of the page and copy the URL). Note that it has to be the **full URL**, so for example if you want the notes to be under `/Joplin`, the URL would be something like `https://example.com/remote.php/webdav/Joplin` (note that "/Joplin" part). And **make sure to create the "/Joplin" directory in Nextcloud**. Finally set the username and password. If it does not work, please [see this explanation](https://github.com/laurent22/joplin/issues/61#issuecomment-373282608) for more details.
+Nextcloud is a self-hosted, private cloud solution. To set it up, go to the config screen and select Nextcloud as the synchronisation target. Then input the WebDAV URL (to get it, go to your Nextcloud page, click on Settings in the bottom left corner of the page and copy the URL). Note that it has to be the **full URL**, so for example if you want the notes to be under `/Joplin`, the URL would be something like `https://example.com/remote.php/webdav/Joplin` (note that "/Joplin" part). And **make sure to create the "/Joplin" directory in Nextcloud**. Finally set the username and password. If it does not work, please [see this explanation](https://github.com/dpjl/joplin/issues/61#issuecomment-373282608) for more details.
 
 ## Setting up OneDrive or WebDAV synchronisation
 
-OneDrive and WebDAV are also supported as synchronisation services. Please see [the synchronisation documentation](https://github.com/laurent22/joplin#synchronisation) for more information.
+OneDrive and WebDAV are also supported as synchronisation services. Please see [the synchronisation documentation](https://github.com/dpjl/joplin#synchronisation) for more information.
 
 ## Using End-To-End Encryption
 

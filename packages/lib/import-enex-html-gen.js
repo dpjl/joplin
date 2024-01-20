@@ -17,7 +17,7 @@ function addResourceTag(lines, resource, attributes) {
 	if (resourceUtils.isImageMimeType(resource.mime)) {
 		lines.push(resourceUtils.imgElement({ src, attributes }));
 	} else if (resource.mime === 'audio/x-m4a') {
-		// TODO: once https://github.com/laurent22/joplin/issues/1794 is resolved,
+		// TODO: once https://github.com/dpjl/joplin/issues/1794 is resolved,
 		// come back to this and make sure it works.
 		lines.push(resourceUtils.audioElement({
 			src,
@@ -167,7 +167,7 @@ const beautifyHtml = (html) => {
 	// In the best case scenario it will throw an error but in some cases it will go into an infinite loop, so
 	// for that reason we need to disable it.
 	//
-	// Fixed https://github.com/laurent22/joplin/issues/3958
+	// Fixed https://github.com/dpjl/joplin/issues/3958
 
 	return [html];
 

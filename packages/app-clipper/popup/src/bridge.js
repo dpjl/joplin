@@ -154,7 +154,7 @@ class Bridge {
 		//   it was automatically closed by Firefox), that cached auth token is
 		//   re-used and the auth process continues.
 		//
-		// https://github.com/laurent22/joplin/issues/5125#issuecomment-869547421
+		// https://github.com/dpjl/joplin/issues/5125#issuecomment-869547421
 
 		const existingAuthInfo = await this.storageGet(['authToken', 'authTokenTimestamp']);
 

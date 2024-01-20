@@ -26,7 +26,7 @@ function dateToTimestamp(s: string, defaultValue: number = null): number {
 	let m = moment(s, 'YYYYMMDDTHHmmssZ');
 
 	// But sometimes they might be in this format eg. 20180306T91108 AMZ
-	// https://github.com/laurent22/joplin/issues/557
+	// https://github.com/dpjl/joplin/issues/557
 	if (!m.isValid()) m = moment(s, 'YYYYMMDDThmmss AZ');
 
 	if (!m.isValid()) {
@@ -187,7 +187,7 @@ async function saveNoteResources(note: ExtractedNote) {
 
 		// ENEX resource filenames can contain slashes, which may confuse other
 		// parts of the app, which expect this `filename` field to be safe.
-		// Fixes https://github.com/laurent22/joplin/issues/8823
+		// Fixes https://github.com/dpjl/joplin/issues/8823
 		toSave.filename = toSave.filename ? friendlySafeFilename(toSave.filename, 255, true) : '';
 
 		// The same resource sometimes appear twice in the same enex (exact same ID and file).
@@ -260,7 +260,7 @@ interface NoteResourceRecognition {
 
 const preProcessFile = async (filePath: string): Promise<string> => {
 	// Disabled pre-processing for now because it runs out of memory:
-	// https://github.com/laurent22/joplin/issues/5543
+	// https://github.com/dpjl/joplin/issues/5543
 	//
 	// It could be fixed by not loading the whole file in memory, but there are
 	// other issues because people import 1GB+ files so pre-processing
@@ -502,7 +502,7 @@ const parseNotes = async (parentFolderId: string, filePath: string, importOption
 
 			// We need to reject the promise here, or parsing will get stuck
 			// ("end" handler will never be called).
-			// https://github.com/laurent22/joplin/issues/8699
+			// https://github.com/dpjl/joplin/issues/8699
 			reject(error);
 		});
 

@@ -76,7 +76,7 @@ def enableProguardInReleaseBuilds = false
  */
  
 // We need the intl variant to support natural sorting of notes.
-// https://github.com/laurent22/joplin/pull/4272
+// https://github.com/dpjl/joplin/pull/4272
 def jscFlavor = 'org.webkit:android-jsc-intl:+'
 
 /**

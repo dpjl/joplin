@@ -82,7 +82,7 @@ export default class InteropServiceHelper {
 								// before printing. This assures that the
 								// contents of the tag are visible in printed
 								// pdfs.
-								// https://github.com/laurent22/joplin/issues/6254.
+								// https://github.com/dpjl/joplin/issues/6254.
 								win.webContents.executeJavaScript('document.querySelectorAll(\'details\').forEach(el=>el.setAttribute(\'open\',\'\'))');
 								const data = await win.webContents.printToPDF(options);
 								resolve(data);

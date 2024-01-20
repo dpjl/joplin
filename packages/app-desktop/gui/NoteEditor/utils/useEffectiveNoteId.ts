@@ -6,8 +6,8 @@ export default function useEffectiveNoteId(props: NoteEditorProps) {
 	// no note is selected for a moment, and then a new note gets selected.
 	// In this short transient period, the last displayed note id should temporarily
 	// be used to prevent NoteEditor's body from being unmounted.
-	// See https://github.com/laurent22/joplin/issues/6416
-	// and https://github.com/laurent22/joplin/pull/6430 for details.
+	// See https://github.com/dpjl/joplin/issues/6416
+	// and https://github.com/dpjl/joplin/pull/6430 for details.
 
 	const lastDisplayedNoteId = useRef<string>(null);
 	const whenNoteIdIsTransientlyAbsent = !props.noteId && props.notes.length > 0;

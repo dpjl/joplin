@@ -568,7 +568,7 @@ function useMenu(props: Props) {
 				// `&` before one of the char in the label name mean, that
 				// <Alt + F> will open this menu. It's needed becase electron
 				// opens the first menu on Alt press if no hotkey assigned.
-				// Issue: https://github.com/laurent22/joplin/issues/934
+				// Issue: https://github.com/dpjl/joplin/issues/934
 				submenu: [{
 					label: _('About Joplin'),
 					visible: !!shim.isMac(),

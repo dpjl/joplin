@@ -32,7 +32,7 @@ export default function useEditorSearch(CodeMirror: any) {
 			} catch (error) {
 				// This can randomly crash the app so just print a warning since
 				// it's probably not critical.
-				// https://github.com/laurent22/joplin/issues/7499
+				// https://github.com/dpjl/joplin/issues/7499
 				logger.error('useEditorSearch: Could not clear scrollbar marks:', error);
 			}
 		}
@@ -137,7 +137,7 @@ export default function useEditorSearch(CodeMirror: any) {
 				}
 				// An error of 'Regular expression too large' might occour in the markJs library
 				// when the input is really big, this catch is here to avoid the application crashing
-				// https://github.com/laurent22/joplin/issues/7634
+				// https://github.com/dpjl/joplin/issues/7634
 				console.error('Error while trying to highlight words from search: ', error);
 			}
 		}

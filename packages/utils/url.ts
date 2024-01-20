@@ -88,7 +88,7 @@ export const fileUriToPath = (path: string, platform = 'linux') => {
 	// an invalid Windows path that starts with \\x:, we just remove
 	// the first two backslashes.
 	//
-	// https://github.com/laurent22/joplin/issues/5693
+	// https://github.com/dpjl/joplin/issues/5693
 
 	if (output.match(/^\/\/[a-zA-Z]:/)) {
 		return output.substr(2);

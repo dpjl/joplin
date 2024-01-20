@@ -26,7 +26,7 @@ Difficulty Level: High
 
 Skills Required: JavaScript, Image processing
 
-Potential Mentor(s): [CalebJohn](https://github.com/CalebJohn/), [laurent22](https://github.com/laurent22/), [roman_r_m](https://discourse.joplinapp.org/u/roman_r_m)
+Potential Mentor(s): [CalebJohn](https://github.com/CalebJohn/), [laurent22](https://github.com/dpjl/), [roman_r_m](https://discourse.joplinapp.org/u/roman_r_m)
 
 ### 2. Template plugin
 
@@ -50,7 +50,7 @@ Difficulty Level: Medium
 
 Skills Required: JavaScript, understanding of BibTex format
 
-Potential Mentor(s): [CalebJohn](https://github.com/CalebJohn/), [roman_r_m](https://discourse.joplinapp.org/u/roman_r_m), [laurent22](https://github.com/laurent22/)
+Potential Mentor(s): [CalebJohn](https://github.com/CalebJohn/), [roman_r_m](https://discourse.joplinapp.org/u/roman_r_m), [laurent22](https://github.com/dpjl/)
 
 ### 4. Real-time collaboration on a note
 
@@ -86,7 +86,7 @@ Difficulty Level: High
 
 Skills Required: JavaScript, React Native
 
-Potential Mentor(s): [PackElend](https://discourse.joplinapp.org/u/PackElend), [roman_r_m](https://discourse.joplinapp.org/u/roman_r_m), [laurent22](https://github.com/laurent22/)
+Potential Mentor(s): [PackElend](https://discourse.joplinapp.org/u/PackElend), [roman_r_m](https://discourse.joplinapp.org/u/roman_r_m), [laurent22](https://github.com/dpjl/)
 
 ### 7. Conflict resolution editor plugin
 
@@ -110,10 +110,10 @@ Difficulty Level: High
 
 Skills Required: JavaScript
 
-Potential Mentor(s): [CalebJohn](https://github.com/CalebJohn/), [laurent22](https://github.com/laurent22/)
+Potential Mentor(s): [CalebJohn](https://github.com/CalebJohn/), [laurent22](https://github.com/dpjl/)
 
 ## More info
 
 - Make sure you read the [Joplin Google Summer of Code Introduction](https://joplinapp.org/help/dev/gsoc/gsoc2021)
-- To build the application, please read [BUILD.md](https://github.com/laurent22/joplin/blob/dev/readme/dev/BUILD.md)
+- To build the application, please read [BUILD.md](https://github.com/dpjl/joplin/blob/dev/readme/dev/BUILD.md)
 - And before creating a pull request, please read the [pull request guidelines](https://joplinapp.org/help/dev/gsoc/gsoc2021/pull_request_guidelines)

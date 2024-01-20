@@ -79,10 +79,10 @@ const timestamp = Date.now();
 ### Filenames
 
  * `camelCase.ts`: Files that export multiple things.
-   * Example: [`checkForUpdates.ts`](https://github.com/laurent22/joplin/blob/dev/packages/app-desktop/checkForUpdates.ts)
- * `PascalCase.ts`: [Only if the file contains a single class, which is the default export.](https://github.com/laurent22/joplin/pull/6607#discussion_r906847156)
- * `types.ts` or `fooTypes.ts`: [Shared type definitions](https://github.com/laurent22/joplin/pull/6607#discussion_r906847156)
-   * Example : [`types.ts`](https://github.com/laurent22/joplin/blob/dev/packages/server/src/utils/types.ts)
+   * Example: [`checkForUpdates.ts`](https://github.com/dpjl/joplin/blob/dev/packages/app-desktop/checkForUpdates.ts)
+ * `PascalCase.ts`: [Only if the file contains a single class, which is the default export.](https://github.com/dpjl/joplin/pull/6607#discussion_r906847156)
+ * `types.ts` or `fooTypes.ts`: [Shared type definitions](https://github.com/dpjl/joplin/pull/6607#discussion_r906847156)
+   * Example : [`types.ts`](https://github.com/dpjl/joplin/blob/dev/packages/server/src/utils/types.ts)
 
 ### Use the same case for imported and exported members
 
@@ -214,7 +214,7 @@ As much as possible, avoid default parameters in **function definitions** and op
 
 [XSS](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html) is one of the most common vulnerabilities in today's code. These vulnerabilities are often difficult to spot because they are not errors, they often won't fail any test units and the program will work just fine with 99% of input. Yet that remaining 1% can be exploited and used to steal user information, crash the app, etc.
 
-If you search for ["XSS" in the Joplin git log](https://github.com/laurent22/joplin/search?q=xss&type=commits) you'll find several security vulnerabilities that have been fixed over the year, and that happened in various places that are hard to predict. So we need to be careful with this and make sure we correctly escape user content.
+If you search for ["XSS" in the Joplin git log](https://github.com/dpjl/joplin/search?q=xss&type=commits) you'll find several security vulnerabilities that have been fixed over the year, and that happened in various places that are hard to predict. So we need to be careful with this and make sure we correctly escape user content.
 
 We should do so even if we think we control the input or that it will always have a certain format. That may change in the future, or that could be exploited via another bug.
 
@@ -494,5 +494,5 @@ We aren't using these guides, but they may still be helpful!
 
 ### Posts/resources related to Joplin's style
 
-* GSoC: [GSoC 2022 pull request guidelines](https://github.com/laurent22/joplin/blob/dev/readme/dev/gsoc/gsoc2022/pull_request_guidelines.md)
-* GitHub: [`.eslintrc.js`](https://github.com/laurent22/joplin/blob/dev/.eslintrc.js)
+* GSoC: [GSoC 2022 pull request guidelines](https://github.com/dpjl/joplin/blob/dev/readme/dev/gsoc/gsoc2022/pull_request_guidelines.md)
+* GitHub: [`.eslintrc.js`](https://github.com/dpjl/joplin/blob/dev/.eslintrc.js)

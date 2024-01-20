@@ -613,7 +613,7 @@ function CodeMirror(props: NoteBodyEditorProps, ref: ForwardedRef<NoteBodyEditor
 			let bodyToRender = props.content;
 
 			if (!bodyToRender.trim() && props.visiblePanes.indexOf('viewer') >= 0 && props.visiblePanes.indexOf('editor') < 0) {
-				// Fixes https://github.com/laurent22/joplin/issues/217
+				// Fixes https://github.com/dpjl/joplin/issues/217
 				bodyToRender = `<i>${_('This note has no content. Click on "%s" to toggle the editor and edit the note.', _('Layout'))}</i>`;
 			}
 
@@ -688,7 +688,7 @@ function CodeMirror(props: NoteBodyEditorProps, ref: ForwardedRef<NoteBodyEditor
 			webviewRef.current.send('setMarkers', props.searchMarkers.keywords, props.searchMarkers.options);
 
 			if (editorRef.current) {
-				// Fixes https://github.com/laurent22/joplin/issues/7565
+				// Fixes https://github.com/dpjl/joplin/issues/7565
 				const debouncedMarkers = debounce(() => {
 					const matches = editorRef.current.setMarkers(props.searchMarkers.keywords, props.searchMarkers.options);
 
@@ -729,7 +729,7 @@ function CodeMirror(props: NoteBodyEditorProps, ref: ForwardedRef<NoteBodyEditor
 
 	// Disable this effect to fix this:
 	//
-	// https://github.com/laurent22/joplin/issues/6514 It doesn't seem essential
+	// https://github.com/dpjl/joplin/issues/6514 It doesn't seem essential
 	// to automatically focus the editor when the layout changes. The workaround
 	// is to toggle the layout Cmd+L, then manually focus the editor Cmd+Shift+B.
 	//

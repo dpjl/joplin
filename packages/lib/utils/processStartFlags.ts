@@ -99,7 +99,7 @@ const processStartFlags = async (argv: string[], setDefaults = true) => {
 
 		if (arg.indexOf('-psn') === 0) {
 			// Some weird flag passed by macOS - can be ignored.
-			// https://github.com/laurent22/joplin/issues/480
+			// https://github.com/dpjl/joplin/issues/480
 			// https://stackoverflow.com/questions/10242115
 			argv.splice(0, 1);
 			continue;
@@ -127,7 +127,7 @@ const processStartFlags = async (argv: string[], setDefaults = true) => {
 		if (arg === '--no-sandbox') {
 			// Electron-specific flag for running the app without chrome-sandbox
 			// Allows users to use it as a workaround for the electron+AppImage issue
-			// https://github.com/laurent22/joplin/issues/2246
+			// https://github.com/dpjl/joplin/issues/2246
 			argv.splice(0, 1);
 			continue;
 		}

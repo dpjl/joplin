@@ -40,7 +40,7 @@ export interface Command {
 	 * Or | \|\| | "noteIsTodo \|\| noteTodoCompleted"
 	 * And | && | "oneNoteSelected && !inConflictFolder"
 	 *
-	 * Currently the supported context variables aren't documented, but you can [find the list here](https://github.com/laurent22/joplin/blob/dev/packages/lib/services/commands/stateToWhenClauseContext.ts).
+	 * Currently the supported context variables aren't documented, but you can [find the list here](https://github.com/dpjl/joplin/blob/dev/packages/lib/services/commands/stateToWhenClauseContext.ts).
 	 *
 	 * Note: Commands are enabled by default unless you use this property.
 	 */
@@ -62,7 +62,7 @@ export enum ImportModuleOutputFormat {
 }
 
 /**
- * Used to implement a module to export data from Joplin. [View the demo plugin](https://github.com/laurent22/joplin/tree/dev/packages/app-cli/tests/support/plugins/json_export) for an example.
+ * Used to implement a module to export data from Joplin. [View the demo plugin](https://github.com/dpjl/joplin/tree/dev/packages/app-cli/tests/support/plugins/json_export) for an example.
  *
  * In general, all the event handlers you'll need to implement take a `context` object as a first argument. This object will contain the export or import path as well as various optional properties, such as which notes or notebooks need to be exported.
  *
@@ -411,7 +411,7 @@ export enum ContentScriptType {
 	 * }
 	 * ```
 	 * See [the
-	 * demo](https://github.com/laurent22/joplin/tree/dev/packages/app-cli/tests/support/plugins/content_script)
+	 * demo](https://github.com/dpjl/joplin/tree/dev/packages/app-cli/tests/support/plugins/content_script)
 	 * for a simple Markdown-it plugin example.
 	 *
 	 * ## Exported members
@@ -423,14 +423,14 @@ export enum ContentScriptType {
 	 * - The **required** `plugin` key is the actual Markdown-It plugin - check
 	 *   the [official doc](https://github.com/markdown-it/markdown-it) for more
 	 *   information. The `options` parameter is of type
-	 *   [RuleOptions](https://github.com/laurent22/joplin/blob/dev/packages/renderer/MdToHtml.ts),
+	 *   [RuleOptions](https://github.com/dpjl/joplin/blob/dev/packages/renderer/MdToHtml.ts),
 	 *   which contains a number of options, mostly useful for Joplin's internal
 	 *   code.
 	 *
 	 * - Using the **optional** `assets` key you may specify assets such as JS
 	 *   or CSS that should be loaded in the rendered HTML document. Check for
 	 *   example the Joplin [Mermaid
-	 *   plugin](https://github.com/laurent22/joplin/blob/dev/packages/renderer/MdToHtml/rules/mermaid.ts)
+	 *   plugin](https://github.com/dpjl/joplin/blob/dev/packages/renderer/MdToHtml/rules/mermaid.ts)
 	 *   to see how the data should be structured.
 	 *
 	 * ## Posting messages from the content script to your plugin
@@ -460,7 +460,7 @@ export enum ContentScriptType {
 	 *
 	 * See {@link JoplinContentScripts.onMessage} for more details, as well as
 	 * the [postMessage
-	 * demo](https://github.com/laurent22/joplin/tree/dev/packages/app-cli/tests/support/plugins/post_messages).
+	 * demo](https://github.com/dpjl/joplin/tree/dev/packages/app-cli/tests/support/plugins/post_messages).
 	 *
 	 * ## Registering an existing Markdown-it plugin
 	 *
@@ -527,7 +527,7 @@ export enum ContentScriptType {
 	 * - Using the **optional** `assets` key you may specify **only** CSS assets
 	 *   that should be loaded in the rendered HTML document. Check for example
 	 *   the Joplin [Mermaid
-	 *   plugin](https://github.com/laurent22/joplin/blob/dev/packages/renderer/MdToHtml/rules/mermaid.ts)
+	 *   plugin](https://github.com/dpjl/joplin/blob/dev/packages/renderer/MdToHtml/rules/mermaid.ts)
 	 *   to see how the data should be structured.
 	 *
 	 * One of the `plugin`, `codeMirrorResources`, or `codeMirrorOptions` keys
@@ -535,7 +535,7 @@ export enum ContentScriptType {
 	 * provided is also okay.
 	 *
 	 * See also the [demo
-	 * plugin](https://github.com/laurent22/joplin/tree/dev/packages/app-cli/tests/support/plugins/codemirror_content_script)
+	 * plugin](https://github.com/dpjl/joplin/tree/dev/packages/app-cli/tests/support/plugins/codemirror_content_script)
 	 * for an example of all these keys being used in one plugin.
 	 *
 	 * ## Posting messages from the content script to your plugin
@@ -559,7 +559,7 @@ export enum ContentScriptType {
 	 *
 	 * See {@link JoplinContentScripts.onMessage} for more details, as well as
 	 * the [postMessage
-	 * demo](https://github.com/laurent22/joplin/tree/dev/packages/app-cli/tests/support/plugins/post_messages).
+	 * demo](https://github.com/dpjl/joplin/tree/dev/packages/app-cli/tests/support/plugins/post_messages).
 	 *
 	 */
 	CodeMirrorPlugin = 'codeMirrorPlugin',

@@ -36,7 +36,7 @@ module.exports = async function compilePackageInfo(packageInfoPath, outputPath) 
 	} catch (error) {
 		// Don't display error object as it's a "fatal" error, but
 		// not for us, since is it not critical information
-		// https://github.com/laurent22/joplin/issues/2256
+		// https://github.com/dpjl/joplin/issues/2256
 		console.info('Warning: Could not get git info (it will not be displayed in About dialog box)');
 	}
 	if (typeof branch !== 'undefined' && typeof hash !== 'undefined') {

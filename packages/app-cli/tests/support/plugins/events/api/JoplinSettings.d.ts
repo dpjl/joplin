@@ -14,7 +14,7 @@ export type ChangeHandler = (event: ChangeEvent) => void;
  *
  * Note: Currently this API does **not** provide access to Joplin's built-in settings. This is by design as plugins that modify user settings could give unexpected results
  *
- * [View the demo plugin](https://github.com/laurent22/joplin/tree/dev/packages/app-cli/tests/support/plugins/settings)
+ * [View the demo plugin](https://github.com/dpjl/joplin/tree/dev/packages/app-cli/tests/support/plugins/settings)
  */
 export default class JoplinSettings {
     private plugin_;
@@ -52,7 +52,7 @@ export default class JoplinSettings {
      *
      * The list of available settings is not documented yet, but can be found by looking at the source code:
      *
-     * https://github.com/laurent22/joplin/blob/dev/packages/lib/models/Setting.ts#L142
+     * https://github.com/dpjl/joplin/blob/dev/packages/lib/models/Setting.ts#L142
      */
     globalValue(key: string): Promise<any>;
     /**

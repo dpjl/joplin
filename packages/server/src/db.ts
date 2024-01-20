@@ -422,7 +422,7 @@ const parsePostgresVersionString = (versionString: string) => {
 export const versionCheck = async (db: DbConnection) => {
 	if (isPostgres(db)) {
 		// We only support Postgres v12+
-		// https://github.com/laurent22/joplin/issues/9695
+		// https://github.com/dpjl/joplin/issues/9695
 		// https://www.postgresql.org/docs/current/rules-materializedviews.html
 		const minPostgresVersion = '12.0';
 		const result = await db.select(db.raw('version()')).first();

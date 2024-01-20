@@ -124,7 +124,7 @@ describe('services/ResourceService', () => {
 	}));
 
 	it('should not delete resources that are associated with an encrypted note', (async () => {
-		// https://github.com/laurent22/joplin/issues/1433
+		// https://github.com/dpjl/joplin/issues/1433
 		//
 		// Client 1 and client 2 have E2EE setup.
 		//
@@ -241,7 +241,7 @@ describe('services/ResourceService', () => {
 	// 	// time to quick in an index the resource/note relation. It means
 	// 	// that when doing the orphan resource deletion job, those
 	// 	// resources would permanently stay behing.
-	// 	// https://github.com/laurent22/joplin/issues/932
+	// 	// https://github.com/dpjl/joplin/issues/932
 
 	// 	const service = new ResourceService();
 

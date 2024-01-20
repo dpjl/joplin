@@ -107,7 +107,7 @@ export default class NoteTextViewerComponent extends React.Component<Props, any>
 		try {
 			// It seems this can throw a cross-origin error in a way that is hard to replicate so just wrap
 			// it in try/catch since it's not critical.
-			// https://github.com/laurent22/joplin/issues/3835
+			// https://github.com/dpjl/joplin/issues/3835
 			this.webviewRef_.current.contentWindow.removeEventListener('message', this.webview_message);
 		} catch (error) {
 			reg.logger().warn('Error destroying note viewer', error);

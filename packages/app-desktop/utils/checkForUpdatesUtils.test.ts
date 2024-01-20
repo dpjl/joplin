@@ -13,7 +13,7 @@ describe('checkForUpdates', () => {
 				{
 					downloadUrl: 'https://objects.joplinusercontent.com/v2.12.4/Joplin-2.12.4.dmg',
 					prerelease: true,
-					pageUrl: 'https://github.com/laurent22/joplin/releases/tag/v2.12.4',
+					pageUrl: 'https://github.com/dpjl/joplin/releases/tag/v2.12.4',
 					version: '2.12.4',
 					notes: '',
 				},
@@ -27,7 +27,7 @@ describe('checkForUpdates', () => {
 				{
 					downloadUrl: 'https://objects.joplinusercontent.com/v2.12.4/Joplin-2.12.4-arm64.dmg',
 					prerelease: true,
-					pageUrl: 'https://github.com/laurent22/joplin/releases/tag/v2.12.4',
+					pageUrl: 'https://github.com/dpjl/joplin/releases/tag/v2.12.4',
 					version: '2.12.4',
 					notes: '',
 				},
@@ -43,7 +43,7 @@ describe('checkForUpdates', () => {
 				{
 					downloadUrl: 'https://objects.joplinusercontent.com/v2.12.4/Joplin-2.12.4.dmg',
 					prerelease: true,
-					pageUrl: 'https://github.com/laurent22/joplin/releases/tag/v2.12.4',
+					pageUrl: 'https://github.com/dpjl/joplin/releases/tag/v2.12.4',
 					version: '2.12.4',
 					notes: '',
 				},
@@ -57,7 +57,7 @@ describe('checkForUpdates', () => {
 				{
 					downloadUrl: 'https://objects.joplinusercontent.com/v2.12.4/Joplin-2.12.4.AppImage',
 					prerelease: true,
-					pageUrl: 'https://github.com/laurent22/joplin/releases/tag/v2.12.4',
+					pageUrl: 'https://github.com/dpjl/joplin/releases/tag/v2.12.4',
 					version: '2.12.4',
 					notes: '',
 				},
@@ -71,7 +71,7 @@ describe('checkForUpdates', () => {
 				{
 					downloadUrl: 'https://objects.joplinusercontent.com/v2.12.4/JoplinPortable.exe',
 					prerelease: true,
-					pageUrl: 'https://github.com/laurent22/joplin/releases/tag/v2.12.4',
+					pageUrl: 'https://github.com/dpjl/joplin/releases/tag/v2.12.4',
 					version: '2.12.4',
 					notes: '',
 				},
@@ -85,7 +85,7 @@ describe('checkForUpdates', () => {
 				{
 					downloadUrl: 'https://objects.joplinusercontent.com/v2.12.4/Joplin-Setup-2.12.4.exe',
 					prerelease: true,
-					pageUrl: 'https://github.com/laurent22/joplin/releases/tag/v2.12.4',
+					pageUrl: 'https://github.com/dpjl/joplin/releases/tag/v2.12.4',
 					version: '2.12.4',
 					notes: '',
 				},
@@ -108,7 +108,7 @@ describe('checkForUpdates', () => {
 		// A .DMG may be used to prevent older versions of Joplin from downloading an incompatible
 		// release. Ensure that newer versions of Joplin can download these releases.
 		const releaseDataWithExtension = (extension: string) => {
-			const downloadURL = `https://github.com/laurent22/joplin/releases/download/v2.12.4/Joplin-2.12.4${extension}`;
+			const downloadURL = `https://github.com/dpjl/joplin/releases/download/v2.12.4/Joplin-2.12.4${extension}`;
 			const releaseData: GitHubRelease = {
 				prerelease: false,
 				body: 'this is a test',
@@ -119,7 +119,7 @@ describe('checkForUpdates', () => {
 						browser_download_url: downloadURL,
 					},
 				],
-				html_url: 'https://github.com/laurent22/joplin/releases/tag/v2.12.4',
+				html_url: 'https://github.com/dpjl/joplin/releases/tag/v2.12.4',
 			};
 
 			return releaseData;

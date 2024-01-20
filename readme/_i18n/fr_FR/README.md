@@ -16,7 +16,7 @@ Les notes peuvent être [synchronisées] (#synchronisation) en toute sécurité 
 
 La recherche en texte intégral est disponible sur toutes les plateformes pour trouver rapidement les informations dont vous avez besoin. L'application peut être personnalisée à l'aide de plugins et de thèmes, et vous pouvez également créer facilement le vôtre.
 
-L'application est disponible pour Windows, Linux, macOS, Android et iOS. Un [Web Clipper] (https://github.com/laurent22/joplin/blob/dev/readme/clipper.md), qui permet d'enregistrer des pages Web et des captures d'écran depuis votre navigateur, est également disponible pour [Firefox] (https://addons.mozilla.org/firefox/addon/joplin-web-clipper/) et [Chrome] (https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek?hl=en-GB).
+L'application est disponible pour Windows, Linux, macOS, Android et iOS. Un [Web Clipper] (https://github.com/dpjl/joplin/blob/dev/readme/clipper.md), qui permet d'enregistrer des pages Web et des captures d'écran depuis votre navigateur, est également disponible pour [Firefox] (https://addons.mozilla.org/firefox/addon/joplin-web-clipper/) et [Chrome] (https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek?hl=en-GB).
 
 <div class="top-screenshot"></div><img src="https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/home-top-img.png" style="max-width: 100%; max-height: 35em;">
 
@@ -28,11 +28,11 @@ Trois types d'applications sont disponibles : pour **bureau** (Windows, macOS e
 
 Système d'exploitation | Télécharger
 ---|---
-Windows (32 et 64 bits) | <a href='https://github.com/laurent22/joplin/releases/download/v2.9.17/Joplin-Setup-2.9.17.exe'><img alt='Get it on Windows' width="134px" src='https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/BadgeWindows.png'/></a>
-MacOS | <a href='https://github.com/laurent22/joplin/releases/download/v2.9.17/Joplin-2.9.17.dmg'><img alt='Get it on macOS' width="134px" src='https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/BadgeMacOS.png'/></a>
-Linux | <a href='https://github.com/laurent22/joplin/releases/download/v2.9.17/Joplin-2.9.17.AppImage'><img alt='Get it on Linux' width="134px" src='https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/BadgeLinux.png'/></a>
+Windows (32 et 64 bits) | <a href='https://github.com/dpjl/joplin/releases/download/v2.9.17/Joplin-Setup-2.9.17.exe'><img alt='Get it on Windows' width="134px" src='https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/BadgeWindows.png'/></a>
+MacOS | <a href='https://github.com/dpjl/joplin/releases/download/v2.9.17/Joplin-2.9.17.dmg'><img alt='Get it on macOS' width="134px" src='https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/BadgeMacOS.png'/></a>
+Linux | <a href='https://github.com/dpjl/joplin/releases/download/v2.9.17/Joplin-2.9.17.AppImage'><img alt='Get it on Linux' width="134px" src='https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/BadgeLinux.png'/></a>
 
-<a href='https://github.com/laurent22/joplin/releases/download/v2.9.17/JoplinPortable.exe'>**Sous Windows**, vous pouvez également utiliser la version portable.</a> L' [application portable] (https://en.wikipedia.org/wiki/Portable_application) permet d'installer le logiciel sur un appareil portable tel qu'une clé USB. Copiez simplement le fichier JoplinPortable.exe dans n'importe quel répertoire de cette clé USB ; l'application créera alors un répertoire appelé « JoplinProfile » à côté du fichier exécutable.
+<a href='https://github.com/dpjl/joplin/releases/download/v2.9.17/JoplinPortable.exe'>**Sous Windows**, vous pouvez également utiliser la version portable.</a> L' [application portable] (https://en.wikipedia.org/wiki/Portable_application) permet d'installer le logiciel sur un appareil portable tel qu'une clé USB. Copiez simplement le fichier JoplinPortable.exe dans n'importe quel répertoire de cette clé USB ; l'application créera alors un répertoire appelé « JoplinProfile » à côté du fichier exécutable.
 
 **Sous Linux**, la méthode recommandée est d'utiliser le script d'installation suivant car il gérera également l'icône du bureau :
 
@@ -42,7 +42,7 @@ Linux | <a href='https://github.com/laurent22/joplin/releases/download/v2.9.17/J
 
 Système d'exploitation | Télécharger | Alt. Télécharger
 ---|---|---
-Android | <a href='https://play.google.com/store/apps/details?id=net.cozic.joplin&utm_source=GitHub&utm_campaign=README&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' height="40px" src='https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/BadgeAndroid.png'/></a>| ou téléchargez le fichier APK : [64 bits] (https://github.com/laurent22/joplin-android/releases/download/android-v2.9.8/joplin-v2.9.8.apk) [32 bits] ( https://github.com/laurent22/joplin-android/releases/download/android-v2.9.8/joplin-v2.9.8-32bit.apk)
+Android | <a href='https://play.google.com/store/apps/details?id=net.cozic.joplin&utm_source=GitHub&utm_campaign=README&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' height="40px" src='https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/BadgeAndroid.png'/></a>| ou téléchargez le fichier APK : [64 bits] (https://github.com/dpjl/joplin-android/releases/download/android-v2.9.8/joplin-v2.9.8.apk) [32 bits] ( https://github.com/dpjl/joplin-android/releases/download/android-v2.9.8/joplin-v2.9.8-32bit.apk)
 iOS | <a href='https://itunes.apple.com/us/app/joplin/id1315599797'><img alt='Get it on the App Store' height="40px" src='https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/BadgeIOS.png'/></a>| -
 
 ## Application du terminal
@@ -57,7 +57,7 @@ Pour des informations d'utilisation, veuillez consulter la [Documentation compl�
 
 ## Web Clipper
 
-Le Web Clipper est une extension de navigateur qui vous permet d'enregistrer des pages Web et des captures d'écran à partir de votre navigateur. Pour plus d'informations sur son installation et son utilisation, consultez la [Page d'aide de Web Clipper] (https://github.com/laurent22/joplin/blob/dev/readme/clipper.md).
+Le Web Clipper est une extension de navigateur qui vous permet d'enregistrer des pages Web et des captures d'écran à partir de votre navigateur. Pour plus d'informations sur son installation et son utilisation, consultez la [Page d'aide de Web Clipper] (https://github.com/dpjl/joplin/blob/dev/readme/clipper.md).
 
 ## Distributions alternatives non officielles
 

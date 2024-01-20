@@ -12,9 +12,9 @@ However certain things can interfere with this service and prevent it from being
 
 - Check that the service is started. You can check this in the Web clipper options in the desktop app.
 - Check that the port used by the service is not blocked by a firewall. You can find the port number in the Web clipper options in the desktop Joplin application.
-- Check that no proxy is running on the machine, or make sure that the requests from the web clipper service are filtered and allowed. For example https://github.com/laurent22/joplin/issues/561#issuecomment-392220191
+- Check that no proxy is running on the machine, or make sure that the requests from the web clipper service are filtered and allowed. For example https://github.com/dpjl/joplin/issues/561#issuecomment-392220191
 
-If none of this work, please report it on the [forum](https://discourse.joplinapp.org/) or [GitHub issue tracker](https://github.com/laurent22/joplin/issues)
+If none of this work, please report it on the [forum](https://discourse.joplinapp.org/) or [GitHub issue tracker](https://github.com/dpjl/joplin/issues)
 
 ## Debugging the extension
 
@@ -43,4 +43,4 @@ Copy and paste the content of both the debugging window and the Firefox console,
 
 ## Using the Web Clipper service
 
-The Web Clipper service can be used to create, modify or delete notes, notebooks, tags, etc. from any other application. It exposes an API with a number of methods to manage Joplin's data. For more information about this API and how to use it, please check the [Joplin API documentation](https://github.com/laurent22/joplin/blob/dev/readme/api/references/rest_api.md).
+The Web Clipper service can be used to create, modify or delete notes, notebooks, tags, etc. from any other application. It exposes an API with a number of methods to manage Joplin's data. For more information about this API and how to use it, please check the [Joplin API documentation](https://github.com/dpjl/joplin/blob/dev/readme/api/references/rest_api.md).

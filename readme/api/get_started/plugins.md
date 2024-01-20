@@ -9,7 +9,7 @@ First you need to setup your environment:
 - Make sure you have [Node.js](https://nodejs.org/) and [git](https://git-scm.com) installed.
 - Install [Joplin](https://joplinapp.org/)
 
-But first install [Yeoman](https://yeoman.io/) and the [Joplin Plugin Generator](https://github.com/laurent22/joplin/tree/dev/packages/generator-joplin):
+But first install [Yeoman](https://yeoman.io/) and the [Joplin Plugin Generator](https://github.com/dpjl/joplin/tree/dev/packages/generator-joplin):
 	
 	npm install -g yo generator-joplin
 
@@ -19,7 +19,7 @@ Then, in the directory where you plan to develop the plugin, run:
 
 This will generate the basic scaffolding of the plugin. At the root of it, there are a number of configuration files which you normally won't need to change. Then the `src/` directory will contain your code. By default, the project uses TypeScript, but you are free to use plain JavaScript too - eventually the project is compiled to plain JS in any case.
 
-The `src/` directory also contains a [manifest.json](https://github.com/laurent22/joplin/blob/dev/readme/api/references/plugin_manifest.md) file, which contains the various information about the plugin that was set in the initial generation of the scaffolding, such as its name, homepage URL, etc. You can edit this at any time, but editing it after it has been published may cause users to have to download it again.
+The `src/` directory also contains a [manifest.json](https://github.com/dpjl/joplin/blob/dev/readme/api/references/plugin_manifest.md) file, which contains the various information about the plugin that was set in the initial generation of the scaffolding, such as its name, homepage URL, etc. You can edit this at any time, but editing it after it has been published may cause users to have to download it again.
 
 ## Setup Source Control 
 
@@ -32,7 +32,7 @@ This will setup source control.
 
 ## Run Joplin in Development Mode
 
-You should test your plugin in [Development Mode](https://github.com/laurent22/joplin/blob/dev/readme/api/references/development_mode.md). Doing so means that Joplin will run using a different profile, so you can experiment with the plugin without risking to accidentally change or delete your data.
+You should test your plugin in [Development Mode](https://github.com/dpjl/joplin/blob/dev/readme/api/references/development_mode.md). Doing so means that Joplin will run using a different profile, so you can experiment with the plugin without risking to accidentally change or delete your data.
 
 ## Building the plugin
 
@@ -58,6 +58,6 @@ Restart the Development app from the command line/terminal, and Joplin should lo
 ## Next steps
 Great, you now have the basics of a working plugin! 
 
-- Start the [plugin tutorial](https://github.com/laurent22/joplin/blob/dev/readme/api/tutorials/toc_plugin.md) to learn how to use the plugin API.
+- Start the [plugin tutorial](https://github.com/dpjl/joplin/blob/dev/readme/api/tutorials/toc_plugin.md) to learn how to use the plugin API.
 - See what the plugin API supports, [Plugin API reference](https://joplinapp.org/api/references/plugin_api/classes/joplin.html).
 - For plugin feature ideas, see this thread: https://discourse.joplinapp.org/t/any-suggestions-on-what-plugins-could-be-created/9479

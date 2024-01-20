@@ -15,11 +15,11 @@
     "watch": "tsc --watch --preserveWatchOutput --project tsconfig.json"
   },
   "bugs": {
-    "url": "https://github.com/laurent22/joplin/issues"
+    "url": "https://github.com/dpjl/joplin/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/laurent22/joplin"
+    "url": "https://github.com/dpjl/joplin"
   },
   "copyright": {
     "title": "Joplin CLI",

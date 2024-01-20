@@ -362,7 +362,7 @@ function collapseWhiteSpaceAndAppend(lines: string[], state: any, text: string) 
 
 function tagAttributeToMdText(attr: string): string {
 	// HTML attributes may contain newlines so remove them.
-	// https://github.com/laurent22/joplin/issues/1583
+	// https://github.com/dpjl/joplin/issues/1583
 	if (!attr) return '';
 	attr = attr.replace(/[\n\r]+/g, ' ');
 	attr = attr.replace(/\]/g, '\\]');
@@ -551,7 +551,7 @@ function isCodeBlock(context: any, nodeName: string, attributes: any) {
 	if (attributes && attributes.style) {
 		// Yes, this property sometimes appears as -en-codeblock, sometimes as
 		// --en-codeblock. Would be too easy to import ENEX data otherwise.
-		// https://github.com/laurent22/joplin/issues/4965
+		// https://github.com/dpjl/joplin/issues/4965
 		const enCodeBlock = cssValue(context, attributes.style, [
 			'-en-codeblock',
 			'--en-codeblock',
@@ -678,7 +678,7 @@ function enexXmlToMdArray(stream: any, resources: ResourceEntity[], tasks: Extra
 			// Kind of a hack: If we are inside a list, at the beginning of an item (when a "- " or "1. " has been added
 			// but no other text yet), if the current tag is eg. a <div> or any other block tag, we skip it, so that a new line
 			// does not get created. It is to handle list4.html test case.
-			// https://github.com/laurent22/joplin/issues/832
+			// https://github.com/dpjl/joplin/issues/832
 			if (currentList) {
 				if (!currentList.startedText && isBlockTag(n)) return;
 				currentList.startedText = true;

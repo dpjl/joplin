@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
   spec.version      = "1.0.0"
   spec.summary      = "React Native module for Joplin to access the data from the share extension."
   spec.description  = "React Native Share Extension module for Joplin"
-  spec.homepage     = "https://github.com/laurent22/joplin"
+  spec.homepage     = "https://github.com/dpjl/joplin"
   spec.license      = { :type => "AGPL-3.0-or-later" }
   spec.author       = { "Duncan Cunningham" => "duncanc4@gmail.com" }
   spec.platform     = :ios, "9.0"

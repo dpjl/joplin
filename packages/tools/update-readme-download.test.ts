@@ -24,19 +24,19 @@ describe('update-readme-download', () => {
 
 		const testCases: [GitHubRelease, OS, boolean, string][] = [
 			[
-				createRelease('joplin-v2.9.8.apk', 'https://github.com/laurent22/joplin-android/releases/download/android-v2.9.8/joplin-v2.9.8.apk'),
+				createRelease('joplin-v2.9.8.apk', 'https://github.com/dpjl/joplin-android/releases/download/android-v2.9.8/joplin-v2.9.8.apk'),
 				OS.Android,
 				false,
 				'https://objects.joplinusercontent.com/v2.9.8/joplin-v2.9.8.apk',
 			],
 			[
-				createRelease('Joplin-Setup-2.11.11.exe', 'https://github.com/laurent22/joplin/releases/download/v2.11.11/Joplin-Setup-2.11.11.exe'),
+				createRelease('Joplin-Setup-2.11.11.exe', 'https://github.com/dpjl/joplin/releases/download/v2.11.11/Joplin-Setup-2.11.11.exe'),
 				OS.Windows,
 				false,
 				'https://objects.joplinusercontent.com/v2.11.11/Joplin-Setup-2.11.11.exe',
 			],
 			[
-				createRelease('JoplinPortable.exe', 'https://github.com/laurent22/joplin/releases/download/v2.11.11/JoplinPortable.exe'),
+				createRelease('JoplinPortable.exe', 'https://github.com/dpjl/joplin/releases/download/v2.11.11/JoplinPortable.exe'),
 				OS.Windows,
 				true,
 				'https://objects.joplinusercontent.com/v2.11.11/JoplinPortable.exe',

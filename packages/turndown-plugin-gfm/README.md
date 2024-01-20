@@ -2,7 +2,7 @@
 
 A [Turndown](https://github.com/domchristie/turndown) plugin which adds GitHub Flavored Markdown extensions.
 
-This is a fork of the original [turndown-plugin-gfm](https://github.com/domchristie/turndown-plugin-gfm) for use with [Joplin](https://github.com/laurent22/joplin). The changes are:
+This is a fork of the original [turndown-plugin-gfm](https://github.com/domchristie/turndown-plugin-gfm) for use with [Joplin](https://github.com/dpjl/joplin). The changes are:
 
 - New: Always render tables even if they don't have a header.
 - New: Don't render the border of tables that contain other tables (frequent for websites that do the layout using tables). Only render the inner tables, if any, and if they also don't contain other tables.

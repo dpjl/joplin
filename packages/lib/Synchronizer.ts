@@ -411,7 +411,7 @@ export default class Synchronizer {
 		// auto-deleted at a later time. Indexing resources is fast so it's fine
 		// to call it every time here.
 		//
-		// https://github.com/laurent22/joplin/issues/932#issuecomment-933736405
+		// https://github.com/dpjl/joplin/issues/932#issuecomment-933736405
 		try {
 			if (this.resourceService()) {
 				logger.info('Indexing resources...');

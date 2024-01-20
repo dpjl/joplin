@@ -81,7 +81,7 @@ export default class HtmlToHtml implements MarkupRenderer {
 
 	// Note: the "theme" variable is ignored and instead the light theme is
 	// always used for HTML notes.
-	// See: https://github.com/laurent22/joplin/issues/3698
+	// See: https://github.com/dpjl/joplin/issues/3698
 	public async render(markup: string, theme: any, options: RenderOptions): Promise<RenderResult> {
 		options = {
 			splitted: false,

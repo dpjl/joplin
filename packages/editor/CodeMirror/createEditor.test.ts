@@ -23,7 +23,7 @@ describe('createEditor', () => {
 	// 2. upgrading all CodeMirror packages to the latest versions in package.json, and
 	// 3. re-running `yarn install`.
 	//
-	// See https://github.com/laurent22/joplin/issues/7253
+	// See https://github.com/dpjl/joplin/issues/7253
 	it('should give headings a different style', async () => {
 		const headerLineText = '# Testing...';
 		const initialText = `${headerLineText}\nThis is a test.`;

@@ -87,7 +87,7 @@ export default function PdfViewer(props: Props) {
 		iframe.contentWindow.addEventListener('message', onMessage_);
 		return () => {
 			// iframe.contentWindow is not always defined
-			// https://github.com/laurent22/joplin/issues/7528
+			// https://github.com/dpjl/joplin/issues/7528
 			if (iframe.contentWindow) iframe.contentWindow.removeEventListener('message', onMessage_);
 		};
 	}, [onMessage_]);

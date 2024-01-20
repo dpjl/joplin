@@ -61,7 +61,7 @@ Diverses autres astuces sont possibles, telles que l'utilisation de HTML ou la p
 
 - Pour une discussion générale sur Joplin, l'assistance aux utilisateurs, les questions de développement logiciel et pour discuter des nouvelles fonctionnalités, rendez-vous sur le [Forum Joplin](https://discourse.joplinapp.org/). Il est possible de se connecter avec votre compte GitHub.
 - Les dernières nouvelles sont publiées [sur la page Patreon](https://www.patreon.com/joplin).
-- Pour les rapports de bugs et les demandes de fonctionnalités, accédez au [GitHub Issue Tracker](https://github.com/laurent22/joplin/issues).
+- Pour les rapports de bugs et les demandes de fonctionnalités, accédez au [GitHub Issue Tracker](https://github.com/dpjl/joplin/issues).
 
 ## Donations
 

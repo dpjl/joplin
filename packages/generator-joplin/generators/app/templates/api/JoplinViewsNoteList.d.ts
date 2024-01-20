@@ -10,11 +10,11 @@ import { ListRenderer } from './noteListType';
  * your template and rendered. See [[[ListRenderer]]] for a detailed description
  * of each property of the renderer.
  *
- * [View the demo plugin](https://github.com/laurent22/joplin/tree/dev/packages/app-cli/tests/support/plugins/note_list_renderer)
+ * [View the demo plugin](https://github.com/dpjl/joplin/tree/dev/packages/app-cli/tests/support/plugins/note_list_renderer)
  *
  * The default list renderer is implemented using the same API, so it worth checking it too:
  *
- * [Default list renderer](https://github.com/laurent22/joplin/tree/dev/packages/lib/services/noteList/defaultListRenderer.ts)
+ * [Default list renderer](https://github.com/dpjl/joplin/tree/dev/packages/lib/services/noteList/defaultListRenderer.ts)
  */
 export default class JoplinViewsNoteList {
     private plugin_;

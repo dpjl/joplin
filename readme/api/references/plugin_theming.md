@@ -22,7 +22,7 @@ In addition to variables, you have access to a set of standard font assets that 
 
 * [Roboto](https://fonts.google.com/specimen/Roboto?preview.text_type=custom) - (the standard UI font, `font-family` referenced above)
 * [Font Awesome](https://fontawesome.com/icons?d=gallery&p=2&m=free) - icon library
-* [icoMoon](https://icomoon.io/#preview-free) - icon library (subset, see [style.css](https://github.com/laurent22/joplin/blob/dev/packages/app-desktop/style/icons/style.css))
+* [icoMoon](https://icomoon.io/#preview-free) - icon library (subset, see [style.css](https://github.com/dpjl/joplin/blob/dev/packages/app-desktop/style/icons/style.css))
 
 To display an icon, use CSS and HTML like the following.
 

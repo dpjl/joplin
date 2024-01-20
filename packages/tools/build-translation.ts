@@ -293,7 +293,7 @@ function flagImageUrl(locale: string) {
 }
 
 function poFileUrl(locale: string) {
-	return `https://github.com/laurent22/joplin/blob/dev/packages/tools/locales/${locale}.po`;
+	return `https://github.com/dpjl/joplin/blob/dev/packages/tools/locales/${locale}.po`;
 }
 
 function translationStatusToMdTable(status: TranslationStatus[]) {

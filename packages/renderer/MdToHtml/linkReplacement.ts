@@ -89,7 +89,7 @@ export default function(href: string, options: Options = null): LinkReplacementR
 
 	// A single quote is valid in a URL but we don't want any because the
 	// href is already enclosed in single quotes.
-	// https://github.com/laurent22/joplin/issues/2030
+	// https://github.com/dpjl/joplin/issues/2030
 	href = href.replace(/'/g, '%27');
 
 	let js = `${options.postMessageSyntax}(${JSON.stringify(href)}, { resourceId: ${JSON.stringify(resourceId)} }); return false;`;

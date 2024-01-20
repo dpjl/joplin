@@ -216,7 +216,7 @@ class NoteScreenComponent extends BaseScreenComponent<Props, State> implements B
 			// the commits till a working version did not help. The bug also does not happen in the simulator which makes it hard to fix.
 			// Eventually, a way that "worked" is to add a 1px margin on top of the text input just after the webview has loaded, then removing this
 			// margin. This forces RN to update the text input and to display it. Maybe that hack can be removed once RN is upgraded.
-			// See https://github.com/laurent22/joplin/issues/1057
+			// See https://github.com/dpjl/joplin/issues/1057
 			HACK_webviewLoadingState: 0,
 
 			undoRedoButtonState: {
@@ -463,11 +463,11 @@ class NoteScreenComponent extends BaseScreenComponent<Props, State> implements B
 				paddingRight: theme.marginRight,
 
 				// Add extra space to allow scrolling past end of document, and also to fix this:
-				// https://github.com/laurent22/joplin/issues/1437
+				// https://github.com/dpjl/joplin/issues/1437
 				// 2020-04-20: removed bottom padding because it doesn't work properly in Android
 				// Instead of being inside the scrollable area, the padding is outside thus
 				// restricting the view.
-				// See https://github.com/laurent22/joplin/issues/3041#issuecomment-616267739
+				// See https://github.com/dpjl/joplin/issues/3041#issuecomment-616267739
 				// paddingBottom: Math.round(dimensions.height / 4),
 
 				textAlignVertical: 'top',
@@ -1489,7 +1489,7 @@ class NoteScreenComponent extends BaseScreenComponent<Props, State> implements B
 			// However it causes memory or rendering issues on older Android devices, probably because
 			// the whole text input has to be in memory for the scrollview to work. So we keep it as
 			// a plain TextInput for now.
-			// See https://github.com/laurent22/joplin/issues/3041
+			// See https://github.com/dpjl/joplin/issues/3041
 
 			// IMPORTANT: The TextInput selection is unreliable and cannot be used in a controlled component
 			// context. In other words, the selection should be considered read-only. For example, if the seleciton
@@ -1517,7 +1517,7 @@ class NoteScreenComponent extends BaseScreenComponent<Props, State> implements B
 						placeholder={_('Add body')}
 						placeholderTextColor={theme.colorFaded}
 						// need some extra padding for iOS so that the keyboard won't cover last line of the note
-						// see https://github.com/laurent22/joplin/issues/3607
+						// see https://github.com/dpjl/joplin/issues/3607
 						// Property is gone as of RN 0.72?
 						// paddingBottom={ (Platform.OS === 'ios' ? 40 : 0) as any}
 					/>

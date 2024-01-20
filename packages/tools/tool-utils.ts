@@ -22,7 +22,7 @@ export interface GitHubRelease {
 }
 
 async function insertChangelog(tag: string, changelogPath: string, changelog: string, isPrerelease: boolean, repoTagUrl = '') {
-	repoTagUrl = repoTagUrl || 'https://github.com/laurent22/joplin/releases/tag';
+	repoTagUrl = repoTagUrl || 'https://github.com/dpjl/joplin/releases/tag';
 
 	const currentText = await readFile(changelogPath, 'utf8');
 	const lines = currentText.split('\n');
@@ -287,7 +287,7 @@ export async function githubUsername(email: string, name: string) {
 		// Note that this can fail if the email could not be found and the user
 		// shares a name with someone else. It's rare enough that we can leave
 		// it for now.
-		// https://github.com/laurent22/joplin/pull/5390
+		// https://github.com/dpjl/joplin/pull/5390
 		`https://api.github.com/search/users?q=user:${encodeURI(name)}`,
 	];
 
@@ -423,8 +423,8 @@ export async function githubRelease(project: string, tagName: string, options: a
 }
 
 export const gitHubLinkify = (markdown: string) => {
-	markdown = markdown.replace(/#(\d+)/g, '[#$1](https://github.com/laurent22/joplin/issues/$1)');
-	markdown = markdown.replace(/\(([a-f0-9]+)\)/g, '([$1](https://github.com/laurent22/joplin/commit/$1))');
+	markdown = markdown.replace(/#(\d+)/g, '[#$1](https://github.com/dpjl/joplin/issues/$1)');
+	markdown = markdown.replace(/\(([a-f0-9]+)\)/g, '([$1](https://github.com/dpjl/joplin/commit/$1))');
 	return markdown;
 };
 

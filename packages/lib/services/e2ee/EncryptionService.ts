@@ -289,14 +289,14 @@ export default class EncryptionService {
 				}
 			},
 
-			// 2020-03-06: Added method to fix https://github.com/laurent22/joplin/issues/2591
+			// 2020-03-06: Added method to fix https://github.com/dpjl/joplin/issues/2591
 			//             Also took the opportunity to change number of key derivations, per Isaac Potoczny's suggestion
 			// 2023-06-10: Deprecated in favour of SJCL1b
 			[EncryptionMethod.SJCL1a]: () => {
 				try {
 					// We need to escape the data because SJCL uses encodeURIComponent to process the data and it only
 					// accepts UTF-8 data, or else it throws an error. And the notes might occasionally contain
-					// invalid UTF-8 data. Fixes https://github.com/laurent22/joplin/issues/2591
+					// invalid UTF-8 data. Fixes https://github.com/dpjl/joplin/issues/2591
 					return sjcl.json.encrypt(key, escape(plainText), {
 						v: 1, // version
 						iter: 101, // Since the master key already uses key derivations and is secure, additional iteration here aren't necessary, which will make decryption faster. SJCL enforces an iter strictly greater than 100
@@ -312,12 +312,12 @@ export default class EncryptionService {
 			},
 
 			// 2023-06-10: Changed AES-128 to AES-256 per TheQuantumPhysicist's suggestions
-			// https://github.com/laurent22/joplin/issues/7686
+			// https://github.com/dpjl/joplin/issues/7686
 			[EncryptionMethod.SJCL1b]: () => {
 				try {
 					// We need to escape the data because SJCL uses encodeURIComponent to process the data and it only
 					// accepts UTF-8 data, or else it throws an error. And the notes might occasionally contain
-					// invalid UTF-8 data. Fixes https://github.com/laurent22/joplin/issues/2591
+					// invalid UTF-8 data. Fixes https://github.com/dpjl/joplin/issues/2591
 					return sjcl.json.encrypt(key, escape(plainText), {
 						v: 1, // version
 						iter: 101, // Since the master key already uses key derivations and is secure, additional iteration here aren't necessary, which will make decryption faster. SJCL enforces an iter strictly greater than 100

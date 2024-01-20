@@ -67,7 +67,7 @@ export default class InteropService_Importer_Md_frontmatter extends InteropServi
 
 				// Need to eat the extra newline after the yaml block. Note that
 				// if the next line is not an empty line, we keep it. Fixes
-				// https://github.com/laurent22/joplin/issues/8802
+				// https://github.com/dpjl/joplin/issues/8802
 				if (nextLine.trim() === '') i++;
 
 				continue;

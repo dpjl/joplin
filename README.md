@@ -4,17 +4,17 @@
 
 <img width="64" src="https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/LinuxIcons/256x256.png" align="left" style="margin-right:15px"/>
 
-**Joplin** is a free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks. The notes are searchable, can be copied, tagged and modified either from the applications directly or from your own text editor. The notes are in [Markdown format](https://github.com/laurent22/joplin/blob/dev/readme/apps/markdown.md).
+**Joplin** is a free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks. The notes are searchable, can be copied, tagged and modified either from the applications directly or from your own text editor. The notes are in [Markdown format](https://github.com/dpjl/joplin/blob/dev/readme/apps/markdown.md).
 
-Notes exported from Evernote [can be imported](https://github.com/laurent22/joplin/blob/dev/readme/apps/import_export.md) into Joplin, including the formatted content (which is converted to Markdown), resources (images, attachments, etc.) and complete metadata (geolocation, updated time, created time, etc.). Plain Markdown files can also be imported.
+Notes exported from Evernote [can be imported](https://github.com/dpjl/joplin/blob/dev/readme/apps/import_export.md) into Joplin, including the formatted content (which is converted to Markdown), resources (images, attachments, etc.) and complete metadata (geolocation, updated time, created time, etc.). Plain Markdown files can also be imported.
 
 Joplin is "offline first", which means you always have all your data on your phone or computer. This ensures that your notes are always accessible, whether you have an internet connection or not.
 
-The notes can be securely [synchronised](https://github.com/laurent22/joplin/blob/dev/readme/apps/sync/index.md) using [end-to-end encryption](https://github.com/laurent22/joplin/blob/dev/readme/apps/sync/e2ee.md) with various cloud services including Nextcloud, Dropbox, OneDrive and [Joplin Cloud](https://joplinapp.org/plans/).
+The notes can be securely [synchronised](https://github.com/dpjl/joplin/blob/dev/readme/apps/sync/index.md) using [end-to-end encryption](https://github.com/dpjl/joplin/blob/dev/readme/apps/sync/e2ee.md) with various cloud services including Nextcloud, Dropbox, OneDrive and [Joplin Cloud](https://joplinapp.org/plans/).
 
 Full text search is available on all platforms to quickly find the information you need. The app can be customised using plugins and themes, and you can also easily create your own.
 
-The application is available for Windows, Linux, macOS, Android and iOS. A [Web Clipper](https://github.com/laurent22/joplin/blob/dev/readme/apps/clipper.md), to save web pages and screenshots from your browser, is also available for [Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper/) and [Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek?hl=en-GB).
+The application is available for Windows, Linux, macOS, Android and iOS. A [Web Clipper](https://github.com/dpjl/joplin/blob/dev/readme/apps/clipper.md), to save web pages and screenshots from your browser, is also available for [Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper/) and [Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek?hl=en-GB).
 
 <div class="top-screenshot"><img src="https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/home-top-img.png" style="max-width: 100%; max-height: 35em;"></div>
 
@@ -26,7 +26,7 @@ For more information about the applications, see the [full Joplin documentation]
 
 Donations to Joplin support the development of the project. Developing quality applications mostly takes time, but there are also some expenses, such as digital certificates to sign the applications, app store fees, hosting, etc. Most of all, your donation will make it possible to keep up the current development standard.
 
-Please see the [donation page](https://github.com/laurent22/joplin/blob/dev/readme/donate.md) for information on how to support the development of Joplin.
+Please see the [donation page](https://github.com/dpjl/joplin/blob/dev/readme/donate.md) for information on how to support the development of Joplin.
 
 # Sponsors
 
@@ -60,7 +60,7 @@ Name | Description
 
 # Contributing
 
-Please see the guide for information on how to contribute to the development of Joplin: https://github.com/laurent22/joplin/blob/dev/readme/dev/index.md
+Please see the guide for information on how to contribute to the development of Joplin: https://github.com/dpjl/joplin/blob/dev/readme/dev/index.md
 
 # Contributors
 
@@ -69,7 +69,7 @@ Thank you to everyone who've contributed to Joplin's source code!
 <!-- CONTRIBUTORS-TABLE-AUTO-GENERATED -->
 |     |     |     |     |     |
 | :---: | :---: | :---: | :---: | :---: |
-| <img width="50" src="https://avatars.githubusercontent.com/u/1285584?v=4"/></br>[laurent22](https://github.com/laurent22) | <img width="50" src="https://avatars.githubusercontent.com/u/223439?v=4"/></br>[tessus](https://github.com/tessus) | <img width="50" src="https://avatars.githubusercontent.com/u/2179547?v=4"/></br>[CalebJohn](https://github.com/CalebJohn) | <img width="50" src="https://avatars.githubusercontent.com/u/46334387?v=4"/></br>[personalizedrefrigerator](https://github.com/personalizedrefrigerator) | <img width="50" src="https://avatars.githubusercontent.com/u/995612?v=4"/></br>[roman-r-m](https://github.com/roman-r-m) |
+| <img width="50" src="https://avatars.githubusercontent.com/u/1285584?v=4"/></br>[laurent22](https://github.com/dpjl) | <img width="50" src="https://avatars.githubusercontent.com/u/223439?v=4"/></br>[tessus](https://github.com/tessus) | <img width="50" src="https://avatars.githubusercontent.com/u/2179547?v=4"/></br>[CalebJohn](https://github.com/CalebJohn) | <img width="50" src="https://avatars.githubusercontent.com/u/46334387?v=4"/></br>[personalizedrefrigerator](https://github.com/personalizedrefrigerator) | <img width="50" src="https://avatars.githubusercontent.com/u/995612?v=4"/></br>[roman-r-m](https://github.com/roman-r-m) |
 | <img width="50" src="https://avatars.githubusercontent.com/u/1732810?v=4"/></br>[miciasto](https://github.com/miciasto) | <img width="50" src="https://avatars.githubusercontent.com/u/16041683?v=4"/></br>[ken1kob](https://github.com/ken1kob) | <img width="50" src="https://avatars.githubusercontent.com/u/29672555?v=4"/></br>[genneko](https://github.com/genneko) | <img width="50" src="https://avatars.githubusercontent.com/u/58074586?v=4"/></br>[Daeraxa](https://github.com/Daeraxa) | <img width="50" src="https://avatars.githubusercontent.com/u/4553672?v=4"/></br>[tanrax](https://github.com/tanrax) |
 | <img width="50" src="https://avatars.githubusercontent.com/u/63491353?v=4"/></br>[j-krl](https://github.com/j-krl) | <img width="50" src="https://avatars.githubusercontent.com/u/62299611?v=4"/></br>[wh201906](https://github.com/wh201906) | <img width="50" src="https://avatars.githubusercontent.com/u/24863925?v=4"/></br>[JackGruber](https://github.com/JackGruber) | <img width="50" src="https://avatars.githubusercontent.com/u/30305957?v=4"/></br>[naviji](https://github.com/naviji) | <img width="50" src="https://avatars.githubusercontent.com/u/3542031?v=4"/></br>[PackElend](https://github.com/PackElend) |
 | <img width="50" src="https://avatars.githubusercontent.com/u/32807437?v=4"/></br>[julien-me](https://github.com/julien-me) | <img width="50" src="https://avatars.githubusercontent.com/u/5051088?v=4"/></br>[pedr](https://github.com/pedr) | <img width="50" src="https://avatars.githubusercontent.com/u/4374338?v=4"/></br>[potatogim](https://github.com/potatogim) | <img width="50" src="https://avatars.githubusercontent.com/u/84130654?v=4"/></br>[JonatanWick](https://github.com/JonatanWick) | <img width="50" src="https://avatars.githubusercontent.com/u/2063957?v=4"/></br>[Ardakilic](https://github.com/Ardakilic) |

@@ -1,5 +1,5 @@
 👉 Please follow one of these issue templates:
-- https://github.com/laurent22/joplin/issues/new/choose
+- https://github.com/dpjl/joplin/issues/new/choose
 
 ⚠️
 The GitHub issue tracker is for **bugs** and **security issues** ONLY. For feature requests and support, please use the forum:

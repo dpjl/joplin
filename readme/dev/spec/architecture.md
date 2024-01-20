@@ -2,9 +2,9 @@
 
 Joplin as a project is organised around three main components:
 
-- The user applications: For [desktop](https://github.com/laurent22/joplin/blob/dev/readme/apps/desktop.md), [mobile](https://github.com/laurent22/joplin/blob/dev/readme/apps/mobile.md) and [CLI](https://github.com/laurent22/joplin/blob/dev/readme/apps/terminal.md))
-- [Joplin Server](https://github.com/laurent22/joplin/blob/dev/packages/server/README.md)
-- [Web Clipper](https://github.com/laurent22/joplin/blob/dev/readme/apps/clipper.md)
+- The user applications: For [desktop](https://github.com/dpjl/joplin/blob/dev/readme/apps/desktop.md), [mobile](https://github.com/dpjl/joplin/blob/dev/readme/apps/mobile.md) and [CLI](https://github.com/dpjl/joplin/blob/dev/readme/apps/terminal.md))
+- [Joplin Server](https://github.com/dpjl/joplin/blob/dev/packages/server/README.md)
+- [Web Clipper](https://github.com/dpjl/joplin/blob/dev/readme/apps/clipper.md)
 
 ## User applications
 
@@ -16,7 +16,7 @@ The overall architecture for each application is as such:
 
 - Back end: This is shared by all applications. It is made of:
 
-	- Services: Provide high-level functionalities, such as the [search engine](https://github.com/laurent22/joplin/tree/dev/packages/lib/services/search), [plugin system](https://github.com/laurent22/joplin/tree/dev/packages/lib/services/plugins) or [synchroniser](https://github.com/laurent22/joplin/blob/dev/packages/lib/Synchronizer.ts).
+	- Services: Provide high-level functionalities, such as the [search engine](https://github.com/dpjl/joplin/tree/dev/packages/lib/services/search), [plugin system](https://github.com/dpjl/joplin/tree/dev/packages/lib/services/plugins) or [synchroniser](https://github.com/dpjl/joplin/blob/dev/packages/lib/Synchronizer.ts).
 
 	- Models: The model layer sits between the services and database. They provide a higher level abstraction than SQL and utility functions to easily save data, such as notes, notebooks, etc.
 
@@ -44,7 +44,7 @@ Joplin Server is used to synchronise the application data between multiple devic
 
 A typical Joplin Server installation will use the following elements:
 
-- The [Joplin Server application](https://github.com/laurent22/joplin/blob/dev/packages/server/README.md). This is a Node.js application. It exposes a REST API that is used by the Joplin clients to upload or download notes, notebooks, and other Joplin objects.
+- The [Joplin Server application](https://github.com/dpjl/joplin/blob/dev/packages/server/README.md). This is a Node.js application. It exposes a REST API that is used by the Joplin clients to upload or download notes, notebooks, and other Joplin objects.
 
 - [PostgreSQL](https://www.postgresql.org/): it is used to save the "item" metadata. An "item" can be a note, a notebook, a tag, etc. It is also used to save other informations, such as user accounts, access logs, etc.
 
@@ -66,7 +66,7 @@ It is developed using the [WebExtensions API](https://extensionworkshop.com/docu
 
 ## More information
 
-- [Plugin Architecture spec](https://github.com/laurent22/joplin/blob/dev/readme/dev/spec/plugins.md)
-- [E2EE: Technical spec](https://github.com/laurent22/joplin/blob/dev/readme/dev/spec/e2ee.md)
-- [E2EE: Workflow](https://github.com/laurent22/joplin/blob/dev/readme/dev/spec/e2ee/workflow.md)
-- [All Joplin technical specifications](https://github.com/laurent22/joplin/tree/dev/readme/dev/spec)
+- [Plugin Architecture spec](https://github.com/dpjl/joplin/blob/dev/readme/dev/spec/plugins.md)
+- [E2EE: Technical spec](https://github.com/dpjl/joplin/blob/dev/readme/dev/spec/e2ee.md)
+- [E2EE: Workflow](https://github.com/dpjl/joplin/blob/dev/readme/dev/spec/e2ee/workflow.md)
+- [All Joplin technical specifications](https://github.com/dpjl/joplin/tree/dev/readme/dev/spec)

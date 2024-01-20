@@ -21,7 +21,7 @@ Linux | <a href='https://objects.joplinusercontent.com/v2.13.15/Joplin-2.13.15.A
 
 <pre><code style="word-break: break-all">wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash</code></pre>
 
-The install and update script supports the [following flags](https://github.com/laurent22/joplin/blob/dev/Joplin_install_and_update.sh#L50) (around line 50 at the time of this writing).
+The install and update script supports the [following flags](https://github.com/dpjl/joplin/blob/dev/Joplin_install_and_update.sh#L50) (around line 50 at the time of this writing).
 
 ## Mobile applications
 
@@ -42,7 +42,7 @@ For usage information, please refer to the full [Joplin Terminal Application Doc
 
 ## Web Clipper
 
-The Web Clipper is a browser extension that allows you to save web pages and screenshots from your browser. For more information on how to install and use it, see the [Web Clipper Help Page](https://github.com/laurent22/joplin/blob/dev/readme/apps/clipper.md).
+The Web Clipper is a browser extension that allows you to save web pages and screenshots from your browser. For more information on how to install and use it, see the [Web Clipper Help Page](https://github.com/dpjl/joplin/blob/dev/readme/apps/clipper.md).
 
 ## Unofficial Alternative Distributions
 

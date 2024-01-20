@@ -7,7 +7,7 @@ import { ViewHandle } from './types';
  * could be used to display a table of content for the active note, or
  * display various metadata or graph.
  *
- * [View the demo plugin](https://github.com/laurent22/joplin/tree/dev/packages/app-cli/tests/support/plugins/toc)
+ * [View the demo plugin](https://github.com/dpjl/joplin/tree/dev/packages/app-cli/tests/support/plugins/toc)
  */
 export default class JoplinViewsPanels {
     private store;
@@ -42,7 +42,7 @@ export default class JoplinViewsPanels {
      * plugin and webview.
      *
      * See the [postMessage
-     * demo](https://github.com/laurent22/joplin/tree/dev/packages/app-cli/tests/support/plugins/post_messages) for more details.
+     * demo](https://github.com/dpjl/joplin/tree/dev/packages/app-cli/tests/support/plugins/post_messages) for more details.
      *
      */
     onMessage(handle: ViewHandle, callback: Function): Promise<void>;

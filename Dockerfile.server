@@ -83,5 +83,5 @@ LABEL org.opencontainers.image.created="$BUILD_DATE" \
       org.opencontainers.image.description="Docker image for Joplin Server" \
       org.opencontainers.image.url="https://joplinapp.org/" \
       org.opencontainers.image.revision="$REVISION" \
-      org.opencontainers.image.source="https://github.com/laurent22/joplin.git" \
+      org.opencontainers.image.source="https://github.com/dpjl/joplin.git" \
       org.opencontainers.image.version="${VERSION}"

@@ -32,7 +32,7 @@ const useContextMenu = (props: ContextMenuProps) => {
 
 	// The below code adds support for spellchecking when it is enabled
 	// It might be buggy, refer to the below issue
-	// https://github.com/laurent22/joplin/pull/3974#issuecomment-718936703
+	// https://github.com/dpjl/joplin/pull/3974#issuecomment-718936703
 	useEffect(() => {
 		const isAncestorOfCodeMirrorEditor = (elem: Element) => {
 			for (; elem.parentElement; elem = elem.parentElement) {

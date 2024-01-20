@@ -20,7 +20,7 @@ There are also a few forks of existing packages under the "fork-*" name.
 
 - Install Node 16+. On Windows, also install the build tools - https://nodejs.org/en/
   - [Enable Yarn](https://yarnpkg.com/getting-started/install): `corepack enable`
-- macOS: Install Cocoapods - `brew install cocoapods`. Apple Silicon [may require libvips](https://github.com/laurent22/joplin/pull/5966#issuecomment-1007158597) - `brew install vips`.
+- macOS: Install Cocoapods - `brew install cocoapods`. Apple Silicon [may require libvips](https://github.com/dpjl/joplin/pull/5966#issuecomment-1007158597) - `brew install vips`.
 - Linux: Install dependencies - `sudo apt install build-essential libnss3 libsecret-1-dev python rsync`
 
 ## Building
@@ -109,4 +109,4 @@ It still requires you to quit the application each time you want it to rebuild, 
 
 ## Troubleshooting
 
-Please read for the [Build Troubleshooting Document](https://github.com/laurent22/joplin/blob/dev/readme/dev/build_troubleshooting.md) for various tips on how to get the build working.
+Please read for the [Build Troubleshooting Document](https://github.com/dpjl/joplin/blob/dev/readme/dev/build_troubleshooting.md) for various tips on how to get the build working.

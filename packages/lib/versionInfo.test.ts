@@ -14,14 +14,14 @@ const packageInfo = {
 	'description': 'Joplin for Desktop',
 	'repository': {
 		'type': 'git',
-		'url': 'git+https://github.com/laurent22/joplin.git',
+		'url': 'git+https://github.com/dpjl/joplin.git',
 	},
 	'author': 'Laurent Cozic',
 	'license': 'AGPL-3.0-or-later',
 	'bugs': {
-		'url': 'https://github.com/laurent22/joplin/issues',
+		'url': 'https://github.com/dpjl/joplin/issues',
 	},
-	'homepage': 'https://github.com/laurent22/joplin#readme',
+	'homepage': 'https://github.com/dpjl/joplin#readme',
 	'build': {
 		'appId': 'net.cozic.joplin-desktop',
 	},

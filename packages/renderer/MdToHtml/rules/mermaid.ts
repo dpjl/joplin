@@ -17,7 +17,7 @@ export default {
 			{
 				inline: true,
 				// Export button in mermaid graph should be shown only on hovering the mermaid graph
-				// ref: https://github.com/laurent22/joplin/issues/6101
+				// ref: https://github.com/dpjl/joplin/issues/6101
 				text: `
 				.mermaid-export-graph { visibility: hidden; } 
 				.joplin-editable:hover .mermaid-export-graph { visibility: visible; }
@@ -52,7 +52,7 @@ export default {
 			// Note: The mermaid script (`contentHtml`) needs to be wrapped
 			// in a `pre` tag, otherwise in WYSIWYG mode TinyMCE removes
 			// all the white space from it, which causes mermaid to fail.
-			// See PR #4670 https://github.com/laurent22/joplin/pull/4670
+			// See PR #4670 https://github.com/dpjl/joplin/pull/4670
 			return `
 				<div class="joplin-editable">
 					<pre class="joplin-source" data-joplin-language="mermaid" data-joplin-source-open="\`\`\`mermaid&#10;" data-joplin-source-close="&#10;\`\`\`&#10;">${contentHtml}</pre>

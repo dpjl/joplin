@@ -6,7 +6,7 @@ jest.retryTimes(2);
 
 describe('decoratorExtension', () => {
 	it('should highlight code blocks within tables', async () => {
-		// Regression test for https://github.com/laurent22/joplin/issues/9477
+		// Regression test for https://github.com/dpjl/joplin/issues/9477
 		const editorText = `
 left    | right
 --------|-------

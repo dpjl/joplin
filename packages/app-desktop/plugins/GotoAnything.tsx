@@ -361,7 +361,7 @@ class Dialog extends React.PureComponent<Props, State> {
 					const notesById = notes.reduce((obj, { id, body, markup_language }) => ((obj[[id] as any] = { id, body, markup_language }), obj), {});
 
 					// Filter out search results that are associated with non-existing notes.
-					// https://github.com/laurent22/joplin/issues/5417
+					// https://github.com/dpjl/joplin/issues/5417
 					results = results.filter(r => !!notesById[r.id]);
 
 					for (let i = 0; i < results.length; i++) {
@@ -430,7 +430,7 @@ class Dialog extends React.PureComponent<Props, State> {
 
 	private makeItemIndexVisible(index: number) {
 		// Looks like it's not always defined
-		// https://github.com/laurent22/joplin/issues/5184#issuecomment-879714850
+		// https://github.com/dpjl/joplin/issues/5184#issuecomment-879714850
 		if (!this.itemListRef || !this.itemListRef.current) {
 			logger.warn('Trying to set item index but the item list is not defined. Index: ', index);
 			return;

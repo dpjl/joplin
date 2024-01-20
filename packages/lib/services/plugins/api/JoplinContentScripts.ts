@@ -25,13 +25,13 @@ export default class JoplinContentScripts {
 	 *
 	 * The plugin generator provides a way to build any content script you might
 	 * want to package as well as its dependencies. See the [Plugin Generator
-	 * doc](https://github.com/laurent22/joplin/blob/dev/packages/generator-joplin/README.md)
+	 * doc](https://github.com/dpjl/joplin/blob/dev/packages/generator-joplin/README.md)
 	 * for more information.
 	 *
-	 * * [View the renderer demo plugin](https://github.com/laurent22/joplin/tree/dev/packages/app-cli/tests/support/plugins/content_script)
-	 * * [View the editor demo plugin](https://github.com/laurent22/joplin/tree/dev/packages/app-cli/tests/support/plugins/codemirror_content_script)
+	 * * [View the renderer demo plugin](https://github.com/dpjl/joplin/tree/dev/packages/app-cli/tests/support/plugins/content_script)
+	 * * [View the editor demo plugin](https://github.com/dpjl/joplin/tree/dev/packages/app-cli/tests/support/plugins/codemirror_content_script)
 	 *
-	 * See also the [postMessage demo](https://github.com/laurent22/joplin/tree/dev/packages/app-cli/tests/support/plugins/post_messages)
+	 * See also the [postMessage demo](https://github.com/dpjl/joplin/tree/dev/packages/app-cli/tests/support/plugins/post_messages)
 	 *
 	 * @param type Defines how the script will be used. See the type definition for more information about each supported type.
 	 * @param id A unique ID for the content script.
@@ -45,7 +45,7 @@ export default class JoplinContentScripts {
 	 * Listens to a messages sent from the content script using postMessage().
 	 * See {@link ContentScriptType} for more information as well as the
 	 * [postMessage
-	 * demo](https://github.com/laurent22/joplin/tree/dev/packages/app-cli/tests/support/plugins/post_messages)
+	 * demo](https://github.com/dpjl/joplin/tree/dev/packages/app-cli/tests/support/plugins/post_messages)
 	 */
 	public async onMessage(contentScriptId: string, callback: any) {
 		this.plugin.onContentScriptMessage(contentScriptId, callback);

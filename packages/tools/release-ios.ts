@@ -7,7 +7,7 @@ const mobileDir = `${rootDir}/packages/app-mobile`;
 // Note that it will update all the MARKETING_VERSION and
 // CURRENT_PROJECT_VERSION fields, including for extensions (such as the
 // ShareExtension), which is normally what we want.
-// https://github.com/laurent22/joplin/pull/4963
+// https://github.com/dpjl/joplin/pull/4963
 async function updateCodeProjVersions(filePath: string) {
 	const originalContent = await fs.readFile(filePath, 'utf8');
 	let newContent = originalContent;
@@ -41,7 +41,7 @@ async function updateCodeProjVersions(filePath: string) {
 // Check that deployment targets of all projects match
 // IPHONEOS_DEPLOYMENT_TARGET
 // If they don't we get this kind of error:
-// https://github.com/laurent22/joplin/issues/4945#issuecomment-995802706
+// https://github.com/dpjl/joplin/issues/4945#issuecomment-995802706
 async function checkDeploymentTargets(filePath: string) {
 	const content = await fs.readFile(filePath, 'utf8');
 	const re = /IPHONEOS_DEPLOYMENT_TARGET = ([0-9.]+)/g;
